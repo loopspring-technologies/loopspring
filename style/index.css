@@ -16,16 +16,22 @@
   }
 }
 
-.carousel-inner .carousel-item > img {
+/* .carousel-inner .carousel-item > img {
   -webkit-animation: zoom 20s;
   animation: zoom 20s;
   height: 100vh;
+} */
+.carousel-inner .carousel-item > #myVideo {
+  /* -webkit-animation: zoom 20s;
+  animation: zoom 20s; */
+  width: 100%;
+  /* height: 100vh; */
 }
 .carousel-caption {
   background: rgba(0, 0, 0, 0.461);
   left: 0%;
   top: 0%;
-  height: 100%;
+  height: 99%;
   right: 0%;
   display: flex;
   flex-direction: column;
@@ -106,12 +112,14 @@
   font-size: 12px;
 }
 .serviceClass h3 {
+  font-family: var(--heading-font--);
+  text-transform: uppercase;
   font-size: 25px;
   color: #222;
   margin-bottom: 20px;
   font-weight: 700;
 }
-.serviceClass h3::after {
+/* .serviceClass h3::after {
   background-color: #e74699;
   content: "";
   display: block;
@@ -120,7 +128,7 @@
   margin-top: 10px;
   width: 50px;
   margin-left: 0px;
-}
+} */
 .serviceDivMobile {
   background-color: #fafafa;
   display: none;
@@ -161,6 +169,8 @@
   padding: 15px;
 }
 .valueDiv h3 {
+  font-family: var(--heading-font--);
+  text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
   color: #3b3c3d;
@@ -310,7 +320,9 @@
   text-align: center;
   font-size: 21px;
   font-weight: 600;
-  font-family: "Open Sans", cursive;
+  /* font-family: "Open Sans", cursive; */
+  font-family: var(--heading-font--);
+  text-transform: uppercase;
 }
 .section1Sub p {
   font-size: 14px;
@@ -362,6 +374,8 @@
   transform: unset;
 } */
 .industrySubDiv h5 {
+  font-family: var(--heading-font--);
+  text-transform: uppercase;
   font-size: 17px;
   font-weight: 700;
   color: #4a4a4a;
@@ -525,8 +539,14 @@
     width: 35%;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom:10px;
+    margin-bottom: 10px;
+  }
 }
+@media (max-width: 450px) {
+  .carousel-inner .carousel-item > #myVideo {
+    width: 166%;
+    /* height: 100vh; */
+  }
 }
 @media (max-width: 430px) {
   #carouselExampleIndicators .carousel-item {
@@ -536,6 +556,10 @@
 @media (max-width: 380px) {
   #carouselExampleIndicators .carousel-item {
     height: 85vh;
+  }
+  .carousel-inner .carousel-item > #myVideo {
+    width: 160%;
+    /* height: 100vh; */
   }
 }
 @media (max-width: 300px) {

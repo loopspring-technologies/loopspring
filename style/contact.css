@@ -129,6 +129,8 @@ textarea {
   padding-right: 2px;
 }
 .contact-info h3 {
+  font-family: var(--heading-font--);
+  text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 5px;

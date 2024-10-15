@@ -1,6 +1,29 @@
+@font-face {
+  font-family: "Eurostile-Heading";
+  src: url("./eurostile_extended_black.ttf");
+}
+@font-face {
+  font-family: "Eurostile-Paragraph";
+  src: url("./EurostileBQ-Regular.otf");
+}
+
+:root {
+  --heading-font--: "Eurostile-Heading";
+  --paragraph-font--: "Eurostile-Paragraph";
+}
+
 body {
   margin: 0px;
-  font-family: "Open Sans";
+  /* font-family: "Open Sans"; */
+  font-family: var(--paragraph-font--);
+}
+h2 {
+  font-family: var(--heading-font--) !important;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--paragraph-font--) !important;
 }
 
 .headTopDiv {
@@ -11,6 +34,7 @@ body {
   gap: 30px;
 }
 .headTopDiv a {
+  font-family: var(--paragraph-font--);
   color: #3f3f3f;
   text-decoration: none;
   font-size: 14px;
@@ -23,16 +47,18 @@ body {
   width: 19px;
 }
 .nav-item {
-  margin-left: 13px;
-  margin-right: 13px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .nav-link {
+  font-family: var(--heading-font--);
+  text-transform: uppercase;
   color: #222;
-  font-weight: 600;
-  font-size: 14px;
-  margin-left: 4px;
-  margin-right: 4px;
-  font-family: "Open Sans", sans-serif;
+  /* font-weight: 600; */
+  font-size: 10px;
+  /* margin-left: px;
+  margin-right: 4px; */
+  /* font-family: "Open Sans", sans-serif; */
   position: relative;
   padding: 20px 0px !important;
 }
@@ -181,6 +207,7 @@ body {
 }
 .dropdown-item p {
   margin-bottom: 0px !important;
+  font-family: var(--heading-font--) !important;
 }
 .dropdown-menu {
   border: 0px;
@@ -212,19 +239,22 @@ body {
 .sectionDiv p {
   font-size: 16px;
   line-height: 2;
-  font-family: "Open Sans", cursive;
+  /* font-family: "Open Sans", cursive; */
+
   color: #3b3c3d;
   font-weight: 500;
 }
 h1 {
+  text-transform: uppercase;
   font-size: 32px;
-  font-family: "Open Sans", cursive;
+  /* font-family: "Open Sans", cursive; */
+  font-family: var(--heading-font--);
   text-align: center;
   color: #222;
   margin-bottom: 20px;
   font-weight: 700;
 }
-h1::after {
+/* h1::after {
   background-color: #e74699;
   content: "";
   display: block;
@@ -233,7 +263,7 @@ h1::after {
   margin-top: 10px;
   width: 50px;
   margin-left: calc(50% - 25px);
-}
+} */
 .headLine {
   position: relative;
   width: 100px;
@@ -300,29 +330,32 @@ h1::after {
   width: 30%;
 }
 .footer_link_colom .heading {
+  font-family: var(--heading-font--);
+  text-transform: uppercase;
   font-size: 17px;
   color: #fff;
   font-weight: 400;
   margin-bottom: 17px;
-  font-family: Maven Pro, sans-serif !important;
+  /* font-family: Maven Pro, sans-serif !important; */
 }
 footer ul {
   list-style: none;
   padding-left: 0px;
 }
 footer ul li {
+  font-family: var(--paragraph-font--);
   padding: 4px 0px;
   line-height: 1.7em;
   font-size: 14px;
   color: #7d7d7d;
-  font-family: Maven Pro, sans-serif !important;
+  /* font-family: Maven Pro, sans-serif !important; */
 }
 
 footer a {
   text-decoration: none;
   font-size: 14px;
   color: #7d7d7d;
-  font-family: Maven Pro, sans-serif !important;
+  /* font-family: Maven Pro, sans-serif !important; */
 }
 footer a:hover {
   text-decoration: underline;
@@ -370,7 +403,7 @@ footer a:hover .footerLink i {
 .copyright {
   font-size: 14px !important;
   color: #696c77 !important;
-  font-family: Maven Pro, sans-serif !important;
+  /* font-family: Maven Pro, sans-serif !important; */
 }
 .aboutDiv {
   padding-top: 150px;
@@ -435,5 +468,15 @@ footer a:hover .footerLink i {
   }
   .aboutDiv p {
     font-size: 13px;
+  }
+}
+@media (max-width: 400px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 350px) {
+  h2 {
+    font-size: 23px !important;
   }
 }

@@ -28,6 +28,8 @@
   border-radius: 0px;
 }
 .services .title {
+  font-family: var(--heading-font--);
+  text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;

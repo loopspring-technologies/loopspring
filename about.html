@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loopspring</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./style/common.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/about.css" />
+    <link rel="stylesheet" href="./style/animate.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/owl.carousel.min.js"></script>
+    <script src="./script/animate.js"></script>
+  </head>
+  <body>
+    <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
+      <div class="headTopDiv d-flex justify-content-end">
+        <div class="d-flex headTopSubDiv">
+          <div>
+            <i class="fa-regular fa-envelope headIcon me-2"></i>
+            <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
+            <a href="tel:9894365935">+91 9894365935</a>
+          </div>
+        </div>
+        <!-- <div class="headSocialIcon">
+          <a href=""><img src="./images/facebook.webp" /> </a>
+          <a href=""><img src="./images/instagram.png" /> </a>
+          <a href=""><img src="./images/twitter.png" /> </a>
+          <a href=""><img src="./images/linkedin.png" /> </a>
+        </div> -->
+      </div>
+
+      <div
+        class="d-flex justify-content-between align-items-center headerPadDiv"
+      >
+        <div class="LogoDiv">
+          <a href="index.html"><img id="logo" src="./images/logo.png" /></a>
+        </div>
+        <div id="togButton">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <nav id="navHeader" class="navbar navbar-expand-sm navbar-dark">
+          <div>
+            <div class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link navHover navColor activeTab"
+                    href="./about.html"
+                    style="color: #f84ca5"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link navColor1">Services</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./website-design.html">
+                        <p>Website Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./web-development.html">
+                        <p>Web Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./mobile-app-development.html"
+                      >
+                        <p>Mobile App Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./testing-QA.html">
+                        <p>Testing and QA</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./ui-ux.html">
+                        <p>UI/UX Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./digital-transformation.html"
+                      >
+                        <p>Digital Transformation</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-outsourcing.html">
+                        <p>IT Outsourcing</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-consulting.html">
+                        <p>IT Consulting</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-support.html">
+                        <p>IT Support</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./solution.html"
+                    >Solutions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./industries.html"
+                    >Industries</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./courses.html"
+                    >Courses</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./gallery.html"
+                    >Gallery</a
+                  >
+                </li>
+                <li class="nav-item me-0">
+                  <a class="nav-link navHover navColor" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="modal fade left"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-backdrop="true"
+      data-bs-backdrop="true"
+      role="dialog"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html" style="color: #f84ca5"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link">Services</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./website-design.html">
+                      <p>Website Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./web-development.html">
+                      <p>Web Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./mobile-app-development.html"
+                    >
+                      <p>Mobile App Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./testing-QA.html">
+                      <p>Testing and QA</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./ui-ux.html">
+                      <p>UI/UX Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./digital-transformation.html"
+                    >
+                      <p>Digital Transformation</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-outsourcing.html">
+                      <p>IT Outsourcing</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-consulting.html">
+                      <p>IT Consulting</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-support.html">
+                      <p>IT Support</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./solution.html">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./industries.html">Industries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item me-0">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="aboutDiv">
+      <div class="sectionDiv">
+        <div class="row align-items-center">
+          <div class="col-md-7 pe-0 pe-md-5 fadeInRight">
+            <h5>ABOUT US</h5>
+            <h2>
+              Welcome To <span style="color: #6e4ba7">Loop</span
+              ><span style="color: #f84da5">Spring</span><br />
+              Technologies and Consultancy <br />Pvt Ltd
+            </h2>
+            <p>
+              LoopSpring Technology Ltd is a leading solution provider for web
+              applications. Established in 2022, The Company has been promoted
+              by some highly experienced Professionals dedicated to provide
+              total solutions undergone roof. It possesses not only the latest
+              technology gadgets but also the most knowledgeable and experience
+              hands to offer most user friendly customized solutions.
+            </p>
+            <p>
+              Loop Spring has carved a niche for itself in the IT, Education&
+              other industries and has increased its business by acquiring some
+              major domestic and international projects. No doubt the company
+              has been able to make a name for itself in a relatively short span
+              of time only because of its ability and commitments to ensure
+              customer satisfaction by rewarding quality work on right time and
+              in a right manner
+            </p>
+          </div>
+          <div class="col-md-5 fadeInLeft">
+            <img src="./images/about/about.png" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="background: #fafafa">
+      <div class="sectionDiv pe-lg-0 mt-5">
+        <div class="row m-lg-0">
+          <div class="col-lg-6 col-xl-7 pe-0 pe-md-5 pt-5 pb-5 fadeInLeft">
+            <h2 class="fw-bold pt-3">Our Mission & Vision</h2>
+            <div class="mt-5 pt-3 d-flex align-items-center">
+              <div class="missionDiv me-3 me-sm-5">
+                <img src="./images/about/mission.png" />
+              </div>
+              <div style="flex: 1" class="missionContent">
+                <h5>Mission</h5>
+                <p>
+                  Providing excellent Training and Development for profitable
+                  growth through services, innovation, and quality which meets
+                  the needs of learners and companies, delivered by highly
+                  competent specialist staff.
+                </p>
+              </div>
+            </div>
+            <div class="mt-5 d-flex align-items-center">
+              <div class="missionDiv me-3 me-sm-5">
+                <img src="./images/about/vision.png" />
+              </div>
+              <div style="flex: 1" class="missionContent">
+                <h5>Vision</h5>
+                <p>
+                  We strive to help our clients to do great work through the
+                  limitless solutions what we offer. We impart the knowledge,
+                  skill, desire and opportunity to succeed in a way that leads
+                  to organizational success.
+                </p>
+              </div>
+            </div>
+            <div class="mt-5 d-flex align-items-center">
+              <div class="missionDiv me-3 me-sm-5">
+                <img src="./images/about/value.png" />
+              </div>
+              <div style="flex: 1" class="missionContent">
+                <h5>Value</h5>
+                <p>
+                  Results and achievement-oriented: set and maintain
+                  high-performance standards for yourself and others that support
+                  the company’s strategic plan for better performance and
+                  delivering results.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-5 pe-0 d-none d-lg-block fadeup">
+            <img src="./images/about/missionImg.png" class="w-100 h-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 whychooseDiv">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Why Choose us</h1>
+        <p class="fadeup">
+          Loop spring technology is a company which has different flexible
+          software courses, Internship programs, Soft skill Training Programs
+          for Students, Job seekers and various software’s for educational
+          institutions and industries.
+        </p>
+        <p class="fadeup">
+          Throughout, the company has sought to empower students to thrive in
+          challenging, rapidly shifting environments. It achieves this by
+          encouraging a more considerate, effective, and sustainable approach in
+          society.
+        </p>
+        <p class="fadeup">
+          Building a foundation for a successful career in software technology
+          is a challenging task. Choosing the correct professional path by
+          gaining ideas through soft skill trainings. Trainings that guarantee a
+          job opens more doors and reduces uncertainty about the future.
+        </p>
+        <p class="fadeup">
+          We enable improving the education of students no matter their level
+          and age. By learning our software courses, Internship programs allows
+          you studying a course and learning new information’s at any time to
+          gain your knowledge and our Soft Skill training programs that focuses
+          the development of abilities such as Communication, teamwork and
+          problem solving as opposed to hard skills which focus on an employee's
+          technical ability. Other soft skills include emotional intelligence, a
+          positive attitude and taking the initiative for your profession.
+        </p>
+        <p class="fadeup">
+          Loop Spring develop innovative and creative software products and
+          services that provide total communication and information solutions.
+          Among a plethora of services, web design and development, tailor made
+          applications, ERP’S CRMs, e-commerce solutions, business-to-business
+          applications, business-to-client applications, managed hosting,etc.
+        </p>
+        <p class="fadeup">
+          The general purpose of Loop Spring technology is to develop and
+          promote advanced information technologies for multi-user operation
+          business philosophy is to assure the highest quality product, total
+          client satisfaction, timely delivery of solutions and the best quality
+          / price ratio found in the industry.Our emphasis is an offering a high
+          degree of product user friendliness through a positive, creative and
+          focused product.
+        </p>
+        <ul>
+          <li class="fadeup">
+            <i class="fa-solid fa-heart"></i>
+            <div>
+              <h5>Expertise:</h5>
+              <p>
+                Our team seasoned professionals with years of industry
+                experience.
+              </p>
+            </div>
+          </li>
+          <li class="fadeup">
+            <i class="fa-solid fa-heart"></i>
+            <div>
+              <h5>Tailored Solutions:</h5>
+              <p>
+                We understand the unique needs of educational institutions and
+                customize our services accordingly
+              </p>
+            </div>
+          </li>
+          <li class="fadeup">
+            <i class="fa-solid fa-heart"></i>
+            <div>
+              <h5>Reliability:</h5>
+              <p>Trust us to deliver robust, reliable software solutions.</p>
+            </div>
+          </li>
+          <li class="fadeup">
+            <i class="fa-solid fa-heart"></i>
+            <div>
+              <h5>Commitment to Education:</h5>
+              <p>
+                We believe in empowering the next generation through technology.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer_bg footer_design mt-5">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="./index.html"
+              ><img src="./images/logo.png" class="footer_logo"
+            /></a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">About</h3>
+              <ul>
+                <li>
+                  Improving provides consulting, software development and
+                  training to our customers through high environments of trust.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a href="./about.html">About us</a>
+                </li>
+                <li>
+                  <a href="./gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="./contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Services</h3>
+              <ul>
+                <li>
+                  <a href="./website-design.html">Website Design</a>
+                </li>
+                <li>
+                  <a href="./web-development.html">Web Development</a>
+                </li>
+                <li>
+                  <a href="./mobile-app-development.html"
+                    >Mobile App Development</a
+                  >
+                </li>
+                <li>
+                  <a href="./testing-QA.html">Testing & QA</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Important Link</h3>
+              <ul>
+                <li>
+                  <a href="./solution.html">Solutions</a>
+                </li>
+                <li>
+                  <a href="./industries.html">Industries</a>
+                </li>
+                <li>
+                  <a href="./courses.html">Courses</a>
+                </li>
+                <li>
+                  <a href="./it-support.html">IT Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">Connect with Loopspring</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <a class="pl-4" href="./contact.html"
+                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
+                    Mulagumoodu (PO) – 629167, Kanyakumari District.
+                  </a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:info@loopspring.com" class="pl-4"
+                    >info@loopspring.com</a
+                  >
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <div>
+                    <a href="tel:9894365935" class="footer_call pl-4"
+                      >+91 9894365935</a
+                    ><span class="comma">,</span
+                    ><a href="tel:8300016424">+91 8300016424</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer_bottom">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p class="copyright">
+                        Copyright ©
+                        <span>2024</span>
+                        Loopspring. All Rights Reserved
+                      </p>
+                    </div>
+                    <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="social_links d-flex">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        target="_blank"
+                        ><i class="fab fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loopspring</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./style/common.css" />
+
+    <link rel="stylesheet" href="./style/services.css" />
+    <link rel="stylesheet" href="./style/animate.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/owl.carousel.min.js"></script>
+    <script src="./script/animate.js"></script>
+  </head>
+  <body>
+    <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
+      <div class="headTopDiv d-flex justify-content-end">
+        <div class="d-flex headTopSubDiv">
+          <div>
+            <i class="fa-regular fa-envelope headIcon me-2"></i>
+            <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
+            <a href="tel:9894365935">+91 9894365935</a>
+          </div>
+        </div>
+        <!-- <div class="headSocialIcon">
+          <a href=""><img src="./images/facebook.webp" /> </a>
+          <a href=""><img src="./images/instagram.png" /> </a>
+          <a href=""><img src="./images/twitter.png" /> </a>
+          <a href=""><img src="./images/linkedin.png" /> </a>
+        </div> -->
+      </div>
+
+      <div
+        class="d-flex justify-content-between align-items-center headerPadDiv"
+      >
+        <div class="LogoDiv">
+          <a href="index.html"><img id="logo" src="./images/logo.png" /></a>
+        </div>
+        <div id="togButton">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <nav id="navHeader" class="navbar navbar-expand-sm navbar-dark">
+          <div>
+            <div class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./about.html"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link navColor1 activeTab" style="color: #f84ca5"
+                    >Services</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./website-design.html">
+                        <p>Website Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./web-development.html">
+                        <p>Web Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./mobile-app-development.html"
+                      >
+                        <p>Mobile App Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./testing-QA.html">
+                        <p>Testing and QA</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./ui-ux.html">
+                        <p>UI/UX Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./digital-transformation.html"
+                      >
+                        <p>Digital Transformation</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-outsourcing.html">
+                        <p>IT Outsourcing</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-consulting.html">
+                        <p>IT Consulting</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-support.html">
+                        <p>IT Support</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./solution.html"
+                    >Solutions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./industries.html"
+                    >Industries</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./courses.html"
+                    >Courses</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./gallery.html"
+                    >Gallery</a
+                  >
+                </li>
+                <li class="nav-item me-0">
+                  <a class="nav-link navHover navColor" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="modal fade left"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-backdrop="true"
+      data-bs-backdrop="true"
+      role="dialog"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" style="color: #f84ca5">Services</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./website-design.html">
+                      <p>Website Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./web-development.html">
+                      <p>Web Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./mobile-app-development.html"
+                    >
+                      <p>Mobile App Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./testing-QA.html">
+                      <p>Testing and QA</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./ui-ux.html">
+                      <p>UI/UX Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./digital-transformation.html"
+                    >
+                      <p>Digital Transformation</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-outsourcing.html">
+                      <p>IT Outsourcing</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-consulting.html">
+                      <p>IT Consulting</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-support.html">
+                      <p>IT Support</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./solution.html">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./industries.html">Industries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item me-0">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="aboutDiv">
+      <div class="sectionDiv">
+        <div class="row align-items-center">
+          <div class="col-sm-7 col-md-6 col-lg-8 col-xl-7 fadeInLeft">
+            <img
+              src="./images/services/mobileapp/mobileapp.png"
+              class="w-100"
+            />
+          </div>
+          <div
+            class="col-sm-5 col-md-6 col-lg-4 col-xl-5 ps-0 ps-md-5 fadeInRight"
+          >
+            <h2>Mobile App Development</h2>
+            <p>
+              As the world advances, technology is now on-the-go, especially
+              your mobile devices. Going mobile is the number 1 choice to
+              streamline your business operations and tackle the most viral
+              communication market. Develop your mobile applications now using
+              comprehensive mobile application services for both iOS and
+              Android, with LoopSpring.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Our Mobile Application Development Services</h1>
+
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
+            <div class="whyDiv">
+              <img src="./images/services/webdevelopment/w1.png" />
+              <h4>Design & Prototyping of Apps</h4>
+              <p>
+                Our mobile app designers can assist you in prototyping and
+                creating a tailor-made mobile application. We offer an intuitive
+                user interface and experience that ensures heightened engagement
+                and a higher ROI.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeup">
+            <div class="whyDiv">
+              <img src="./images/services/websitedesign/w2.png" />
+              <h4>Native App development</h4>
+              <p>
+                Our Native app developers, including iOS and Android experts,
+                have extensive experience creating unique and secure
+                applications for specific platforms. We tailor each app to align
+                with your objectives and goals.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv">
+              <img src="./images/services/webdevelopment/w3.png" />
+              <h4>Cross-Platform App development</h4>
+              <p>
+                Our cross-platform app developers specialize in creating hybrid
+                applications using technologies such as Flutter and React
+                Native. We craft cost-effective solutions for businesses across
+                various domains and sizes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sloganInDiv mt-5 fadeup">
+      <div class="sectionDiv">
+        <p class="text-white text-center">
+          “With a keen eye for detail and a passion for excellence, Loopspring
+          provides the best mobile applications”
+        </p>
+        <div class="text-center mt-5">
+          <a href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Our Mobile App Development Workflow</h1>
+        <div class="row processDiv mt-5 fadeup">
+          <div class="col-sm-6 position-relative processSubDiv processImg">
+            <img src="./images/services/webdevelopment/p1.jpg" />
+            <label>01</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2">
+            <h3>Requirement Gathering</h3>
+            <p>
+              The initial phase involves thorough communication with
+              stakeholders to comprehend their needs and expectations. A
+              detailed analysis of the gathered information helps in creating a
+              clear and concise set of requirements that will serve as the
+              foundation for the entire software development process.
+            </p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 processSubDiv position-relative order-last order-sm-fist"
+          >
+            <h3>Development</h3>
+            <p>
+              Developers follow coding standards, utilize chosen technologies,
+              and work collaboratively to build the solution iteratively.
+              Regular check-ins and code reviews are essential to maintain code
+              quality and ensure adherence to the design specifications.
+            </p>
+            <label>02</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/websitedesign/p3.png" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 position-relative processSubDiv processImg">
+            <img src="./images/services/webdevelopment/p5.png" />
+            <label>03</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2">
+            <h3>Maintenance & Support</h3>
+            <p>
+              Post-deployment, the software enters the maintenance and support
+              phase. This involves monitoring the system’s performance,
+              addressing any issues that may arise, and releasing updates or
+              patches as needed. User feedback is crucial during this phase,
+              guiding the development of future enhancements or features.
+            </p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
+          >
+            <h3>Design and UI/UX</h3>
+            <p>
+              The design phase focuses on translating the gathered information
+              into a blueprint for the software solution. This includes creating
+              system architecture, database design, and user interface mock-ups.
+              The design phase also involves making decisions about
+              technologies, platforms, and frameworks that will be utilized in
+              the development process.
+            </p>
+            <label>04</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/websitedesign/p2.png" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 processSubDiv position-relative processImg">
+            <img src="./images/services/webdevelopment/p4.jpg" />
+            <label>05</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2 position-relative">
+            <h3>Testing and Deployment</h3>
+            <p>
+              Quality assurance is paramount in the testing phase. Bugs and
+              issues are identified, addressed, and retested before moving to
+              the deployment phase. Continuous monitoring during and after
+              deployment allows for prompt identification and resolution of any
+              unforeseen issues.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="withDiv mt-5 fadeup">
+      <div class="sectionDiv">
+        <h2>With LoopSpring You Get</h2>
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <ul>
+              <li>
+                Functionally and easily usable web applications that match your
+                requirements and expectations
+              </li>
+              <li>
+                Open application architecture permitting high availability and
+                scalability
+              </li>
+              <li>
+                High software application maintainability resulting in a lower
+                total cost of ownership (TCO)
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <li>
+                Seamless communication enhancing the development lifecycle
+                control and transparency
+              </li>
+              <li>
+                Proven QA methods through the software development lifecycle
+              </li>
+              <li>
+                Deployment, stabilization and ongoing maintenance of the final
+                application
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 mt-5 text-center">
+            <a href="./contact.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Why LoopSpring?</h1>
+        <p class="mt-4 text-center fadeup">
+          We build mobile solutions to improve your business effectiveness and
+          efficiency. With long experience developing mobile applications, we
+          have a strong knowledge base to guide you along the process of mobile
+          application development.
+        </p>
+        <div class="row sectionWhy mt-5 pt-3">
+          <div class="col-md-6 fadeInLeft">
+            <h3>Strong UX and UI expertise</h3>
+            <p>
+              We have a highly trained UX and UI team who takes care of all the
+              smallest details in design, and develop the ultimate Look and Feel
+              for higher engagement. All staff at Loopspring is trained in UX
+              and UI to make sure that all mobile applications look exquisite
+              and stunning, to capture the respondents’ interest right on the
+              spot.
+            </p>
+          </div>
+          <div class="col-md-6 position-relative imgSec fadeInRight">
+            <img
+              src="./images/services/mobileapp/expertise.jpg"
+              class="w-100"
+            />
+            <img
+              src="./images/services/websitedesign/Dedication-Icon.png"
+              class="imgIcon imgIcon1"
+            />
+            <span class="span1"></span>
+          </div>
+        </div>
+        <div class="row sectionWhy mt-5 pt-4">
+          <div
+            class="col-md-6 position-relative imgSec order-last order-md-first fadeInRight"
+          >
+            <img
+              src="./images/services/mobileapp/experience.png"
+              class="w-100"
+            />
+            <img
+              src="./images/services/websitedesign/experience.png"
+              class="imgIcon imgIcon2"
+            />
+            <span class="span2"></span>
+          </div>
+          <div class="col-md-6 order-first order-md-last fadeInLeft">
+            <h3>Experience in mobile apps</h3>
+            <p>
+              We employ only the best developers and never sub-contract our
+              work. That means when you work with Loopspring you can be assured
+              you’re working with the smartest group of committed Mobile
+              application developers who answer directly to us. Whether you’re
+              improving outdated code or creating new, cutting-edge, responsive
+              apps, our team has the knowledge and experience to accomplish
+              every project goal.
+            </p>
+          </div>
+        </div>
+        <div class="row sectionWhy mt-5 pt-4">
+          <div class="col-md-6 fadeInLeft">
+            <h3>Reduced cost with mobile test automation</h3>
+            <p>
+              To encourage long-term quality control, all our mobile
+              applications are tested through constant automation testing for
+              stability and consistent, accurate results. This way, your
+              application will be guaranteed error-free and all bugs can be
+              addressed and treated instantly, keeping the quality top-notch at
+              all time.
+            </p>
+          </div>
+          <div class="col-md-6 position-relative imgSec fadeInRight">
+            <img
+              src="./images/services/mobileapp/testautomation.png"
+              class="w-100"
+            />
+            <img
+              src="./images/services/mobileapp/icontest.png"
+              class="imgIcon imgIcon1"
+            />
+            <span class="span1"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-5 fadeup" style="background: #fafafa">
+      <div class="sectionDiv">
+        <h1>Frequently Asked Questions</h1>
+        <div class="accordion mt-4" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What does a mobile app development company do?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                A mobile app development company specializes in creating and
+                designing applications for smartphones and other mobile devices,
+                offering comprehensive services from ideation to deployment to
+                meet clients’ specific needs.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How much time is taken for mobile application development?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                The time for developing mobile applications depends on the scope
+                of the app and the features you wish to include. Lesser features
+                take less time and ideally for any mobile app development it
+                takes from a few weeks to months to build a fully-fledged mobile
+                application.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                What is the cost to develop a mobile application?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  The cost of development of any application is dependent on
+                  several essential factors such as
+                </p>
+
+                <ul>
+                  <li>
+                    Development platforms- Cross platform or native or Hybrid
+                  </li>
+                  <li>Technology/Language to be use</li>
+                  <li>Resource Strength- Depending on the type of Project</li>
+                  <li>
+                    App Features and Complexities- Number of Screens, API
+                    connections, additional functionalities or any specific
+                    requests.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Will you assist us after the launch of the application?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Yes, we do provide support post app development and upgrade
+                assistance after the application is launched.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                How do you ensure the security of my mobile app?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                We take security very seriously and use a variety of techniques
+                to protect your app and its data. This includes encryption,
+                secure data storage, and regular security testing. We also stay
+                up-to-date with the latest security threats and vulnerabilities
+                to ensure your app is always protected.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer_bg footer_design mt-5">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="./index.html"
+              ><img src="./images/logo.png" class="footer_logo"
+            /></a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">About</h3>
+              <ul>
+                <li>
+                  Improving provides consulting, software development and
+                  training to our customers through high environments of trust.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a href="./about.html">About us</a>
+                </li>
+                <li>
+                  <a href="./gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="./contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Services</h3>
+              <ul>
+                <li>
+                  <a href="./website-design.html">Website Design</a>
+                </li>
+                <li>
+                  <a href="./web-development.html">Web Development</a>
+                </li>
+                <li>
+                  <a href="./mobile-app-development.html"
+                    >Mobile App Development</a
+                  >
+                </li>
+                <li>
+                  <a href="./testing-QA.html">Testing & QA</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Important Link</h3>
+              <ul>
+                <li>
+                  <a href="./solution.html">Solutions</a>
+                </li>
+                <li>
+                  <a href="./industries.html">Industries</a>
+                </li>
+                <li>
+                  <a href="./courses.html">Courses</a>
+                </li>
+                <li>
+                  <a href="./it-support.html">IT Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">Connect with Loopspring</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <a class="pl-4" href="./contact.html"
+                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
+                    Mulagumoodu (PO) – 629167, Kanyakumari District.
+                  </a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:info@loopspring.com" class="pl-4"
+                    >info@loopspring.com</a
+                  >
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <div>
+                    <a href="tel:9894365935" class="footer_call pl-4"
+                      >+91 9894365935</a
+                    ><span class="comma">,</span
+                    ><a href="tel:8300016424">+91 8300016424</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer_bottom">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p class="copyright">
+                        Copyright ©
+                        <span>2024</span>
+                        Loopspring. All Rights Reserved
+                      </p>
+                    </div>
+                    <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="social_links d-flex">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        target="_blank"
+                        ><i class="fab fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

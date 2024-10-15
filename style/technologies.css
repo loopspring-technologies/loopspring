@@ -1,0 +1,227 @@
+.courseDiv h2 {
+  font-size: 32px;
+  font-family: "Open Sans", cursive;
+
+  color: #222;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.courseDiv h2::after {
+  background-color: #e74699;
+  content: "";
+  display: block;
+  height: 3px;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 50px;
+  margin-left: 0px;
+}
+.courseDiv a {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  background: #f52590;
+  border-radius: 10px;
+  border: 3px solid #ffb0d7;
+}
+.courseDiv a:hover {
+  background: #6e4aa6;
+  border: 3px solid #cdaffc;
+}
+.iconstext {
+  align-items: center;
+}
+.iconstext h4 {
+  font-family: "Roboto";
+  font-size: 22px;
+  margin-bottom: 0;
+  padding-left: 10px;
+  color: #6e4ba7;
+  margin-top: 0px;
+}
+.icon-collection {
+  gap: 25px;
+}
+
+#overlayDiv {
+  position: absolute;
+  background: #000000ad;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  line-height: 2;
+  font-size: 19px;
+  text-align: center;
+  padding-left: 22vw;
+  padding-right: 22vw;
+  flex-direction: column;
+  gap: 15px;
+}
+#overlayDiv p {
+  margin-bottom: 0px;
+}
+.imgIcontech {
+  width: 100%;
+}
+.frontend {
+  display: flex;
+  border: 1px solid rgb(222, 222, 222);
+  border-bottom: none;
+  padding: 30px 20px 30px;
+}
+.row::after {
+  content: none;
+}
+.row::before {
+  content: none;
+}
+
+.item {
+  text-align: center;
+  height: 250px;
+}
+
+.carousel h2 {
+  margin: 0;
+  font-size: 30px;
+}
+.carousel {
+  background: linear-gradient(#000000db, #000000db),
+    url("../images/testimony/img2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.carousel-item {
+  text-align: center;
+  padding: 7vh 9vw 10rem;
+}
+.carousel p,
+.carousel h3,
+.carousel h2 {
+  color: white;
+}
+
+.carousel h2 span {
+  color: #f94ca5;
+}
+.carousel-indicators {
+  margin-bottom: 6rem;
+}
+.carousel h2 {
+  padding-top: 7rem;
+}
+.carousel-item h3 {
+  padding-top: 15px;
+}
+.carousel-indicators .active {
+  background-color: #f94ca5;
+}
+.whyTrainingDiv {
+  background: linear-gradient(to right, #6e4aa6f5, #6e4aa6f5),
+    url(../images/testimony/pattern.jpg);
+}
+.trainingSubdiv {
+  color: #3f3f3f;
+  background: white;
+  padding: 25px;
+  height: 100%;
+  border-top: 7px solid #f84ca5;
+  box-shadow: 0px 0px 5px 1px #717171d9;
+}
+h1 {
+  line-height: 1.7;
+}
+.trainingSubdiv i {
+  font-size: 10px;
+  color: #9c27b0;
+}
+.trainingSubdiv h4 {
+  font-size: 20px;
+  font-family: "Open Sans", cursive;
+  color: #222;
+  margin-bottom: 13px;
+  font-weight: 700;
+}
+.trainingSubdiv ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.trainingSubdiv ul li {
+  padding: 8px 0px;
+  display: flex;
+  align-items: baseline;
+  font-family: "Open Sans", cursive;
+  gap: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media (max-width: 850px) {
+  #overlayDiv {
+    font-size: 16px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+  #overlayDiv h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 650px) {
+  #overlayDiv {
+    font-size: 14px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  #overlayDiv h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #overlayDiv {
+    font-size: 13px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    gap: 5px;
+  }
+  #overlayDiv h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 450px) {
+  #overlayDiv {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  #overlayDiv h2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .frontend {
+    flex-direction: column;
+    border: 0px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 3px 1px #d5d5d5;
+  }
+  .iconstext {
+    background: #e5e5e5;
+    padding: 12px;
+  }
+}
+@media (max-width: 576px) {
+  .imgIcontech {
+    width: 30%;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 450px) {
+  .imgIcontech {
+    width: 40%;
+  }
+}

@@ -1,0 +1,62 @@
+#header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+.headTopDiv {
+  background: transparent;
+}
+.headerPadDiv {
+  background: transparent;
+  box-shadow: none;
+}
+.headTopDiv a {
+  color: #ffff;
+}
+.nav-link {
+  color: #ffffff;
+}
+#exampleModal .nav-link {
+  color: #222;
+}
+#exampleModal .nav-link:hover {
+  color: #f84ca5;
+}
+.navColor:hover {
+  color: #ff8ac7;
+}
+.navColor1:hover {
+  color: #ff8ac7;
+}
+.navColor::before {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  height: 2px;
+  opacity: 0;
+  background-color: #ff8ac7;
+  transition: all 500ms ease;
+}
+.navbar-toggler i {
+  font-size: 26px;
+  color: #ffffff;
+}
+.navColor::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0px;
+  margin-left: -6px;
+  opacity: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #ff8ac7;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+.headIcon {
+  color: white;
+}

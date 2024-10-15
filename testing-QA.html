@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loopspring</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./style/common.css" />
+
+    <link rel="stylesheet" href="./style/services.css" />
+    <link rel="stylesheet" href="./style/animate.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/owl.carousel.min.js"></script>
+    <script src="./script/animate.js"></script>
+  </head>
+  <body>
+    <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
+      <div class="headTopDiv d-flex justify-content-end">
+        <div class="d-flex headTopSubDiv">
+          <div>
+            <i class="fa-regular fa-envelope headIcon me-2"></i>
+           <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
+            <a href="tel:9894365935">+91 9894365935</a>
+          </div>
+        </div>
+        <!-- <div class="headSocialIcon">
+          <a href=""><img src="./images/facebook.webp" /> </a>
+          <a href=""><img src="./images/instagram.png" /> </a>
+          <a href=""><img src="./images/twitter.png" /> </a>
+          <a href=""><img src="./images/linkedin.png" /> </a>
+        </div> -->
+      </div>
+
+      <div
+        class="d-flex justify-content-between align-items-center headerPadDiv"
+      >
+        <div class="LogoDiv">
+          <a href="index.html"><img id="logo" src="./images/logo.png" /></a>
+        </div>
+        <div id="togButton">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <nav id="navHeader" class="navbar navbar-expand-sm navbar-dark">
+          <div>
+            <div class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./about.html"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link navColor1 activeTab" style="color: #f84ca5"
+                    >Services</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./website-design.html">
+                        <p>Website Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./web-development.html">
+                        <p>Web Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./mobile-app-development.html"
+                      >
+                        <p>Mobile App Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./testing-QA.html">
+                        <p>Testing and QA</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./ui-ux.html">
+                        <p>UI/UX Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./digital-transformation.html"
+                      >
+                        <p>Digital Transformation</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-outsourcing.html">
+                        <p>IT Outsourcing</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-consulting.html">
+                        <p>IT Consulting</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-support.html">
+                        <p>IT Support</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./solution.html"
+                    >Solutions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./industries.html"
+                    >Industries</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./courses.html"
+                    >Courses</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./gallery.html"
+                    >Gallery</a
+                  >
+                </li>
+                <li class="nav-item me-0">
+                  <a class="nav-link navHover navColor" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="modal fade left"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-backdrop="true"
+      data-bs-backdrop="true"
+      role="dialog"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" style="color: #f84ca5">Services</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./website-design.html">
+                      <p>Website Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./web-development.html">
+                      <p>Web Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./mobile-app-development.html"
+                    >
+                      <p>Mobile App Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./testing-QA.html">
+                      <p>Testing and QA</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./ui-ux.html">
+                      <p>UI/UX Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./digital-transformation.html"
+                    >
+                      <p>Digital Transformation</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-outsourcing.html">
+                      <p>IT Outsourcing</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-consulting.html">
+                      <p>IT Consulting</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-support.html">
+                      <p>IT Support</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./solution.html">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./industries.html">Industries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item me-0">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="aboutDiv">
+      <div class="sectionDiv">
+        <div class="row align-items-center">
+          <div class="col-sm-7 col-md-6 col-lg-8 col-xl-7 fadeInLeft">
+            <img src="./images/services/testing/testing.png" class="w-100" />
+          </div>
+          <div
+            class="col-sm-5 col-md-6 col-lg-4 col-xl-5 ps-0 ps-md-5 fadeInRight"
+          >
+            <h2>QA & Software Testing</h2>
+            <p>
+              In today’s competitive business world, companies expect faster,
+              more efficient software solutions with no quality sacrifices.
+              Loopspring provides QA & software testing services to fulfill all
+              your quality and testing needs..
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Our Software Testing & QA Services</h1>
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
+            <div class="whyDiv">
+              <img src="./images/services/testing/w1.png" />
+              <h4>Functional Testing</h4>
+              <p>
+                Validating the software system to conform to each functional
+                requirement of the application meets the expected output. Our
+                experienced QA testing team implements functional testing to
+                majorly focus on user interface, database, security, API's,
+                client or server application and similar functionalities of the
+                application..
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
+            <div class="whyDiv">
+              <img src="./images/services/testing/w2.png" />
+              <h4>Performance Testing</h4>
+              <p>
+                Increasing load time, inefficient responsiveness and instability
+                can be overcome by performance testing. Our profound experience
+                in performance testing by executing quality checks and software
+                behaviour analysis under load and stress guarantees flawless,
+                reliable and smarter applications.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
+            <div class="whyDiv">
+              <img src="./images/services/testing/w3.png" />
+              <h4>Security Testing</h4>
+              <p>
+                Uncover potential vulnerabilities of your running application by
+                enabling security testing with every release. Our QA testing
+                services are performed by a talented pool of test engineers who
+                execute risk assessment and penetration testing to shield
+                applications from hackers or malicious threats.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv">
+              <img src="./images/services/testing/w4.png" />
+              <h4>Usability Testing</h4>
+              <p>
+                Monitor application behaviour when multiple functions of the
+                application operate concurrently. Our software testing services
+                entail an in-depth analysis of user behaviour patterns that
+                identify potential usability issues in the initial phase and
+                create a seamless product.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv">
+              <img src="./images/services/testing/w5.png" />
+              <h4>Compatibility Testing</h4>
+              <p>
+                Explore the possibilities of compatibility testing with
+                Loopspring testing services where an application is tested
+                meticulously across different browsers, databases, hardware,
+                operating systems, server infrastructures, resolution displays
+                and devices.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv">
+              <img src="./images/services/testing/w6.png" />
+              <h4>Mobile App Testing</h4>
+              <p>
+                Scalability, security and multi-platform support are the
+                cornerstones of a mobile app. Loopspring provides cross
+                platform, functional/non-functional testing with manual testing
+                as well as automated testing approach for diverse mobile
+                applications.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sloganInDiv mt-5 fadeup">
+      <div class="sectionDiv">
+        <p class="text-white text-center">
+          For standalone testing services, Loopspring provides you with a
+          multi-skilled QA & testing team. Experts are chosen based on their
+          skills and qualifications to suit your project’s demands. Our
+          professional management ensures you the best resources for your needs.
+          Our work is transparent and efficient and thus regular check-ins are
+          welcomed.
+        </p>
+        <div class="text-center mt-5">
+          <a href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Our Software Testing & QA Workflow</h1>
+        <div class="row processDiv mt-5 fadeup">
+          <div class="col-sm-6 position-relative processSubDiv processImg">
+            <img src="./images/services/testing/p1.jpg" />
+            <label>01</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2">
+            <h3>Requirement analysis</h3>
+            <p>
+              Testers examine the requirements from a software testing
+              perspective and communicate with the client for a detailed
+              understanding. Also, if necessary, they perform a feasibility
+              study of automation.
+            </p>
+            <p>
+              QA specialists often have to deal with situations where
+              requirements are missing or unclear. In those cases, a software
+              tester has to utilize methods and tools to organize testing in the
+              absence of ideal requirements on the project.
+            </p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 processSubDiv position-relative order-last order-sm-fist"
+          >
+            <h3>Test planning</h3>
+            <p>At this stage, it is necessary to:</p>
+            <ul>
+              <li>Develop a testing strategy</li>
+              <li>Identify risks</li>
+              <li>Select tools for testing</li>
+              <li>Assign roles in the team</li>
+            </ul>
+            <p>
+              All these points are recorded as a test plan and test strategy.
+            </p>
+            <label>02</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/testing/p2.jpg" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 position-relative processSubDiv processImg">
+            <img src="./images/services/testing/p3.jpg" />
+            <label>03</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2">
+            <h3>Test case development</h3>
+            <p>
+              Writing a test case means creating a textual description of the
+              testing process for a portion or feature of the project. Test
+              cases are necessary for team members to check the program and get
+              acquainted without reading the entire code.
+            </p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
+          >
+            <h3>Testing environment set up</h3>
+            <p>
+              This step is necessary to prepare all the conditions for an
+              effective testing process. It includes setting up a test server,
+              setting up a network, setting up test PCs and devices, and
+              generating test data..
+            </p>
+            <label>04</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/testing/p4.jpg" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 processSubDiv position-relative processImg">
+            <img src="./images/services/testing/p5.jpg" />
+            <label>05</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2 position-relative">
+            <h3>Test execution</h3>
+            <p>
+              The QC team starts executing test cases according to the test
+              plans and generates bug reports. Also, bugs are quite often
+              validated at this stage.
+            </p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
+          >
+            <h3>Test Cycle Closure</h3>
+            <p>
+              Once all the tests cases are run, the QA Test Lead should confirm
+              all required testing has been completed. This involves an analysis
+              of defects found and other metrics such as how many
+              passed/failed/skipped test cases. This final phase in the STLC
+              might also include a retrospective on the testing project/process.
+              This allows the team to learn and improve for future testing
+              projects.
+            </p>
+            <label>06</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/testing/p6.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="withDiv mt-5 fadeup">
+      <div class="sectionDiv">
+        <h2>With LoopSpring You Get</h2>
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <ul>
+              <li>
+                Functionally and easily usable web applications that match your
+                requirements and expectations
+              </li>
+              <li>
+                Open application architecture permitting high availability and
+                scalability
+              </li>
+              <li>
+                High software application maintainability resulting in a lower
+                total cost of ownership (TCO)
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <li>
+                Seamless communication enhancing the development lifecycle
+                control and transparency
+              </li>
+              <li>
+                Proven QA methods through the software development lifecycle
+              </li>
+              <li>
+                Deployment, stabilization and ongoing maintenance of the final
+                application
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 mt-5 text-center">
+            <a href="./contact.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Why LoopSpring?</h1>
+        <p class="mt-4 text-center fadeup">
+          For standalone testing services, LoopSpring provides you with a
+          multi-skilled QA & testing team. Experts are chosen based on their
+          skills and qualifications to suit your project’s demands. Our
+          professional management ensures you the best resources for your needs.
+          Our work is transparent and efficient and thus regular check-ins are
+          welcomed.
+        </p>
+        <div class="row sectionWhy mt-5 pt-3">
+          <div class="col-md-6 fadeInLeft">
+            <h3>Over a decade of experience in quality assurance services</h3>
+            <p>
+              LoopSpring believes in ultimate quality. We have been carrying out
+              high quality testing services for clients around the globe for
+              over ten years. With our experience and dedication, you can be
+              sure that all your software is taken care of properly prior to
+              release with no compromises.
+            </p>
+          </div>
+          <div class="col-md-6 position-relative imgSec fadeInRight">
+            <img src="./images/services/testing/experience.jpg" class="w-100" />
+            <img
+              src="./images/services/websitedesign/experience.png"
+              class="imgIcon imgIcon1"
+            />
+            <span class="span1"></span>
+          </div>
+        </div>
+        <div class="row sectionWhy mt-5 pt-4">
+          <div
+            class="col-md-6 position-relative imgSec order-last order-md-first fadeInRight"
+          >
+            <img src="./images/services/testing/cost.jpg" class="w-100" />
+            <img
+              src="./images/services/testing/costIcon.png"
+              class="imgIcon imgIcon2"
+            />
+            <span class="span2"></span>
+          </div>
+          <div class="col-md-6 order-first order-md-last fadeInLeft">
+            <h3>Reducing cost by automation of manual tasks</h3>
+            <p>
+              While manual testing is undeniably important in the initial stages
+              of the testing process, automation testing reduces the workload
+              for the post-deployment testing of an application, especially when
+              the application has a long maintenance life or there is a
+              requirement for frequent execution of test cases. Automation
+              testing is not only cost effective, but also increases stability,
+              effectiveness, efficiency and test coverage of your software and
+              application and produces consistent and accurate results.
+            </p>
+          </div>
+        </div>
+        <div class="row sectionWhy mt-5 pt-4">
+          <div class="col-md-6 fadeInLeft">
+            <h3>Proven QA Process</h3>
+            <p>
+              Our QA process has been tested and constantly improved for over
+              ten years in the IT industry. We yearn to be the best in the
+              business and dedicate our time and effort in pushing ourselves and
+              bettering our services. Our history of satisfied clients can
+              further prove our success in all our testing implementations.
+            </p>
+          </div>
+          <div class="col-md-6 position-relative imgSec fadeInRight">
+            <img src="./images/services/testing/provenqa.jpg" class="w-100" />
+            <img
+              src="./images/services/testing/provenIcon.png"
+              class="imgIcon imgIcon1"
+            />
+            <span class="span1"></span>
+          </div>
+        </div>
+        <div class="row sectionWhy mt-5 pt-4">
+          <div
+            class="col-md-6 position-relative imgSec order-last order-md-first fadeInRight"
+          >
+            <img src="./images/services/testing/agility.jpg" class="w-100" />
+            <img
+              src="./images/services/testing/agilityIcon.jpg"
+              class="imgIcon imgIcon2"
+            />
+            <span class="span2"></span>
+          </div>
+          <div class="col-md-6 order-first order-md-last fadeInLeft">
+            <h3>Agility - Frequent check-ins and check-outs</h3>
+            <p>
+              The Scrum framework allows us to work agilely in short sprints,
+              carrying out tests after tests for every single details in a
+              repetitive and scripted process. This ensures the utmost quality
+              for all your products and improve project transparency
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-5 fadeup" style="background: #fafafa">
+      <div class="sectionDiv">
+        <h1>Frequently Asked Questions</h1>
+        <div class="accordion mt-4" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What are Software Testing Services?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Software Testing is a process of identifying errors or glitches
+                in a software development process. It includes a wide range of
+                Software Testing services such as Performance and Load Testing,
+                Regression Testing, Web Testing, Integration Testing, Unit
+                Testing, Accessibility Testing, Localization Testing,
+                Exploratory Testing, User acceptance Testing, API Testing,
+                Mobile Application Testing, Usability Testing, Functionality
+                Testing, UI Testing, Compatibility and Security Testing
+                Services. All these types of Software Testing ensures the
+                product is bug-free, up-to-date, and will perform at its best.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What is the difference between QA and Testing?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Quality Assurance and Software testing are often confusing for
+                businesses to understand because both of these methods aim at
+                the same Bug-free and performing application. The basic
+                difference between the two is Quality assurance is a process to
+                make sure the project is conforming to the expectations of the
+                stakeholders while the Software testing process involves
+                techniques and methods to identify glitches in software.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                How QA Testing Company Can Help My Business?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  QA testing companies like Loopspring help businesses build a
+                  positive reputation, meet their clients’ demands and
+                  expectations. Making sure that you provide high-quality and
+                  consistent services will build trust with your customers, thus
+                  giving you a chance to stay competitive on the market. Our QA
+                  team joins the project at its early stages to make sure that
+                  the final result suits your expectations, requirements, and
+                  runs smoothly. Every company aims to create good-looking and
+                  bug-free high-quality software to keep their customer
+                  retention. Loopspring QA team makes sure that no bugs will
+                  come up once the product is launched. In addition to this, QA
+                  testing at the early stages of product development is
+                  cost-effective as it is much cheaper than fixing bugs after
+                  the release. It is essential to eliminate all the bugs and
+                  issues before the user meets your software to maintain a high
+                  level of trust and loyalty to your services.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                How Do You Provide QA Testing Services?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Loopspring aims to satisfy the needs of its customers and suit
+                their expectations. We have been in the industry for over a
+                decade and have a team of QA experts that makes sure the final
+                product is bug-free and stands to the highest standards. Our
+                team provides QA and software testing services at every stage of
+                product development. The reason for this is that we want to
+                deliver an excellent product to our customers and minimize
+                errors. That’s why we conduct a thorough analysis of your
+                systems, build solutions on how to implement them, and create a
+                test plan at the planning stage. It’s a part of our strategy
+                that allows us to stay within budget and time limits stated by
+                our customers. This strategy shows excellent results in practice
+                as we think of the possible issues beforehand and think of the
+                solutions to quickly overcome hurdles on our way to bug-free
+                product.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                What is the difference between functional and non-functional
+                testing?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Functional Testing ensures that the software solution satisfies
+                the criteria provided by the business as their requirements and
+                User Stories. Non-Functional Testing focuses on performance,
+                reliability, infrastructure, and other related issues.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer_bg footer_design mt-5">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="./index.html"
+              ><img src="./images/logo.png" class="footer_logo"
+            /></a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">About</h3>
+              <ul>
+                <li>
+                  Improving provides consulting, software development and
+                  training to our customers through high environments of trust.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a href="./about.html">About us</a>
+                </li>
+                <li>
+                  <a href="./gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="./contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Services</h3>
+              <ul>
+                <li>
+                  <a href="./website-design.html">Website Design</a>
+                </li>
+                <li>
+                  <a href="./web-development.html">Web Development</a>
+                </li>
+                <li>
+                  <a href="./mobile-app-development.html"
+                    >Mobile App Development</a
+                  >
+                </li>
+                <li>
+                  <a href="./testing-QA.html">Testing & QA</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Important Link</h3>
+              <ul>
+                <li>
+                  <a href="./solution.html">Solutions</a>
+                </li>
+                <li>
+                  <a href="./industries.html">Industries</a>
+                </li>
+                <li>
+                  <a href="./courses.html">Courses</a>
+                </li>
+                <li>
+                  <a href="./it-support.html">IT Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">Connect with Loopspring</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <a class="pl-4" href="./contact.html"
+                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
+                    Mulagumoodu (PO) – 629167, Kanyakumari District.
+                  </a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:info@loopspring.com" class="pl-4"
+                    >info@loopspring.com</a
+                  >
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <div>
+                    <a href="tel:9894365935" class="footer_call pl-4"
+                      >+91 9894365935</a
+                    ><span class="comma">,</span
+                    ><a href="tel:8300016424">+91 8300016424</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer_bottom">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p class="copyright">
+                        Copyright ©
+                        <span>2024</span>
+                        Loopspring. All Rights Reserved
+                      </p>
+                    </div>
+                    <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="social_links d-flex">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        target="_blank"
+                        ><i class="fab fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

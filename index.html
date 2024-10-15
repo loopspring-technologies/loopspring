@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loopspring</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./style/common.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/animate.css" />
+    <link rel="stylesheet" href="./style/index-header.css" id="indexHeader" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/owl.carousel.min.js"></script>
+    <script src="./script/animate.js"></script>
+  </head>
+  <body>
+    <div id="header" class="">
+      <div class="headTopDiv d-flex justify-content-end">
+        <div class="d-flex headTopSubDiv">
+          <div>
+            <i class="fa-regular fa-envelope headIcon me-2"></i>
+            <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
+            <a href="tel:9894365935">+91 9894365935</a>
+          </div>
+        </div>
+        <!-- <div class="headSocialIcon">
+          <a href=""><img src="./images/facebook.webp" /> </a>
+          <a href=""><img src="./images/instagram.png" /> </a>
+          <a href=""><img src="./images/twitter.png" /> </a>
+          <a href=""><img src="./images/linkedin.png" /> </a>
+        </div> -->
+      </div>
+
+      <div
+        class="d-flex justify-content-between align-items-center headerPadDiv"
+      >
+        <div class="LogoDiv">
+          <a href="index.html"
+            ><img id="logo" src="./images/logowhite.png"
+          /></a>
+        </div>
+        <div id="togButton">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <nav id="navHeader" class="navbar navbar-expand-sm navbar-dark">
+          <div>
+            <div class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link navHover navColor activeTab"
+                    href="./index.html"
+                    style="color: #ff8ac7"
+                    id="activeLink"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./about.html"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link navColor1">Services</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./website-design.html">
+                        <p>Website Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./web-development.html">
+                        <p>Web Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./mobile-app-development.html"
+                      >
+                        <p>Mobile App Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./testing-QA.html">
+                        <p>Testing and QA</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./ui-ux.html">
+                        <p>UI/UX Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./digital-transformation.html"
+                      >
+                        <p>Digital Transformation</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-outsourcing.html">
+                        <p>IT Outsourcing</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-consulting.html">
+                        <p>IT Consulting</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-support.html">
+                        <p>IT Support</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./solution.html"
+                    >Solutions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./industries.html"
+                    >Industries</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./courses.html"
+                    >Courses</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./gallery.html"
+                    >Gallery</a
+                  >
+                </li>
+                <li class="nav-item me-0">
+                  <a class="nav-link navHover navColor" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="modal fade left"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-backdrop="true"
+      data-bs-backdrop="true"
+      role="dialog"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" style="color: #f84ca5"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link">Services</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./website-design.html">
+                      <p>Website Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./web-development.html">
+                      <p>Web Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./mobile-app-development.html"
+                    >
+                      <p>Mobile App Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./testing-QA.html">
+                      <p>Testing and QA</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./ui-ux.html">
+                      <p>UI/UX Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./digital-transformation.html"
+                    >
+                      <p>Digital Transformation</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-outsourcing.html">
+                      <p>IT Outsourcing</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-consulting.html">
+                      <p>IT Consulting</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-support.html">
+                      <p>IT Support</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./solution.html">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./industries.html">Industries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item me-0">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div
+        id="carouselExampleRide"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/home/slide1.jpeg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h2>Best IT Solution Company</h2>
+              <p>
+                Welcome to LoopSpring technologies, where innovation meets
+                reliability. We offer IT solutions, from software development,
+                to propel your business forward. With our expertise and
+                dedication to client success.
+              </p>
+              <a href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/home/slide2.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h2>Empower your Business with us</h2>
+              <p>
+                Discover the power of transformative technology solutions
+                tailored to your business. At we specialize in delivering
+                innovative software solutions that drive efficiency, foster
+                growth, and unlock new opportunities..
+              </p>
+              <a href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/home/slide3.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h2>Leading the Way in Software Innovation</h2>
+              <p>
+                To provide unparalleled software solutions that enable our
+                clients to thrive in an ever-evolving digital landscape. With
+                years of experience and a team of seasoned experts, we have
+                established ourselves as a trusted partner for organizations of
+                all sizes.
+              </p>
+              <a href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/home/slide4.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h2>Software Training</h2>
+              <p>
+                Our software training programs are designed to be immersive,
+                practical, and tailored to meet the demands of modern
+                workplaces. With a focus on real-world applications and industry
+                best practices.
+              </p>
+              <a href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/home/slide5.jpg" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h2>Our Diverse Clientele</h2>
+              <p>
+                Discover the diverse range of organizations that trust our
+                company for their software needs. Optimizing operations to
+                dynamic startups revolutionizing industries,Join the league of
+                satisfied partners and embark on a journey of innovation and
+                success.
+              </p>
+              <a href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="mt-5 fadeup">
+      <div class="sectionDiv sloganDiv">
+        <div class="row">
+          <div class="col-12 col-md-10 col-xl-8 m-auto">
+            <p class="text-center">
+              <sup
+                ><img
+                  src="./images/home/quote2.png"
+                  style="width: 20px; margin-right: 10px" /></sup
+              >We transform businesses with powerful and adaptable digital
+              solutions that satisfy the needs of today and unlock the
+              opportunities of tomorrow.<sup
+                ><img
+                  src="./images/home/quote1.png"
+                  style="width: 20px; margin-left: 10px"
+              /></sup>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="serviceDiv serviceClass pt-5 mt-4">
+      <div class="sectionDiv">
+        <h1>Explore Our Services</h1>
+        <div class="servicePadDiv pt-5">
+          <div class="d-flex serviceSubDiv fadeInRight">
+            <div
+              class="nav flex-column nav-pills me-3 tabDiv fadeInLeft1"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active"
+                data-bs-toggle="pill"
+                data-bs-target="#softwareDevelopment"
+                type="button"
+                role="tab"
+                aria-selected="true"
+              >
+                Software Development
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#training"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                Training
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#intership"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                Internship & Project Corner
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#testingQA"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                Testing & QA
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#uxDesign"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                UI/UX Design
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#itConsulting"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                IT Consulting
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#digitalMarketing"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                Digital Marketing
+              </button>
+            </div>
+            <div
+              class="tab-content fadeInRight"
+              id="v-pills-tabContent"
+              style="flex: 1"
+            >
+              <div
+                class="tab-pane fade show active"
+                id="softwareDevelopment"
+                role="tabpanel"
+              >
+                <h3>Software Development</h3>
+                <p>
+                  Our application development services provide organizations
+                  with a modernized approach and delivery model associated with
+                  software development to streamline their business operations.
+                  Whether your intended users are internal or external, our
+                  development team has extensive experience creating innovative
+                  and user-friendly applications across a variety of platforms
+                  and verticals. Our application development services cover web,
+                  desktop, mobile, enterprise, custom, and everything in
+                  between.
+                </p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Software consulting</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Custom software development</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Software development outsourcing</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Software product development</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="training" role="tabpanel">
+                <h3>Training</h3>
+                <p>
+                  We mold the student to meet the expectation of demanding
+                  market. Because we are the best IT training companies in
+                  Kanyakumari, we offer a good range of training that satisfies
+                  your quest of knowledge in the subject of your interest.
+                </p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Programming Languages</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Web Design and Development</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Database and Back End</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Computer Basics</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="intership" role="tabpanel">
+                <h3>Internship & Project Corner</h3>
+                <p>
+                  Our Internship and Project is designed to implement the
+                  theoretical knowledge into Reality. As Loopspring, we are best
+                  Internship Company in Kanyakumari offers internships in
+                  AngularJS, ReactJS, HTML, CSS, JS, NodeJS, PHP .
+                </p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Web Development Interns</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Web Designing Internship Training</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="testingQA" role="tabpanel">
+                <h3>Testing & QA</h3>
+                <p>
+                  We offer full-range QA and testing outsourcing services, can
+                  help to develop your QA or enhance the existing one, assist
+                  you in TCoE setup and evolution. We perform end-to-end testing
+                  of mobile, web and desktop application at each stage of the
+                  development lifecycle.
+                </p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>QA outsourcing</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>QA consulting</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Security testing</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Functional testing</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Usability testing</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Performance testing</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="uxDesign" role="tabpanel">
+                <h3>UX/UI Design</h3>
+                <p>
+                  User experience and user interface design for all types of
+                  websites, SaaS, and web/mobile apps. We combine the latest
+                  UI/UX trends with our customers’ individual goals and needs to
+                  deliver intuitive, vibrant, and impactful designs that power
+                  up businesses.
+                </p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>User Interface (UI) Design</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Responsive Web App Design</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Website Redesign</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="itConsulting" role="tabpanel">
+                <h3>IT Consulting</h3>
+                <p>
+                  Our experts can help to develop and implement an effective IT
+                  strategy, assist in smooth digital transformation and system
+                  integration as well as advise on improvements to your digital
+                  customer experience.
+                </p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Platform consulting</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Project Management Consulting</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>IT Service Management Consulting</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Solution consulting</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Enterprise IT consulting</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="digitalMarketing" role="tabpanel">
+                <h3>Digital Marketing</h3>
+                <p>
+                  To stay in this business competition we help client to promote
+                  their products or brands through different ways of E-media or
+                  online like SEO, SMO, PPC, and Google Edward's.
+                </p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Email marketing</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Social Media Marketing</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Search Engine Optimization (SEO)</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Targeted Online Advertising</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span>Promotions and Contests</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="serviceDivMobile serviceClass pt-5 mt-4 mb-5">
+      <div class="sectionDiv">
+        <h1 class="mb-5">Explore Our Services</h1>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-touch="true"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+          </div>
+          <div class="carousel-inner carouselDiv">
+            <div class="carousel-item active" id="serviceDivHgt">
+              <h3>Software Development</h3>
+              <p>
+                Our application development services provide organizations with
+                a modernized approach and delivery model associated with
+                software development to streamline their business operations.
+              </p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Software consulting</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Custom software development</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Software development outsourcing</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Software product development</span>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel-item">
+              <h3>Training</h3>
+              <p>
+                We mold the student to meet the expectation of demanding market.
+                Because we are the best IT training companies in Kanyakumari, we
+                offer a good range of training that satisfies your quest of
+                knowledge in the subject of your interest.
+              </p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Programming Languages</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Web Design and Development</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Database and Back End</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Computer Basics</span>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel-item">
+              <h3>Internship & Project Corner</h3>
+              <p>
+                Our Internship and Project is designed to implement the
+                theoretical knowledge into Reality. As Loopspring, we are best
+                Internship Company in Kanyakumari offers internships in
+                AngularJS, ReactJS, HTML, CSS, JS, NodeJS, PHP .
+              </p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Web Development Interns</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Web Designing Internship Training</span>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel-item">
+              <h3>Testing & QA</h3>
+              <p>
+                We offer full-range QA and testing outsourcing services, can
+                help to develop your QA or enhance the existing one, assist you
+                in TCoE setup and evolution. We perform end-to-end testing of
+                mobile, web and desktop application at each stage of the
+                development lifecycle.
+              </p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>QA outsourcing</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>QA consulting</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Security testing</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Functional testing</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Usability testing</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Performance testing</span>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel-item">
+              <h3>UX/UI Design</h3>
+              <p>
+                User experience and user interface design for all types of
+                websites, SaaS, and web/mobile apps. We combine the latest UI/UX
+                trends with our customers’ individual goals and needs to deliver
+                intuitive, vibrant, and impactful designs that power up
+                businesses.
+              </p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>User Interface (UI) Design</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Responsive Web App Design</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Website Redesign</span>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel-item">
+              <h3>IT Consulting</h3>
+              <p>
+                Our experts can help to develop and implement an effective IT
+                strategy, assist in smooth digital transformation and system
+                integration as well as advise on improvements to your digital
+                customer experience.
+              </p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Platform consulting</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Project Management Consulting</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>IT Service Management Consulting</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Solution consulting</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Enterprise IT consulting</span>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel-item">
+              <h3>Digital Marketing</h3>
+              <p>
+                To stay in this business competition we help client to promote
+                their products or brands through different ways of E-media or
+                online like SEO, SMO, PPC, and Google Edward's.
+              </p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Email marketing</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Social Media Marketing</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Search Engine Optimization (SEO)</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Targeted Online Advertising</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star me-2"></i
+                  ><span>Promotions and Contests</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: #fafafa">
+      <div class="sectionDiv mt-5 pt-5">
+        <h1>Our Core Values That Makes Us Unique</h1>
+        <div>
+          <div class="row mt-4">
+            <div
+              class="col-sm-12 col-md-6 col-lg-5 col-xl-4 m-auto valueDiv fadeup"
+            >
+              <img src="./images/home/value1.webp" />
+              <h3>Ensure impactful innovations</h3>
+              <p>
+                An unwavering commitment to drive maximum customer satisfaction,
+                infused with integrity and passion
+              </p>
+            </div>
+          </div>
+          <div class="row mt-0 mt-md-5">
+            <div
+              class="col-sm-12 col-md-6 col-lg-5 col-xl-4 valueDiv fadeInRight"
+            >
+              <img src="./images/home/value2.webp" />
+              <h3>Integrate work-life balance</h3>
+              <p>
+                Latest infrastructure and flexible working hours along with mang
+                other privileges that inculcate healthy lifestyle choices.
+              </p>
+            </div>
+            <div class="d-none d-lg-block col-lg-2 col-xl-4 text-center">
+              <img src="./images/home/imgsplit.png" class="imgSplit" />
+            </div>
+            <div
+              class="col-sm-12 col-md-6 col-lg-5 col-xl-4 valueDiv fadeInLeft"
+            >
+              <img src="./images/home/value3.webp" />
+              <h3>Focus on self-development</h3>
+              <p>
+                Training and mentorship programs, interactive sessions and
+                community meetups to drive personal growth
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-5">
+      <div class="parallax">
+        <div class="sectionDiv pt-5 pb-5">
+          <h2 class="mt-3">Why Choose Us</h2>
+          <div class="row mt-4">
+            <div class="col-6 col-md-3 mb-5 mb-md-0 yearDiv yearDivAfter">
+              <div>2+</div>
+              <div>Year of Service</div>
+            </div>
+            <div
+              class="col-6 col-md-3 mb-5 mb-md-0 yearDiv yearDivAfter yearDivAfter1"
+            >
+              <div>20+</div>
+              <div>Projects Completed</div>
+            </div>
+            <div class="col-6 col-md-3 yearDiv yearDivAfter">
+              <div>10+</div>
+              <div>Projects Experts</div>
+            </div>
+            <div class="col-6 col-md-3 yearDiv">
+              <div>100+</div>
+              <div>Students</div>
+            </div>
+          </div>
+          <!--  <h3 class="mt-4 mb-3">
+            We're Committed to Deliver High Quality Projects.
+          </h3> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="technologiesDiv mt-5 pt-3 fadeup">
+      <div class="sectionDiv">
+        <h1>We Work On Technologies</h1>
+        <p class="text-center">
+          We are committed to provide our customers with exceptional.
+        </p>
+        <div class="main bd-grid owl-carousel mt-5">
+          <article class="card">
+            <img src="./images/home/htmlcss.avif" />
+          </article>
+          <article class="card">
+            <img src="./images/home/jquery.avif" />
+          </article>
+          <article class="card">
+            <img src="./images/home/angular.avif" />
+          </article>
+          <article class="card">
+            <img src="./images/home/react.avif" />
+          </article>
+          <article class="card">
+            <img src="./images/home/bootsrap.avif" />
+          </article>
+          <article class="card">
+            <img src="./images/home/nodejs.avif" />
+          </article>
+          <article class="card">
+            <img src="./images/home/php.avif" />
+          </article>
+          <article class="card">
+            <img src="./images/home/python.avif" />
+          </article>
+          <article class="card">
+            <img src="./images/home/mongodb.avif" />
+          </article>
+          <article class="card">
+            <img src="./images/home/mysql.avif" />
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="solutionDiv mt-5 pt-5 pb-5">
+      <div class="sectionDiv">
+        <h1 class="text-white fadeup">Solutions We Deliver</h1>
+        <p class="text-center text-white fadeup">
+          We IT-enable all kinds of B2B, B2C interactions and internal
+          operations.
+        </p>
+        <div class="row solutionSubDiv fadeInRightLinear mt-4 pt-3">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a>
+              <img src="./images/home/ecom.png" />
+              <p class="mb-0">eCommerce</p>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a>
+              <img src="./images/home/erp.png" />
+              <p class="mb-0">ERP</p>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a>
+              <img src="./images/home/crm.png" />
+              <p class="mb-0">CRM</p>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a>
+              <img src="./images/home/hrms.png" />
+              <p class="mb-0">HR Software</p>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a>
+              <img src="./images/home/financial.png" />
+              <p class="mb-0">Financial Management</p>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a>
+              <img src="./images/home/payment.png" />
+              <p class="mb-0">Payment Software</p>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a>
+              <img src="./images/home/elearn.png" />
+              <p class="mb-0">eLearning</p>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a>
+              <img src="./images/home/web.png" />
+              <p class="mb-0">Web Portals</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 text-center mt-4 mb-3">
+          <a href="./solution.html" class="aButtonHome">Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 section1 pt-3">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Develop Your Business With Us</h1>
+        <p class="text-center fadeup">
+          Give Your Business A Unique Idea To Improve Productivity.
+        </p>
+        <div class="row mt-5">
+          <div class="col-12 col-sm-6 col-lg-3 mb-4 pe-0 pe-sm-4 fadeInLeft">
+            <div class="section1Sub">
+              <img src="./images/home/requirement.png" />
+              <h3>Analysis</h3>
+              <p>Requirement</p>
+              <p>Gathering & System</p>
+              <p>Study.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-4 pe-0 pe-sm-4 fadeInLeft">
+            <div class="section1Sub">
+              <img src="./images/home/design.png" />
+              <h3>Design</h3>
+              <p>Design Responsive</p>
+              <p>Website & Layout</p>
+              <p>Design.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-4 pe-0 pe-sm-4 fadeInRight">
+            <div class="section1Sub">
+              <img src="./images/home/development.png" />
+              <h3>Development</h3>
+              <p>Product</p>
+              <p>Development &</p>
+              <p>Testing.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-4 fadeInRight">
+            <div class="section1Sub">
+              <img src="./images/home/support.png" />
+              <h3>Delivery and Support</h3>
+              <p>Support a product</p>
+              <p>what we plan from</p>
+              <p>beginning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="industryDiv mt-5 pt-3 pb-5">
+      <div class="sectionDiv">
+        <h1 class="text-white fadeup">Industries We Serve</h1>
+        <p class="text-center text-white fadeup">
+          We think big and have hands in all leading technology for Website
+          design & Development.
+        </p>
+        <div class="row mt-4 pt-3">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 fadeInUpLinear">
+            <div class="industrySubDiv">
+              <a href="./industries.html">
+                <div class="flip-card first-profile-card">
+                  <div class="flip-card-front flip-card-face">
+                    <div class="text-end pt-2 pe-3">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="text-center p-3 pt-0">
+                      <img src="./images/home/healthcare.svg" />
+                      <h5>Healthcare</h5>
+                    </div>
+                  </div>
+                  <div class="flip-card-back flip-card-face text-center">
+                    <h3>Healthcare</h3>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 fadeInUpLinear">
+            <div class="industrySubDiv">
+              <a href="./industries.html">
+                <div class="flip-card first-profile-card">
+                  <div class="flip-card-front flip-card-face">
+                    <div class="text-end pt-2 pe-3">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="text-center p-3 pt-0">
+                      <img src="./images/home/retail.svg" />
+                      <h5>Retail</h5>
+                    </div>
+                  </div>
+                  <div class="flip-card-back flip-card-face text-center">
+                    <h3>Retail</h3>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 fadeInUpLinear">
+            <div class="industrySubDiv">
+              <a href="./industries.html">
+                <div class="flip-card first-profile-card">
+                  <div class="flip-card-front flip-card-face">
+                    <div class="text-end pt-2 pe-3">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="text-center p-3 pt-0">
+                      <img src="./images/home/insurance.svg" />
+                      <h5>Insurance</h5>
+                    </div>
+                  </div>
+                  <div class="flip-card-back flip-card-face text-center">
+                    <h3>Insurance</h3>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 fadeInUpLinear">
+            <div class="industrySubDiv">
+              <a href="./industries.html">
+                <div class="flip-card first-profile-card">
+                  <div class="flip-card-front flip-card-face">
+                    <div class="text-end pt-2 pe-3">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="text-center p-3 pt-0">
+                      <img src="./images/home/banking.svg" />
+                      <h5>Banking</h5>
+                    </div>
+                  </div>
+                  <div class="flip-card-back flip-card-face text-center">
+                    <h3>Banking</h3>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="fadeup text-center mt-4">
+          <a href="./industries.html" class="aButtonHome">Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="mt-4 pt-5 pb-5 fadeup" style="background: #fafafa">
+      <div class="sectionDiv fadeup">
+        <h1>Our Client</h1>
+      </div>
+      <div class="text-center clientDiv mt-5 fadeup">
+        <img src="./images/home/client1.webp" />
+        <img src="./images/home/client2.png" />
+        <img src="./images/home/client3.png" />
+      </div>
+    </section>
+
+    <footer class="footer_bg footer_design">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="./index.html"
+              ><img src="./images/logo.png" class="footer_logo"
+            /></a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">About</h3>
+              <ul>
+                <li>
+                  Improving provides consulting, software development and
+                  training to our customers through high environments of trust.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a href="./about.html">About us</a>
+                </li>
+                <li>
+                  <a href="./gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="./contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Services</h3>
+              <ul>
+                <li>
+                  <a href="./website-design.html">Website Design</a>
+                </li>
+                <li>
+                  <a href="./web-development.html">Web Development</a>
+                </li>
+                <li>
+                  <a href="./mobile-app-development.html"
+                    >Mobile App Development</a
+                  >
+                </li>
+                <li>
+                  <a href="./testing-QA.html">Testing & QA</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Important Link</h3>
+              <ul>
+                <li>
+                  <a href="./solution.html">Solutions</a>
+                </li>
+                <li>
+                  <a href="./industries.html">Industries</a>
+                </li>
+                <li>
+                  <a href="./courses.html">Courses</a>
+                </li>
+                <li>
+                  <a href="./it-support.html">IT Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">Connect with Loopspring</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <a class="pl-4" href="./contact.html"
+                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
+                    Mulagumoodu (PO) – 629167, Kanyakumari District.
+                  </a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:info@loopspring.com" class="pl-4"
+                    >info@loopspring.com</a
+                  >
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <div>
+                    <a href="tel:9894365935" class="footer_call pl-4"
+                      >+91 9894365935</a
+                    ><span class="comma">,</span
+                    ><a href="tel:8300016424">+91 8300016424</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer_bottom">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p class="copyright">
+                        Copyright ©
+                        <span>2024</span>
+                        Loopspring. All Rights Reserved
+                      </p>
+                    </div>
+                    <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="social_links d-flex">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        target="_blank"
+                        ><i class="fab fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        handleHeader();
+      });
+
+      window.addEventListener("scroll", handleHeader);
+      function handleHeader() {
+        var scrollPosition = window.scrollY;
+
+        var screenWidth = window.innerWidth;
+        let triggerPosition;
+        if (screenWidth <= 700) {
+          triggerPosition = window.innerHeight * 0.5;
+        } else {
+          triggerPosition = window.innerHeight - 100;
+        }
+        console.log(triggerPosition);
+
+        var styleSheetLink = document.getElementById("indexHeader");
+
+        if (scrollPosition >= triggerPosition) {
+          // Remove the stylesheet link if it exists
+          if (styleSheetLink) {
+            styleSheetLink.parentNode.removeChild(styleSheetLink);
+          }
+          document.getElementById("activeLink").style.color = "#f84ca5";
+          document.getElementById("logo").src = "./images/logo.png";
+          document.getElementById("header").style.position = "fixed";
+          document.getElementById("header").style.width = "100%";
+          document.getElementById("header").style.zIndex = 3;
+        } else {
+          // Add the stylesheet link if it doesn't exist
+          if (!styleSheetLink) {
+            var newLink = document.createElement("link");
+            newLink.rel = "stylesheet";
+            newLink.href = "./style/index-header.css"; // Replace with your stylesheet URL
+            newLink.id = "indexHeader";
+            document.head.appendChild(newLink);
+          }
+          document.getElementById("header").style.position = "fixed";
+          document.getElementById("header").style.width = "100%";
+          document.getElementById("header").style.zIndex = 3;
+          document.getElementById("activeLink").style.color = "#ff8ac7";
+          document.getElementById("logo").src = "./images/logowhite.png";
+        }
+
+        // Check if the screen width is below 800 pixels
+        /* if (screenWidth <= 820) {
+          var hiddenDiv = document.getElementById("serviceDivHgt");
+          let carousalHgt =
+            document.getElementById("serviceDivHgt").offsetHeight;
+          if (hiddenDiv.style.display === "none") {
+            hiddenDiv.style.display = "block";
+            carousalHgt = document.getElementById("serviceDivHgt").offsetHeight;
+            hiddenDiv.style.display = "none";
+          }
+          console.log(carousalHgt);
+          var outerElement = document.querySelectorAll(
+            ".carouselDiv .carousel-item"
+          );
+          for (let i = 1; i < outerElement.length; i++) {
+            outerElement[i].style.height = carousalHgt + "px";
+          }
+        } */
+      }
+
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 25,
+        nav: false,
+        items: 6,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          350: {
+            items: 2,
+          },
+          600: {
+            items: 3,
+          },
+          800: {
+            items: 4,
+          },
+          1000: {
+            items: 5,
+          },
+          1200: {
+            items: 6,
+          },
+        },
+      });
+      $(".owl-carousel-service").owlCarousel({
+        loop: true,
+        margin: 25,
+        nav: false,
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

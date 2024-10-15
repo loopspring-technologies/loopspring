@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loopspring</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./style/common.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/services.css" />
+    <link rel="stylesheet" href="./style/animate.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/owl.carousel.min.js"></script>
+    <script src="./script/animate.js"></script>
+  </head>
+  <body>
+    <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
+      <div class="headTopDiv d-flex justify-content-end">
+        <div class="d-flex headTopSubDiv">
+          <div>
+            <i class="fa-regular fa-envelope headIcon me-2"></i>
+            <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
+            <a href="tel:9894365935">+91 9894365935</a>
+          </div>
+        </div>
+        <!-- <div class="headSocialIcon">
+          <a href=""><img src="./images/facebook.webp" /> </a>
+          <a href=""><img src="./images/instagram.png" /> </a>
+          <a href=""><img src="./images/twitter.png" /> </a>
+          <a href=""><img src="./images/linkedin.png" /> </a>
+        </div> -->
+      </div>
+
+      <div
+        class="d-flex justify-content-between align-items-center headerPadDiv"
+      >
+        <div class="LogoDiv">
+          <a href="index.html"><img id="logo" src="./images/logo.png" /></a>
+        </div>
+        <div id="togButton">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <nav id="navHeader" class="navbar navbar-expand-sm navbar-dark">
+          <div>
+            <div class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./about.html"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link navColor1 activeTab" style="color: #f84ca5"
+                    >Services</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./website-design.html">
+                        <p>Website Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./web-development.html">
+                        <p>Web Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./mobile-app-development.html"
+                      >
+                        <p>Mobile App Development</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./testing-QA.html">
+                        <p>Testing and QA</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./ui-ux.html">
+                        <p>UI/UX Design</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="./digital-transformation.html"
+                      >
+                        <p>Digital Transformation</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-outsourcing.html">
+                        <p>IT Outsourcing</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-consulting.html">
+                        <p>IT Consulting</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="./it-support.html">
+                        <p>IT Support</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./solution.html"
+                    >Solutions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./industries.html"
+                    >Industries</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./courses.html"
+                    >Courses</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./gallery.html"
+                    >Gallery</a
+                  >
+                </li>
+                <li class="nav-item me-0">
+                  <a class="nav-link navHover navColor" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="modal fade left"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-backdrop="true"
+      data-bs-backdrop="true"
+      role="dialog"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" style="color: #f84ca5">Services</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./website-design.html">
+                      <p>Website Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./web-development.html">
+                      <p>Web Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./mobile-app-development.html"
+                    >
+                      <p>Mobile App Development</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./testing-QA.html">
+                      <p>Testing and QA</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./ui-ux.html">
+                      <p>UI/UX Design</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="./digital-transformation.html"
+                    >
+                      <p>Digital Transformation</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-outsourcing.html">
+                      <p>IT Outsourcing</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-consulting.html">
+                      <p>IT Consulting</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./it-support.html">
+                      <p>IT Support</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./solution.html">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./industries.html">Industries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item me-0">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="aboutDiv">
+      <div class="sectionDiv">
+        <div class="row align-items-center">
+          <div class="col-sm-7 col-md-6 col-lg-8 col-xl-7 fadeInLeft">
+            <img src="./images/services/itconsulting/t2.png" class="w-100" />
+          </div>
+          <div
+            class="col-sm-5 col-md-6 col-lg-4 col-xl-5 ps-0 ps-md-5 fadeInRight"
+          >
+            <h2>IT Consulting</h2>
+            <ul>
+              <li>
+                <i class="fa-solid fa-star me-2"></i
+                ><span>
+                  IT consulting is a broad service helping companies implement
+                  new transformative software, design and run reliable.
+                </span>
+              </li>
+              <li>
+                <i class="fa-solid fa-star me-2"></i
+                ><span
+                  >Anticipating future technology trends and their impact on
+                  your business.</span
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-star me-2"></i
+                ><span
+                  >Conducting a comprehensive analysis of your current IT
+                  infrastructure.</span
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-star me-2"></i
+                ><span>
+                  LoopSpring's IT consulting offer covers all IT ecosystem
+                  components and spans from strategic advisory services to
+                  implementation.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <h1 class="fadeup">
+          Why IT Consulting Services Are Important For Your Business?
+        </h1>
+        <p class="text-center fadeup">
+          IT consulting services align technology with business goals, offering
+          expertise to optimize costs, mitigate risks, enhance productivity,
+          drive innovation, and maintain competitiveness, allowing businesses to
+          focus on core operations while staying adaptable and scalable.
+        </p>
+        <div class="row mt-5">
+          <div class="col-md-6 mb-4 fadeInLeft">
+            <div class="whyDiv">
+              <img src="./images/services/itconsulting/t1.png" />
+              <h4>Expertise and Specialization</h4>
+              <p>
+                IT consultants bring a depth of knowledge and experience in
+                various technology domains. Whether it's cloud computing,
+                cybersecurity, data analytics, or software development,
+                consultants have the expertise to advise on the best practices
+                and solutions for your specific needs.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 fadeInLeft">
+            <div class="whyDiv">
+              <img src="./images/services/itconsulting/t3.png" />
+              <h4>Digital transformation consulting</h4>
+              <p>
+                Digital transformation consulting facilitates strategic adoption
+                of technologies, streamlining processes, enhancing customer
+                experiences, and fostering innovation to propel businesses into
+                the digital age, ensuring resilience, agility, and sustainable
+                growth in today's rapidly evolving landscape.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 fadeInRight">
+            <div class="whyDiv">
+              <img src="./images/services/itconsulting/t4.png" />
+              <h4>Technology Consulting</h4>
+              <p>
+                LoopSpring can provide estimates for the value that all the
+                technology that you are planning on introducing will bring such
+                as cost savings, staff productivity, competitive edge, and more.
+                Vates can outline a roadmap for technology adoption in your firm
+                starting from licensing choices to implementation.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 fadeInRight">
+            <div class="whyDiv">
+              <img src="./images/services/itconsulting/t5.png" />
+              <h4>Application Development</h4>
+              <p>
+                Our experienced developers are standing by to assist you in
+                designing, constructing, and maintaining customizable software
+                programs that are customized to your specific requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Activities During the IT Consulting</h1>
+        <div class="row processDiv mt-5 fadeup">
+          <div class="col-sm-6 position-relative processSubDiv processImg">
+            <img src="./images/services/itconsulting/pic1.jpg" />
+            <label>01</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2">
+            <h3>Assessment and Analysis</h3>
+            <p>
+              Current IT infrastructure, systems, and processes are evaluated.
+              Strengths, weaknesses, opportunities, and threats are identified.
+              Business goals and IT requirements are aligned to determine areas
+              for improvement and optimization.
+            </p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 processSubDiv position-relative order-last order-sm-fist"
+          >
+            <h3>Strategy Development</h3>
+            <p>
+              In strategy development, IT consultants align technology
+              initiatives with business objectives, crafting a roadmap for
+              implementation. This involves identifying key priorities,
+              timelines, and resources required for success. Strategies are
+              tailored to optimize efficiency, drive innovation, and ensure
+              alignment with organizational goals.
+            </p>
+            <label>02</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/itconsulting/pic2.jpg" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 position-relative processSubDiv processImg">
+            <img src="./images/services/itconsulting/p3.png" />
+            <label>03</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2">
+            <h3>Solution Implementation</h3>
+            <p>
+              Selected technology solutions are deployed and integrated into
+              existing systems. Implementation processes are carefully managed
+              to minimize disruption to business operations. Training and
+              support are provided to ensure smooth adoption by end-users.
+            </p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 processSubDiv position-relative order-last order-sm-fist"
+          >
+            <h3>Innovation and Future Planning</h3>
+            <p>
+              Researching emerging technologies and trends to anticipate
+              industry shifts. Advising on potential opportunities for
+              innovation and competitive advantage. Developing strategies to
+              leverage new technologies for long-term business growth.
+            </p>
+            <label>04</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/itconsulting/pic3.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="withDiv mt-5 fadeup">
+      <div class="sectionDiv">
+        <h2>With LoopSpring You Get</h2>
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <ul>
+              <li>
+                LoopSpring delivers informative and engaging articles that delve
+                into various aspects of IT consulting.
+              </li>
+              <li>
+                Our team creates compelling blog posts that cover industry
+                trends, best practices, and case studies.
+              </li>
+              <li>
+                Showcase your expertise and success stories with detailed case
+                studies that highlight the challenges faced, solutions
+                implemented, and tangible results
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <li>
+                LoopSpring develops insightful whitepapers that explore complex
+                IT topics in-depth, providing authoritative analysis.
+              </li>
+              <li>
+                Partner with LoopSpring to create thought leadership content
+                that demonstrates your consultancy's expertise.
+              </li>
+              <li>
+                LoopSpring offers personalized content strategies tailored to
+                your consultancy's unique goals, target audience.
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 mt-5 text-center">
+            <a href="./contact.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <h1 class="fadeup">Why LoopSpring?</h1>
+        <p class="mt-4 text-center fadeup">
+          LoopSpring stands out in the realm of IT consulting due to its unique
+          blend of tailored solutions, proven expertise, and client-centric
+          approach. With a commitment to understanding each client's distinct
+          business needs, we craft strategies that align seamlessly with their
+          objectives, ensuring maximum impact and value.
+        </p>
+        <div class="row sectionWhy mt-5 pt-3">
+          <div class="col-md-6 fadeInLeft">
+            <h3>Expertise</h3>
+            <p>
+              Our team expertise is demonstrated through deep industry knowledge
+              and technical proficiency in diverse technologies. This includes
+              showcasing relevant certifications and accreditations, backed by a
+              track record of successful projects and client testimonials.
+              Thought leadership initiatives, such as publishing industry
+              insights and participating in continuous learning, reinforce
+              expertise and position.
+            </p>
+          </div>
+          <div class="col-md-6 position-relative imgSec fadeInRight">
+            <img
+              src="./images/services/itconsulting/expertise.png"
+              class="w-100"
+            />
+            <img
+              src="./images/services/itconsulting/expertise-icon.png"
+              class="imgIcon imgIcon1"
+            />
+            <span class="span1"></span>
+          </div>
+        </div>
+        <div class="row sectionWhy mt-5 pt-4">
+          <div
+            class="col-md-6 position-relative imgSec order-last order-md-first fadeInRight"
+          >
+            <img
+              src="./images/services/websitedesign/ExperienceImg.jpg"
+              class="w-100"
+            />
+            <img
+              src="./images/services/itconsulting/flexibility-icon.png"
+              class="imgIcon imgIcon2"
+            />
+            <span class="span2"></span>
+          </div>
+          <div class="col-md-6 order-first order-md-last fadeInLeft">
+            <h3>Flexibility</h3>
+            <p>
+              Flexibility in IT consulting is demonstrated through adaptable
+              service offerings tailored to diverse client needs, ensuring
+              solutions are customized and scalable. Agile methodologies enable
+              quick responses to changing requirements, fostering efficient
+              project delivery. Technology-agnostic approaches allow for
+              unbiased recommendations, maximizing solution effectiveness.
+              Dynamic resource allocation ensures optimal utilization of skills
+              and expertise.
+            </p>
+          </div>
+        </div>
+        <div class="row sectionWhy mt-5 pt-4">
+          <div class="col-md-6 fadeInLeft">
+            <h3>Proven Results</h3>
+            <p>
+              Concrete examples of measurable improvements in client operations.
+              Testimonials and case studies highlighting successful
+              implementations. Recognition and awards for outstanding
+              achievements and client satisfaction. A track record of long-term
+              partnerships built on trust and delivering tangible business
+              value.
+            </p>
+          </div>
+          <div class="col-md-6 position-relative imgSec fadeInRight">
+            <img
+              src="./images/services/itconsulting/proven-result.png"
+              class="w-100"
+            />
+            <img
+              src="./images/services/itconsulting/proven-result-icon.png"
+              class="imgIcon imgIcon1"
+            />
+            <span class="span1"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FQA -->
+    <section class="mt-5 pt-5 fadeup" style="background: #fafafa">
+      <div class="sectionDiv">
+        <h1>Frequently Asked Questions</h1>
+        <div class="accordion mt-4" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What specific IT services do you offer?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Clients often seek clarification on the range of IT services
+                provided by the consulting firm, including areas such as Mobile
+                App Development, software development, data analytics, and more.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What is your approach to project management and delivery?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Clients want to understand the consulting firm's project
+                management methodologies, timelines, and communication processes
+                to ensure effective collaboration and timely delivery of
+                solutions.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                What is the expected timeline and budget for our project?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Clients often inquire about the estimated timeframe and costs
+                  associated with their IT consulting project. They seek clarity
+                  on project milestones, deliverables, and budget considerations
+                  to ensure alignment with their organizational resources and
+                  goals.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Can you provide examples of past successful projects or client
+                references?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Prospective clients often seek evidence of the consulting firm's
+                track record and expertise, requesting case studies,
+                testimonials, or client references to gauge the firm's
+                capabilities and reliability.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                How do you tailor solutions to meet our specific business needs?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Clients are interested in understanding how the consulting firm
+                will assess their unique challenges, customize solutions, and
+                align technology initiatives with their business objectives to
+                ensure relevance and effectiveness.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer_bg footer_design mt-5">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="./index.html"
+              ><img src="./images/logo.png" class="footer_logo"
+            /></a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">About</h3>
+              <ul>
+                <li>
+                  Improving provides consulting, software development and
+                  training to our customers through high environments of trust.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a href="./about.html">About us</a>
+                </li>
+                <li>
+                  <a href="./gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="./contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Services</h3>
+              <ul>
+                <li>
+                  <a href="./website-design.html">Website Design</a>
+                </li>
+                <li>
+                  <a href="./web-development.html">Web Development</a>
+                </li>
+                <li>
+                  <a href="./mobile-app-development.html"
+                    >Mobile App Development</a
+                  >
+                </li>
+                <li>
+                  <a href="./testing-QA.html">Testing & QA</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="footer_link_colom">
+              <h3 class="heading">Important Link</h3>
+              <ul>
+                <li>
+                  <a href="./solution.html">Solutions</a>
+                </li>
+                <li>
+                  <a href="./industries.html">Industries</a>
+                </li>
+                <li>
+                  <a href="./courses.html">Courses</a>
+                </li>
+                <li>
+                  <a href="./it-support.html">IT Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer_link_colom">
+              <h3 class="heading">Connect with Loopspring</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <a class="pl-4" href="./contact.html"
+                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
+                    Mulagumoodu (PO) – 629167, Kanyakumari District.
+                  </a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:info@loopspring.com" class="pl-4"
+                    >info@loopspring.com</a
+                  >
+                </li>
+                <li class="pb-2 footerLink">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <div>
+                    <a href="tel:9894365935" class="footer_call pl-4"
+                      >+91 9894365935</a
+                    ><span class="comma">,</span
+                    ><a href="tel:8300016424">+91 8300016424</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer_bottom">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p class="copyright">
+                        Copyright ©
+                        <span>2024</span>
+                        Loopspring. All Rights Reserved
+                      </p>
+                    </div>
+                    <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="social_links d-flex">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        target="_blank"
+                        ><i class="fab fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

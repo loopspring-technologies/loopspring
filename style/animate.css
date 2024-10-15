@@ -1,0 +1,65 @@
+.fadeInLeft {
+  opacity: 0;
+  transform: translateX(-5%);
+  transition: opacity 2s, transform 3s;
+}
+.fadeInLeft.fade-in-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+.fadeInRight {
+  opacity: 0;
+  transform: translateX(5%);
+  transition: opacity 2s, transform 3s;
+}
+.fadeInRight.fade-in-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+.fadeInLeft1 {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 2s, transform 3s;
+}
+.fadeInLeft1.fade-in-left {
+  opacity: 1;
+  transform: translateX(-30px) translateY(-30px);
+}
+.fadeup {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 2s, transform 2s;
+}
+
+.fadeup.fade-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fadedown {
+  opacity: 0;
+  transform: translateY(-40px);
+  transition: opacity 2s, transform 2s;
+}
+
+.fadedown.fade-down {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fadeInRightLinear div {
+  opacity: 0;
+  transform: translateX(5%);
+  transition: opacity 2s, transform 3s;
+}
+.fadeInRightLinear div.fade-in-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+.fadeInUpLinear {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 2s, transform 4s;
+}
+.fadeInUpLinear.fade-up {
+  opacity: 1;
+  transform: translateY(0);
+}

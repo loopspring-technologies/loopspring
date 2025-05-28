@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support | Loopspring</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./style/common.css" />
+
+    <link rel="stylesheet" href="./style/services.css" />
+    <link rel="stylesheet" href="./style/animate.css" />
+    <link rel="stylesheet" href="./style/contact.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/owl.carousel.min.js"></script>
+    <script src="./script/animate.js"></script>
+    <script src="./script/scrollup.js" defer></script>
+  </head>
+  <body>
+    <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
+      <div
+        class="d-flex justify-content-between align-items-center headerPadDiv"
+      >
+        <div class="LogoDiv">
+          <a href="index.html"><img id="logo" src="./images/logo.png" /></a>
+        </div>
+        <div id="togButton">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <nav id="navHeader" class="navbar navbar-expand-sm navbar-dark">
+          <div>
+            <div class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./about.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link navColor1 activeTab" style="color: #f84ca5"
+                    >Services</a
+                  >
+
+                  <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Development & Design</p>
+                      </a>
+                      <ul class="subNav-item">
+                        <a href="./website-design.html">
+                          <li>Web Design</li>
+                        </a>
+                        <a href="./web-development.html">
+                          <li>Web Development</li>
+                        </a>
+                        <a href="./mobile-app-development.html"
+                          ><li>Mobile App Development</li></a
+                        >
+                        <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Digital Transformation & Training</p>
+                      </a>
+                      <ul class="subNav-item">
+                        <a href="./digital-transformation.html">
+                          <li>Digital Transformation</li>
+                        </a>
+                        <a href="./it-training.html"> <li>IT Training</li></a>
+                      </ul>
+                    </li>
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Marketing & Promotion</p>
+                      </a>
+                      <ul class="subNav-item pb-3">
+                        <a href="./digital-marketing.html">
+                          <li>Digital Marketing</li>
+                        </a>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./solution.html"
+                    >Solutions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./courses.html"
+                    >Training Lab</a
+                  >
+                </li>
+
+                <li class="nav-item me-0">
+                  <a class="nav-link navHover navColor" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="modal fade left"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-backdrop="true"
+      data-bs-backdrop="true"
+      role="dialog"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" style="color: #f84ca5"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link">Services</a>
+                <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Development & Design</p>
+                    </a>
+                    <ul class="subNav-item">
+                      <a href="./website-design.html">
+                        <li>Web Design</li>
+                      </a>
+                      <a href="./web-development.html">
+                        <li>Web Development</li>
+                      </a>
+                      <a href="./mobile-app-development.html"
+                        ><li>Mobile App Development</li></a
+                      >
+                      <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Digital Transformation & Training</p>
+                    </a>
+                    <ul class="subNav-item">
+                      <a href="./digital-transformation.html">
+                        <li>Digital Transformation</li></a
+                      >
+
+                      <a href="./it-training.html"><li>IT Training</li></a>
+                      <a><li style="color: white">Tamil Nadu</li></a>
+                      <a><li style="color: white">Kanniyakumari</li></a>
+                      <!-- <a><li style="color: white">Software Company</li></a> -->
+                    </ul>
+                  </li>
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Marketing & Promotion</p>
+                    </a>
+                    <ul class="subNav-item pb-3">
+                      <a href="./digital-marketing.html">
+                        <li>Digital Marketing</li>
+                      </a>
+                      <a><li style="color: white">Tamil Nadu</li></a>
+                      <a><li style="color: white">Kanniyakumari</li></a>
+                      <a><li style="color: white">Tamil Nadu</li></a>
+                      <!-- <a><li style="color: white">Kanniyakumari</li></a> -->
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./solution.html">Solutions</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html">Training Lab</a>
+              </li>
+
+              <li class="nav-item me-0">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="aboutDiv">
+      <div class="sectionDiv">
+        <div class="row align-items-center">
+          <div
+            class="col-sm-7 col-md-6 col-lg-5 col-xl-5 order-2 order-sm-2 fadeInLeft"
+          >
+            <img
+              src="./images/services/mobileapp/mobileapp.png"
+              class="w-100"
+            />
+          </div>
+          <div
+            class="col-sm-5 col-md-6 col-lg-7 col-xl-7 order-1 order-sm-1 ps-0 ps-md-5 fadeInRight"
+          >
+            <h2>
+              <span style="color: #f84ca5"
+                >Support and Maintenance - LoopSpring</span
+              >
+            </h2>
+            <h2>Our Support Services</h2>
+            <p>
+              LoopSpring offers a comprehensive range of support and maintenance
+              services to ensure the longevity and proper functioning of your
+              digital solutions:
+            </p>
+            <ul class="support-list">
+              <li>
+                <i class="fa-solid fa-star pe-3"></i>
+                <p>
+                  <strong>Preventive maintenance: </strong>
+                  Regular monitoring and updates to prevent breakdowns.
+                </p>
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-3"></i>
+                <p>
+                  <strong>Corrective maintenance: </strong>Rapid intervention to
+                  resolve incidents and restore service.
+                </p>
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-3"></i>
+                <p>
+                  <strong>Post-project maintenance and warranty: </strong
+                  >Follow-up after delivery with corrections and adjustments
+                  included according to project terms.
+                </p>
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-3"></i>
+                <p>
+                  <strong>On-demand maintenance: </strong>One-off assistance as
+                  required. A personalised quote is necessary.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <!-- <section class="pt-5">
+      <div class="spacingDiv">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="whyChooseLeft">
+              <img
+                src="./images/services/mobileapp/why-mobile-app.jpg"
+                alt="Software development consultation with the LoopSpring team in India"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <h2 class="fw-bold" style="color: #f84ca5">
+              The advantages of an excellent mobile application
+            </h2>
+            <p>
+              A well-designed application is
+              <strong>far more than a simple tool</strong> it's a true growth
+              engine!
+            </p>
+            <ul>
+              <li>
+                <p>
+                  <strong>Ultra-Smooth User Experience (UX) :</strong> Intuitive
+                  and engaging interfaces that captivate and retain your users.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Maximised Engagement and Retention :</strong>
+                  Push notifications, interactivity, and advanced features for
+                  continuous connection with your audience.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Advanced Security and Reliability :</strong>
+                  Protect your data and your users' data with robust and
+                  certified solutions.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Exceptional Performance and Speed :</strong>
+                  Code optimisation for unparalleled speed and fluidity.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Global Accessibility and Reach :</strong>
+                  Development for
+                  <strong
+                    >iOS, Android, and cross-platform (Flutter, React
+                    Native)</strong
+                  >
+                  to reach maximum users.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Monetisation and Boosted ROI :</strong>Integration of
+                  economic models: in-app purchases, subscriptions, advertising,
+                  and much more!
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Scalability and Continuous Updates :</strong
+                  >Future-ready applications, with constant monitoring and
+                  improvements.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--  -->
+
+    <section class="pt-5 pb-3" style="background-color: #fafafa">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="fadeup fw-bold text-center">
+              Service Level Agreements (SLA)
+            </h2>
+          </div>
+          <div class="col-lg-12 text-center">
+            <p>
+              We offer tiered support packages to meet different business needs:
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
+            <div class="whyDiv">
+              <h4>Standard Support</h4>
+              <p>
+                Response within 24 hours, resolution target within 48 hours for
+                non-critical issues.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeup">
+            <div class="whyDiv">
+              <h4>Premium Support</h4>
+              <p>
+                Response within 8 hours, resolution target within 24 hours for
+                most issues.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv">
+              <h4>Enterprise Support</h4>
+              <p>
+                Response within 4 hours, resolution target within 12 hours, with
+                dedicated support contact.
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="text-center">
+          Each level includes different monitoring frequency and preventive
+          maintenance schedules.
+        </p>
+      </div>
+    </section>
+    <!--  -->
+
+    <section class="pt-5 pb-5">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contractDiv-left">
+              <img src="./images/services/support/img1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contractDiv-right mt-5 mt-lg-0">
+              <h2 class="fw-bold" style="color: #f84ca5">
+                Why choose a maintenance contract?
+              </h2>
+              <p>A maintenance contract offers several advantages:</p>
+              <ul>
+                <li>
+                  <p>
+                    <strong>Security: </strong>Protection against cyber attacks
+                    and vulnerabilities.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Reliability: </strong>Ensures the availability and
+                    performance of your solution.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Cost reduction: </strong>Avoids costly emergency
+                    interventions.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Responsiveness: </strong>Priority intervention and
+                    dedicated assistance.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Peace of mind: </strong>Regular reporting and
+                    transparent communication on your system's health.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <!-- <section class="pt-5 pb-5">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contractDiv-right">
+              <h2 class="fw-bold" style="color: #f84ca5">
+                Typical Intervention Timeframes
+              </h2>
+              <p>
+                Our standard intervention timeframes based on issue severity:
+              </p>
+              <ul>
+                <li>
+                  <p>
+                    <strong>Critical issues (system down): </strong>Initial
+                    response within 1-4 hours, continuous work until resolution.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Major issues (significant impact):</strong>Response
+                    within 4-8 hours, resolution typically within 1 business
+                    day.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Minor issues (limited impact):</strong>Response
+                    within 24 hours, resolution within 2-3 business days.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Enhancement requests: </strong>: Response within 48
+                    hours, implementation timeline provided after assessment.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contractDiv-left">
+              <img src="./images/services/support/img1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="pt-5 pb-5" style="background-color: #ffebf5">
+      <div class="sectionDiv">
+        <h2 class="fw-bold text-center">Typical Intervention Timeframes</h2>
+        <p class="text-center pb-2">
+          Our standard intervention timeframes based on issue severity
+        </p>
+        <div class="row justify-content-center">
+          <div
+            class="col-lg-4 col-12 rounded-start"
+            style="background-color: rgb(245, 82, 82)"
+          >
+            <div class="issuesLeft d-flex align-items-center p-3">
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <div class="ps-4">
+                <h4>Critical issues</h4>
+                <p>(system down)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-12 bg-light rounded-end">
+            <div class="issuesRight p-3">
+              <p>
+                Initial response within 1-4 hours, continuous work until
+                resolution.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div
+            class="col-lg-4 col-12 rounded-start"
+            style="background-color: rgb(245, 226, 82)"
+          >
+            <div class="issuesLeft d-flex align-items-center p-3">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <div class="ps-4">
+                <h4>Major issues</h4>
+                <p>(significant impact)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-12 bg-light rounded-end">
+            <div class="issuesRight p-3">
+              <p>
+                Response within 4-8 hours, resolution typically within 1
+                business day.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div
+            class="col-lg-4 col-12 rounded-start"
+            style="background-color: rgba(82, 109, 245, 0.934)"
+          >
+            <div class="issuesLeft d-flex align-items-center p-3">
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <div class="ps-4">
+                <h4>Minor issues</h4>
+                <p>(limited impact)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-12 bg-light rounded-end">
+            <div class="issuesRight p-3">
+              <p>
+                Response within 24 hours, resolution within 2-3 business days.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div
+            class="col-lg-4 col-12 rounded-start"
+            style="background-color: rgb(55, 202, 41)"
+          >
+            <div class="issuesLeft d-flex align-items-center p-3">
+              <i class="fa-solid fa-circle-plus"></i>
+              <div class="ps-4">
+                <h4>Enhancement requests</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-12 bg-light rounded-end">
+            <div class="issuesRight p-3">
+              <p>
+                Response within 48 hours, implementation timeline provided after
+                assessment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <section class="pt-5" style="background-color: #fafafa">
+      <div class="sectionDiv">
+        <h2 class="fw-bold text-center mb-1" style="color: #f84ca5">
+          Reporting an incident
+        </h2>
+        <p class="text-center mb-1">
+          If you encounter a problem, please contact us via the following form:
+        </p>
+        <p class="fw-bold text-center">Incident declaration form:</p>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="rightDiv fadeInRight pt-1">
+              <form
+                action="support_mail.php"
+                method="POST"
+                class="formDiv"
+                id="supportForm"
+              >
+                <div class="nameDiv">
+                  <input
+                    type="text"
+                    placeholder="Enter Name"
+                    name="name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    placeholder="Enter Email"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div class="nameDiv">
+                  <input
+                    type="text"
+                    placeholder="Enter Mobile Number"
+                    name="phone"
+                    required
+                  />
+                  <select name="level" id="">
+                    <option value="" disabled selected>Severity level</option>
+                    <option value="Critical">Critical</option>
+                    <option value="Major">Major</option>
+                    <option value="Minor">Minor</option>
+                  </select>
+                </div>
+
+                <textarea
+                  style="resize: none"
+                  id=""
+                  cols="30"
+                  rows="4"
+                  placeholder="Problem description"
+                  name="description"
+                  required
+                ></textarea>
+                <div class="submit-btn text-center">
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <section class="pt-5 pb-5">
+      <div class="sectionDiv">
+        <h2 class="text-center fw-bold pb-4">Support Contact</h2>
+        <div class="row g-3">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="support-cta">
+              <h4 class="fw-bold">
+                Customer service <br />
+                number
+              </h4>
+              <p>+91 7483097665</p>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="support-cta">
+              <h4 class="fw-bold">
+                Customer service <br />
+                hours
+              </h4>
+              <p>10:00 - 16:00 (Monday to Friday)</p>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="support-cta">
+              <h4 class="fw-bold">Emergency after-hours support</h4>
+              <p class="mb-0">(Premium and Enterprise plans only):</p>
+              <p>+91 7483097666</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer_bg footer_design">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="./index.html"
+              ><img src="./images/logo.png" class="footer_logo"
+            /></a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-5">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">About</h3>
+              <ul>
+                <li class="about-footer">
+                  In Kanyakumari our team of passionate tech geeks combines
+                  cutting-edge technology with boundless creativity to develop
+                  high-performance digital solutions! From conversion-driven web
+                  design to optimisation strategies that boost your visibility,
+                  we are obsessed with your success.
+                  <p style="margin-bottom: 0px !important; color: #7d7d7d">
+                    <strong
+                      >Your vision + Our expertise = Outstanding
+                      performance</strong
+                    >
+                  </p>
+                </li>
+                <li
+                  class="fw-bold"
+                  style="font-size: 16px; padding: 0px !important; color: white"
+                >
+                  Ready to revolutionise your online presence?<img
+                    width="40px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD20lEQVR4nO2YX2xTZRjGXy/0Tr0gAQ1BgUT+XaACjgAt3uggAaPB7HyrIhAkLJpKGAlmqOecDZ1eLplbSJloHIrCFjelxSll7fed07IEx3q2mozJYNZ269luJOFPIsle853a0pVuKxjOOU36JM9V2+T3vOd9v+89BSippJJKehCSKwJPiALdJArs/Y8I3QV218D50eURVX+vj+mdn+4OByTC8I7pQbCj+tWJNRFV92hKMq6pOqbdG0xe/2Rn+GI6gFgZfBnspN/o+JOakvRmQ+c6O8ShSv88sIsGaHxBRElengle+88XA8kbn70d7ga7KKoknoqo+nAh8Fo6hKJ3QLFVXstyv6K7ixZeMzyxtGjhI0ryr6LreS3bin7EdpU/eTSK1Tu82CCFsI8lZw5Ax1fZqvL+H65g2dNN+Pz8RsMNUmiG9tF/tBU8d+vnfRl47uodvvzwqj7MLzvbDWzP2ThuXv2VAV+2sAnbWqL5+n4kQscWmQb9IaELZELLG9w9VYWcNjzE8aYIdndcNRe+5rWzczioSNgBibAWkdDzEmF/811FdrG4ejr2Zy7Qd0f68R2hEz8+EMDe4NhsJ87IA4OXCVsiCjQxdcVNuZawBMsDH/zpqtEm6X7nIYoGXlN1bP8iOmVg3xU6iwdeM9bhMXz9xW9SA7uoGb/3DBQPvJYVov3Y78i8I+bCf1ARni8JbDQf/HQD+22zhrtfbceavV3GSWPZwKYlC3SVJFCPROjN2SqvnokZbZLudx7CUvhs8dc5iVCx9k2lL1/lub0nLk0ZWP4kbAFf6A3Ll7Jdr7Qb8GsXNxvnf+53Qr54vNF9oQqsUFfr8MnZBpaH8J0YwtDPsbs+U0/HYpKLJvj/PJYEkAiLdniGemYLkc+88rJLifEZ4oeDRQHooCTQ297G3uj9wosCvQaAD5kOj+vhOd+WfeMcoo6cw2D9qclC4FVvPC65WPY9EjYf/iV4HB0wik5A/7YqA6RO6EZa31Zw5bPcYn4AB+zj8LjnUcTEOvR/WZsJEaxvm7wHeJQqWbUVAX41Apx6BnFig2H/sbpMiNyZmBae3+CElpsLvwIeQQdcNwKEVmYC8CfxyzZ3CkwI/tPhGUydToo+UvsGi+SD52sJf58wN4AD1hrw3L7liOrK1JPg7eQE9G7dPy4KdFgibND39R9t/F1YJEzKBy+7AstMhedCB7yVCXC3E7gBnoUcydtDc0WB3boDT5NyBVsBVgidUDcFmreTA7rQCW4sg8em+50o0FbL4bnQCXvQAYfRAdtxI7yAq+FhKHyLtRb+/8qylaGkkkoqCczWvww9lHFaAI+eAAAAAElFTkSuQmCC"
+                    alt="rocket--v1"
+                  />
+                </li>
+                <li
+                  class="fw-bold text-light"
+                  style="
+                    font-size: 16px;
+                    padding: 0px !important;
+                    color: #7d7d7d !important;
+                  "
+                >
+                  Contact our dream team for your free quote!
+                </li>
+              </ul>
+              <div class="getStarted-cta mb-4">
+                <button>Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">About Us</h3>
+              <ul>
+                <li>
+                  <a href="./about.html">About Us</a>
+                </li>
+                <li>
+                  <a href="./skills.html">Skills</a>
+                </li>
+                <li>
+                  <a href="./gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="./index.html#testimonal">Testimonials</a>
+                </li>
+              </ul>
+              <a href="./courses.html">
+                <h3 class="heading fw-bold">Training Lab</h3></a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">Solutions & Support</h3>
+              <ul>
+                <li>
+                  <a href="./solution.html">Solutions</a>
+                </li>
+                <!-- <li>
+                  <a href="./industries.html">Industries</a>
+                </li> -->
+                <li>
+                  <a href="">Guides</a>
+                </li>
+                <li>
+                  <a href="./support-maintenance.html">Support</a>
+                </li>
+                <li>
+                  <a href="">FAQ</a>
+                </li>
+              </ul>
+              <a href="./charity.html"
+                ><h3 class="heading fw-bold">Foundation</h3></a
+              >
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">Connect</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <a href="./legal-information.html">Legal information</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./contact.html">Contact</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./career.html">Careers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="newsletter" style="margin-left: -20px">
+              <h3 class="text-light heading">Newsletter</h3>
+              <input type="text" placeholder="Your email" />
+              <button class="mt-2">Subscribe</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer_bottom">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p class="copyright">
+                        Copyright ©
+                        <span>2025</span>
+                        LoopSpring. All Rights Reserved
+                      </p>
+                    </div>
+                    <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="social_links d-flex">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=61567766033788"
+                        target="_blank"
+                        ><i class="fab fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/loopspring_technologies?igsh=czVkeW1uZTYzajB2"
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/loopspring-technologies/"
+                        target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--==================================================-->
+    <!-- Start  Scroll Up-->
+    <!--==================================================-->
+    <div class="prgoress_indicator active-progress">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 212.78;
+          "
+        ></path>
+      </svg>
+    </div>
+    <!--==================================================-->
+    <!-- End  Scroll Up-->
+    <!--==================================================-->
+
+    <script>
+      document
+        .getElementById("supportForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const form = e.target;
+          const formData = new FormData(form);
+
+          fetch(form.action, {
+            method: "POST",
+            body: formData,
+          })
+            .then((response) => response.text())
+            .then((result) => {
+              if (result.trim() === "success") {
+                alert("Sent successfully!");
+                form.reset();
+              } else {
+                alert("Failed to send. Please try again.");
+              }
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              alert("An error occurred. Please try again later.");
+            });
+        });
+    </script>
+  </body>
+</html>

@@ -6,7 +6,7 @@
     <title>Solutions | LoopSpring</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -21,34 +21,19 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./style/common.css" />
     <link rel="stylesheet" href="./style/industries.css" />
     <link rel="stylesheet" href="./style/animate.css" />
+    <link rel="stylesheet" href="./style/solutions.css" />
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./script/animate.js"></script>
+    <script src="./script/scrollup.js" defer></script>
   </head>
   <body>
     <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
-      <div class="headTopDiv d-flex justify-content-end">
-        <div class="d-flex headTopSubDiv">
-          <div>
-            <i class="fa-regular fa-envelope headIcon me-2"></i>
-            <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
-            <a href="tel:9894365935">+91 9894365935</a>
-          </div>
-        </div>
-        <!-- <div class="headSocialIcon">
-          <a href=""><img src="./images/facebook.webp" /> </a>
-          <a href=""><img src="./images/instagram.png" /> </a>
-          <a href=""><img src="./images/twitter.png" /> </a>
-          <a href=""><img src="./images/linkedin.png" /> </a>
-        </div> -->
-      </div>
-
       <div
         class="d-flex justify-content-between align-items-center headerPadDiv"
       >
@@ -76,62 +61,59 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./about.html"
-                    >About</a
+                    >About Us</a
                   >
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link navColor1">Services</a>
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./website-design.html">
-                        <p>Website Design</p>
+
+                  <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Development & Design</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./website-design.html">
+                          <li>Web Design</li>
+                        </a>
+                        <a href="./web-development.html">
+                          <li>Web Development</li>
+                        </a>
+                        <a href="./mobile-app-development.html"
+                          ><li>Mobile App Development</li></a
+                        >
+                        <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./web-development.html">
-                        <p>Web Development</p>
+
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Digital Transformation & Training</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./digital-transformation.html">
+                          <li>Digital Transformation</li></a
+                        >
+
+                        <a href="./it-training.html"><li>IT Training</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <!-- <a><li style="color: white">Software Company</li></a> -->
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./mobile-app-development.html"
-                      >
-                        <p>Mobile App Development</p>
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Marketing & Promotion</p>
                       </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./testing-QA.html">
-                        <p>Testing and QA</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./ui-ux.html">
-                        <p>UI/UX Design</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./digital-transformation.html"
-                      >
-                        <p>Digital Transformation</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-outsourcing.html">
-                        <p>IT Outsourcing</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-consulting.html">
-                        <p>IT Consulting</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-support.html">
-                        <p>IT Support</p>
-                      </a>
+                      <ul class="subNav-item pb-3">
+                        <a href="./digital-marketing.html">
+                          <li>Digital Marketing</li>
+                        </a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <!-- <a><li style="color: white">Kanniyakumari</li></a> -->
+                      </ul>
                     </li>
                   </ul>
                 </li>
@@ -144,20 +126,15 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navHover navColor" href="./industries.html"
-                    >Industries</a
-                  >
-                </li>
-                <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./courses.html"
-                    >Courses</a
+                    >Training Lab</a
                   >
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./gallery.html"
                     >Gallery</a
                   >
-                </li>
+                </li> -->
                 <li class="nav-item me-0">
                   <a class="nav-link navHover navColor" href="./contact.html"
                     >Contact</a
@@ -192,84 +169,69 @@
           <div class="modal-body">
             <ul class="navbar-nav mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="./index.html" style="color: #f84ca5"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
+                <a class="nav-link" href="./about.html">About Us</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link">Services</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./website-design.html">
-                      <p>Website Design</p>
+
+                <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Development & Design</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./website-design.html">
+                        <li>Web Design</li>
+                      </a>
+                      <a href="./web-development.html">
+                        <li>Web Development</li>
+                      </a>
+                      <a href="./mobile-app-development.html"
+                        ><li>Mobile App Development</li></a
+                      >
+                      <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./web-development.html">
-                      <p>Web Development</p>
+
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Digital Transformation & Training</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./digital-transformation.html">
+                        <li>Digital Transformation</li></a
+                      >
+
+                      <a href="./it-training.html"><li>IT Training</li></a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./mobile-app-development.html"
-                    >
-                      <p>Mobile App Development</p>
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Marketing & Promotion</p>
                     </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./testing-QA.html">
-                      <p>Testing and QA</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./ui-ux.html">
-                      <p>UI/UX Design</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./digital-transformation.html"
-                    >
-                      <p>Digital Transformation</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-outsourcing.html">
-                      <p>IT Outsourcing</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-consulting.html">
-                      <p>IT Consulting</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-support.html">
-                      <p>IT Support</p>
-                    </a>
+                    <ul class="subNav-item pb-3">
+                      <a href="./digital-marketing.html">
+                        <li>Digital Marketing</li>
+                      </a>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="./solution.html"
-                  style="color: #f84ca5"
-                  >Solutions</a
-                >
+                <a class="nav-link" href="./solution.html">Solutions</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="./industries.html">Industries</a>
+                <a class="nav-link" href="./courses.html">Training Lab</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./courses.html">Courses</a>
-              </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="./gallery.html">Gallery</a>
-              </li>
+              </li> -->
               <li class="nav-item me-0">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
@@ -278,83 +240,219 @@
         </div>
       </div>
     </div>
-    <div class="top-image position-relative" id="topPad">
+
+    <!--  -->
+    <section class="aboutDiv">
+      <div class="sectionDiv">
+        <div class="row align-items-center">
+          <div
+            class="col-sm-7 col-md-6 col-lg-5 col-xl-5 order-2 order-sm-2 fadeInLeft mt-3 mt-lg-0"
+          >
+            <img
+              src="./images/services/mobileapp/mobileapp.png"
+              class="w-100"
+            />
+          </div>
+          <div
+            class="col-sm-5 col-md-6 col-lg-7 col-xl-7 order-1 order-sm-1 ps-0 ps-md-5 fadeInRight"
+          >
+            <h2 style="color: #f84ca5">
+              <strong>Simplify your digital transformation</strong>
+            </h2>
+            <h2>
+              Enhance your business performance with our tailored digital
+              solutions.
+            </h2>
+            <p>
+              Optimise your processes, improve management efficiency, and gain a
+              competitive edge with our innovative tools.
+            </p>
+            <div class="ctaBtn text-center text-lg-start">
+              <a href="./contact.html"> <button>Request a free demo</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!-- <div class="top-image position-relative" id="topPad">
       <img src="./images/solutions/solution.jpg" class="w-100" />
       <div id="overlayDiv">
-        <h2>"Innovative Solutions for Every Need"</h2>
-        <p class="topContent">
-          Elevate your business with cutting-edge software solutions tailored to
-          your unique requirements
+        <h5>Simplify Your Digital Transformation</h5>
+        <h2 class="topContent">
+          Enhance your business performance with our tailored digital solutions.
+        </h2>
+        <p>
+          Optimise your processes, improve management efficiency, and gain a
+          competitive edge with our innovative tools.
         </p>
       </div>
-    </div>
+    </div> -->
     <section class="services sectionDiv">
-      <h1 class="pt-5 fadeup">Solutions We Deliver</h1>
-      <p class="pt-2 text-center fadeup">
-        At LoopSpring, we provide a comprehensive range of software solutions
-        tailored to meet the diverse needs of modern businesses. With our
-        innovative technology and industry expertise, we empower organizations
-        to optimize their operations, drive growth, and stay ahead of the
-        competition. Explore our offerings below:
-      </p>
+      <div class="solution-subHeading">
+        <h1 class="pt-5">Our Digital Solutions for Businesses</h1>
+      </div>
+
+      <div class="solution-subHeading">
+        <h2 class="text-center"><strong>Business Resources</strong></h2>
+        <p class="text-center">
+          Optimise your operations and make informed decisions with our
+          integrated tools.
+        </p>
+      </div>
+
+      <div class="row mt-5">
+        <div
+          class="col-sm-12 col-12 col-md-6 col-lg-3 d-flex align-items-stretch mb-5 fadeup"
+        >
+          <div class="icon-box">
+            <img src="./images/solutions/erp.png" />
+            <h4 class="title">Integrated ERP</h4>
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-12 col-md-6 col-lg-3 d-flex align-items-stretch mb-5 fadeup"
+        >
+          <div class="icon-box">
+            <img src="./images/solutions/crm.png" />
+            <h4 class="title">CRM & Sales</h4>
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-12 col-md-6 col-lg-3 d-flex align-items-stretch mb-5 fadeup"
+        >
+          <div class="icon-box">
+            <img src="./images/solutions/ecommerce.png" />
+            <h4 class="title">Ecommerce</h4>
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-12 col-md-6 col-lg-3 d-flex align-items-stretch mb-5 fadeup"
+        >
+          <div class="icon-box">
+            <img src="./images/solutions/webportal.png" />
+            <h4 class="title">Web Portals</h4>
+          </div>
+        </div>
+      </div>
+      <h5>
+        <span style="color: #f84ca5"
+          ><strong>Customer experience : </strong></span
+        >
+        One of our clients reduced operational costs by 30% using our ERP.
+      </h5>
+      <div class="ctaBtn text-center">
+        <a href="./contact.html"
+          ><button>Explore our business management solutions</button></a
+        >
+      </div>
+
+      <div class="solution-subHeading mt-5">
+        <h2 class="text-center"><strong>Resource Management</strong></h2>
+        <p class="text-center">
+          Effectively manage your teams and foster professional development.
+        </p>
+      </div>
+
       <div class="row mt-5">
         <div
           class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
         >
           <div class="icon-box">
-            <img src="./images/solutions/erp.png" />
-            <h4 class="title">ERP (Enterprise Resource Planning)</h4>
-            <p class="description" style="text-align: justify">
-              Streamline your business processes and improve efficiency with our
-              comprehensive ERP solutions. From operations and financial
-              management to supply chain and human resources, our ERP software
-              integrates seamlessly to provide a unified view of your
-              organization
-            </p>
+            <img src="./images/solutions/hrms.png" />
+            <h4 class="title">Human Resource Management</h4>
           </div>
         </div>
         <div
           class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
         >
           <div class="icon-box">
-            <img src="./images/solutions/operationsmgnt.png" />
-            <h4 class="title">Operations Management</h4>
-            <p class="description" style="text-align: justify">
-              Optimize your operations and enhance productivity with our
-              operations management solutions. From workflow automation to
-              resource allocation, we help you streamline processes and improve
-              efficiency across your organization.
-            </p>
+            <img src="./images/solutions/elearning.png" />
+            <h4 class="title">E-learning</h4>
           </div>
         </div>
         <div
           class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
         >
           <div class="icon-box">
-            <img src="./images/solutions/finance.png" />
-            <h4 class="title">Financial Management</h4>
-            <p class="description" style="text-align: justify">
-              Gain control over your finances and make informed decisions with
-              our financial management solutions. From budgeting and forecasting
-              to accounting and reporting, our software helps you manage your
-              finances effectively.Gain control over your finances and make
-              informed decisions with our financial management solutions. From
-              budgeting and forecasting to accounting and reporting, our
-              software helps you manage your finances effectively.
-            </p>
+            <img src="./images/solutions/training.svg" />
+            <h4 class="title">Training</h4>
+          </div>
+        </div>
+        <h5>
+          <span style="color: #f84ca5"
+            ><strong>Customer experience : </strong></span
+          >
+          Empowering WHL Industries with a smart ERP web app to simplify
+          workforce, food, loan, and stock management boosting efficiency across
+          every department.
+        </h5>
+      </div>
+      <div class="ctaBtn text-center">
+        <a href="./contact.html">
+          <button>Optimise your resources today.</button></a
+        >
+      </div>
+      <div class="solution-subHeading mt-5">
+        <h2 class="text-center">
+          <strong>Digitalisation & Automation</strong>
+        </h2>
+        <p class="text-center">
+          Automate your processes to save time and reduce costs.
+        </p>
+      </div>
+
+      <div class="row mt-5">
+        <div
+          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
+        >
+          <div class="icon-box">
+            <img src="./images/solutions/business-process.svg" />
+            <h4 class="title">Business Process Automation</h4>
           </div>
         </div>
         <div
           class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
         >
           <div class="icon-box">
-            <img src="./images/solutions/payment.png" />
-            <h4 class="title">Payment Management</h4>
-            <p class="description" style="text-align: justify">
-              Simplify payment processing and improve cash flow with our payment
-              management solutions. From invoice generation to payment tracking,
-              we provide secure and reliable payment solutions tailored to your
-              business needs
+            <img src="./images/solutions/supplychain.png" />
+            <h4 class="title">Automated Workflows</h4>
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
+        >
+          <div class="icon-box">
+            <img src="./images/solutions/web-portals.svg" />
+            <h4 class="title">Web Portals & Collaborative Platforms</h4>
+          </div>
+        </div>
+      </div>
+      <div class="ctaBtn text-center">
+        <a href="./contact.html">
+          <button>Accelerate your digital transformation.</button></a
+        >
+      </div>
+      <!--  -->
+      <div class="solution-subHeading mt-5">
+        <h2 class="text-center">
+          <strong>IT Services & Consulting </strong>
+        </h2>
+        <p class="text-center">
+          Leverage advanced IT solutions to strengthen your digital
+          infrastructure.
+        </p>
+      </div>
+
+      <div class="row mt-5">
+        <div
+          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
+        >
+          <div class="icon-box">
+            <img src="./images/solutions/business-process.svg" />
+            <h4 class="title">IT Consulting & Digital Transformation</h4>
+            <p class="description" style="text-align: center">
+              Get strategic support to modernise your systems.
             </p>
           </div>
         </div>
@@ -363,12 +461,9 @@
         >
           <div class="icon-box">
             <img src="./images/solutions/supplychain.png" />
-            <h4 class="title">Supply Chain Management</h4>
-            <p class="description" style="text-align: justify">
-              Streamline your supply chain and optimize inventory management
-              with our supply chain management solutions. From procurement and
-              logistics to inventory tracking and demand forecasting, we help
-              you improve visibility and efficiency across your supply chain
+            <h4 class="title">IT Outsourcing</h4>
+            <p class="description" style="text-align: center">
+              Entrust us with your infrastructure management to optimise
             </p>
           </div>
         </div>
@@ -376,181 +471,89 @@
           class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
         >
           <div class="icon-box">
-            <img src="./images/solutions/dataAnalytics.png" />
-            <h4 class="title">Data Analytics</h4>
-            <p class="description" style="text-align: justify">
-              Unlock valuable insights from your data and make data-driven
-              decisions with our data analytics solutions. From data
-              visualization to predictive analytics, we help you turn raw data
-              into actionable insights to drive business growth
+            <img src="./images/solutions/web-portals.svg" />
+            <h4 class="title">IT Support</h4>
+            <p class="description" style="text-align: center">
+              Ensure the stability and performance of your IT systems.
+              [Call-to-action] Discover how our IT services can improve your
+              business.
             </p>
           </div>
         </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/asset.png" />
-            <h4 class="title">Asset Management</h4>
-            <p class="description" style="text-align: justify">
-              Maximize the value of your assets and optimize asset performance
-              with our asset management solutions. From asset tracking to
-              maintenance scheduling, we help you manage your assets effectively
-              and reduce downtime.
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/fleet.png" />
-            <h4 class="title">Fleet Management</h4>
-            <p class="description" style="text-align: justify">
-              Optimize fleet operations and improve fleet efficiency with our
-              fleet management solutions. From vehicle tracking to route
-              optimization, we help you reduce costs, improve safety, and
-              enhance customer satisfaction
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/hrms.png" />
-            <h4 class="title">Human Resources</h4>
-            <p class="description" style="text-align: justify">
-              Streamline HR processes and improve employee engagement with our
-              human resources solutions. From payroll and benefits
-              administration to talent management and performance tracking, we
-              help you manage your workforce effectively
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/elearning.png" />
-            <h4 class="title">eLearning</h4>
-            <p class="description" style="text-align: justify">
-              Transform your training programs and empower employees with our
-              eLearning solutions. From interactive courses to learning
-              management systems, we provide engaging and scalable eLearning
-              solutions tailored to your organization's needs.
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/documentmgnt.png" />
-            <h4 class="title">Document Management</h4>
-            <p class="description" style="text-align: justify">
-              Digitize and streamline document management processes with our
-              document management solutions. From document storage and retrieval
-              to version control and workflow automation, we help you manage
-              your documents efficiently and securely
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/projectmgnt.png" />
-            <h4 class="title">Project Management</h4>
-            <p class="description" style="text-align: justify">
-              Plan, track, and manage projects effectively with our project
-              management solutions. From task management to resource allocation
-              and progress tracking, our software helps you deliver projects on
-              time and within budget
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/crm.png" />
-            <h4 class="title">CRM (Customer Relationship Management)</h4>
-            <p class="description" style="text-align: justify">
-              Strengthen customer relationships and drive sales growth with our
-              CRM solutions. From lead management to customer engagement and
-              support, our CRM software helps you deliver personalized
-              experiences and improve customer satisfaction
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/ecommerce.png" />
-            <h4 class="title">Ecommerce</h4>
-            <p class="description" style="text-align: justify">
-              Launch and grow your online business with our ecommerce solutions.
-              From storefront design and product catalog management to order
-              processing and payment integration, we provide end-to-end
-              ecommerce solutions to help you succeed in the digital marketplace
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/marketing.png" />
-            <h4 class="title">Marketing & Advertising</h4>
-            <p class="description" style="text-align: justify">
-              Reach your target audience and drive brand awareness with our
-              marketing and advertising solutions. From campaign management to
-              customer segmentation and analytics, we help you create targeted
-              marketing campaigns that deliver results.
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/cms.png" />
-            <h4 class="title">Content Management</h4>
-            <p class="description" style="text-align: justify">
-              Manage and deliver digital content effectively with our content
-              management solutions. From content creation and publishing to
-              workflow management and analytics, we help you create, manage, and
-              optimize content across channels.
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="./images/solutions/webportal.png" />
-            <h4 class="title">Web Portals</h4>
-            <p class="description" style="text-align: justify">
-              Create secure and user-friendly web portals with our web portal
-              solutions. From customer portals to employee intranets, we help
-              you build interactive and personalized web portals that enhance
-              communication, collaboration, and productivity.
-            </p>
-          </div>
-        </div>
-        <!-- <div
-          class="col-sm-12 col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-5 fadeup"
-        >
-          <div class="icon-box">
-            <img src="" />
-            <h4 class="title"></h4>
-            <p class="description" style="text-align: justify"></p>
-          </div>
-        </div> -->
       </div>
     </section>
+
+    <section class="mb-5">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="whyRight">
+              <img src="./images/solutions/whyChoose.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="whyLeft">
+              <h2 style="color: #f84ca5">Why Choose Our Solutions? <br /></h2>
+              <h2 class="pb-4"><strong>Key advantages</strong></h2>
+              <p>
+                <i class="fa-solid fa-star pe-2"></i>Scalable and adaptable
+                solutions
+              </p>
+              <p>
+                <i class="fa-solid fa-star pe-2"></i>High security and GDPR
+                compliance
+              </p>
+              <p>
+                <i class="fa-solid fa-star pe-2"></i>
+                Fast integration and dedicated support Comparison table: Our
+                solutions vs traditional methods.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-5 pb-5" style="background-color: #ffebf5">
+      <div class="sectionDiv">
+        <h2 class="text-center">
+          <strong>Testimonials and Success Stories</strong>
+        </h2>
+        <p class="text-center">
+          "We increase sales by 40% in just six months!" Rakesh - WHL Marine"
+        </p>
+        <div class="ctaBtn text-center">
+          <a href="./contact.html">
+            <button>Join our satisfied clients.</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--==================================================-->
+    <!-- Start  Scroll Up-->
+    <!--==================================================-->
+    <div class="prgoress_indicator active-progress">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 212.78;
+          "
+        ></path>
+      </svg>
+    </div>
+    <!--==================================================-->
+    <!-- End  Scroll Up-->
+    <!--==================================================-->
+
     <footer class="footer_bg footer_design">
       <div class="sectionDiv">
         <div class="row">
@@ -561,106 +564,120 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-sm-3">
+          <div class="col-md-5">
             <div class="footer_link_colom">
-              <h3 class="heading">About</h3>
+              <h3 class="heading fw-bold">About</h3>
               <ul>
-                <li>
-                  Improving provides consulting, software development and
-                  training to our customers through high environments of trust.
+                <li class="about-footer">
+                  In Kanyakumari our team of passionate tech geeks combines
+                  cutting-edge technology with boundless creativity to develop
+                  high-performance digital solutions! From conversion-driven web
+                  design to optimisation strategies that boost your visibility,
+                  we are obsessed with your success.
+                  <p style="margin-bottom: 0px !important; color: #7d7d7d">
+                    <strong
+                      >Your vision + Our expertise = Outstanding
+                      performance</strong
+                    >
+                  </p>
+                </li>
+                <li
+                  class="fw-bold"
+                  style="font-size: 16px; padding: 0px !important; color: white"
+                >
+                  Ready to revolutionise your online presence?<img
+                    width="40px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD20lEQVR4nO2YX2xTZRjGXy/0Tr0gAQ1BgUT+XaACjgAt3uggAaPB7HyrIhAkLJpKGAlmqOecDZ1eLplbSJloHIrCFjelxSll7fed07IEx3q2mozJYNZ269luJOFPIsle853a0pVuKxjOOU36JM9V2+T3vOd9v+89BSippJJKehCSKwJPiALdJArs/Y8I3QV218D50eURVX+vj+mdn+4OByTC8I7pQbCj+tWJNRFV92hKMq6pOqbdG0xe/2Rn+GI6gFgZfBnspN/o+JOakvRmQ+c6O8ShSv88sIsGaHxBRElengle+88XA8kbn70d7ga7KKoknoqo+nAh8Fo6hKJ3QLFVXstyv6K7ixZeMzyxtGjhI0ryr6LreS3bin7EdpU/eTSK1Tu82CCFsI8lZw5Ax1fZqvL+H65g2dNN+Pz8RsMNUmiG9tF/tBU8d+vnfRl47uodvvzwqj7MLzvbDWzP2ThuXv2VAV+2sAnbWqL5+n4kQscWmQb9IaELZELLG9w9VYWcNjzE8aYIdndcNRe+5rWzczioSNgBibAWkdDzEmF/811FdrG4ejr2Zy7Qd0f68R2hEz8+EMDe4NhsJ87IA4OXCVsiCjQxdcVNuZawBMsDH/zpqtEm6X7nIYoGXlN1bP8iOmVg3xU6iwdeM9bhMXz9xW9SA7uoGb/3DBQPvJYVov3Y78i8I+bCf1ARni8JbDQf/HQD+22zhrtfbceavV3GSWPZwKYlC3SVJFCPROjN2SqvnokZbZLudx7CUvhs8dc5iVCx9k2lL1/lub0nLk0ZWP4kbAFf6A3Ll7Jdr7Qb8GsXNxvnf+53Qr54vNF9oQqsUFfr8MnZBpaH8J0YwtDPsbs+U0/HYpKLJvj/PJYEkAiLdniGemYLkc+88rJLifEZ4oeDRQHooCTQ297G3uj9wosCvQaAD5kOj+vhOd+WfeMcoo6cw2D9qclC4FVvPC65WPY9EjYf/iV4HB0wik5A/7YqA6RO6EZa31Zw5bPcYn4AB+zj8LjnUcTEOvR/WZsJEaxvm7wHeJQqWbUVAX41Apx6BnFig2H/sbpMiNyZmBae3+CElpsLvwIeQQdcNwKEVmYC8CfxyzZ3CkwI/tPhGUydToo+UvsGi+SD52sJf58wN4AD1hrw3L7liOrK1JPg7eQE9G7dPy4KdFgibND39R9t/F1YJEzKBy+7AstMhedCB7yVCXC3E7gBnoUcydtDc0WB3boDT5NyBVsBVgidUDcFmreTA7rQCW4sg8em+50o0FbL4bnQCXvQAYfRAdtxI7yAq+FhKHyLtRb+/8qylaGkkkoqCczWvww9lHFaAI+eAAAAAElFTkSuQmCC"
+                    alt="rocket--v1"
+                  />
+                </li>
+                <li
+                  class="fw-bold text-light"
+                  style="
+                    font-size: 16px;
+                    padding: 0px !important;
+                    color: #7d7d7d !important;
+                  "
+                >
+                  Contact our dream team for your free quote!
                 </li>
               </ul>
+              <div class="getStarted-cta mb-4">
+                <button>Get Started</button>
+              </div>
             </div>
           </div>
-          <div class="col-sm-2">
+          <div class="col-md-2">
             <div class="footer_link_colom">
-              <h3 class="heading">Quick Links</h3>
+              <h3 class="heading fw-bold">About Us</h3>
               <ul>
                 <li>
-                  <a href="./index.html">Home</a>
+                  <a href="./about.html">About Us</a>
                 </li>
                 <li>
-                  <a href="./about.html">About us</a>
+                  <a href="./skills.html">Skills</a>
                 </li>
                 <li>
                   <a href="./gallery.html">Gallery</a>
                 </li>
                 <li>
-                  <a href="./contact.html">Contact us</a>
+                  <a href="./index.html#testimonal">Testimonials</a>
                 </li>
               </ul>
+              <a href="./courses.html">
+                <h3 class="heading fw-bold">Training Lab</h3></a
+              >
             </div>
           </div>
-          <div class="col-sm-2">
+
+          <div class="col-md-3">
             <div class="footer_link_colom">
-              <h3 class="heading">Services</h3>
-              <ul>
-                <li>
-                  <a href="./website-design.html">Website Design</a>
-                </li>
-                <li>
-                  <a href="./web-development.html">Web Development</a>
-                </li>
-                <li>
-                  <a href="./mobile-app-development.html"
-                    >Mobile App Development</a
-                  >
-                </li>
-                <li>
-                  <a href="./testing-QA.html">Testing & QA</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="footer_link_colom">
-              <h3 class="heading">Important Link</h3>
+              <h3 class="heading fw-bold">Solutions & Support</h3>
               <ul>
                 <li>
                   <a href="./solution.html">Solutions</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="./industries.html">Industries</a>
+                </li> -->
+                <li>
+                  <a href="">Guides</a>
                 </li>
                 <li>
-                  <a href="./courses.html">Courses</a>
+                  <a href="./support-maintenance.html">Support</a>
                 </li>
                 <li>
-                  <a href="./it-support.html">IT Support</a>
+                  <a href="">FAQ</a>
+                </li>
+              </ul>
+              <a href="./charity.html"
+                ><h3 class="heading fw-bold">Foundation</h3></a
+              >
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">Connect</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <a href="./legal-information.html">Legal information</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./contact.html">Contact</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./career.html">Careers</a>
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="footer_link_colom">
-              <h3 class="heading">Connect with Loopspring</h3>
-              <ul>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <a class="pl-4" href="./contact.html"
-                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
-                    Mulagumoodu (PO) – 629167, Kanyakumari District.
-                  </a>
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-envelope"></i>
-                  <a href="mailto:info@loopspring.com" class="pl-4"
-                    >info@loopspring.com</a
-                  >
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-phone-volume"></i>
-                  <div>
-                    <a href="tel:9894365935" class="footer_call pl-4"
-                      >+91 9894365935</a
-                    ><span class="comma">,</span
-                    ><a href="tel:8300016424">+91 8300016424</a>
-                  </div>
-                </li>
-              </ul>
+            <div class="newsletter" style="margin-left: -20px">
+              <h3 class="text-light heading">Newsletter</h3>
+              <input type="text" placeholder="Your email" />
+              <button class="mt-2">Subscribe</button>
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-sm-12">
             <div class="footer_bottom">
@@ -670,8 +687,8 @@
                     <div class="col-sm-6">
                       <p class="copyright">
                         Copyright ©
-                        <span>2024</span>
-                        Loopspring. All Rights Reserved
+                        <span>2025</span>
+                        LoopSpring. All Rights Reserved
                       </p>
                     </div>
                     <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
@@ -681,21 +698,21 @@
                   <ul class="social_links d-flex">
                     <li>
                       <a
-                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        href="https://www.facebook.com/profile.php?id=61567766033788"
                         target="_blank"
                         ><i class="fab fa-facebook"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        href="https://www.instagram.com/loopspring_technologies?igsh=czVkeW1uZTYzajB2"
                         target="_blank"
                         ><i class="fab fa-instagram"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        href="https://www.linkedin.com/company/loopspring-technologies/"
                         target="_blank"
                         ><i class="fab fa-linkedin"></i
                       ></a>
@@ -708,7 +725,7 @@
         </div>
       </div>
     </footer>
-    <script>
+    <!-- <script>
       function applyStyles() {
         let height = document.getElementById("header").offsetHeight;
         document.getElementById("topPad").style.paddingTop = height + "px";
@@ -718,6 +735,6 @@
       window.onresize = function () {
         applyStyles();
       };
-    </script>
+    </script> -->
   </body>
 </html>

@@ -56,6 +56,65 @@
   font-weight: 700;
 }
 
+/* .expertise-heading {
+  display: flex;
+} */
+.expertiseDiv {
+  background-color: white;
+  padding: 25px 25px;
+  border-radius: 6px;
+}
+.expertiseDiv:hover {
+  box-shadow: rgba(165, 149, 165, 0.2) 0px 8px 24px;
+}
+.expertiseDiv ul {
+  list-style: none;
+}
+.expertiseDiv ul li {
+  margin-bottom: 10px;
+}
+.expertiseDiv ul li i {
+  color: #e74699;
+}
+.whyChooseLeft img {
+  width: 100%;
+  border-radius: 8px;
+}
+.csr-vision-img img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.logo-image img {
+  width: 250px;
+}
+.contact-btn button {
+  text-decoration: none;
+  background-color: #9629db;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-top: 1.5rem;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.contact-btn button:hover {
+  background-color: #e74699;
+}
+/*  */
+.coreDiv img {
+  width: 70%;
+}
+@media (max-width: 991px) {
+  .expertiseDiv ul {
+    padding-left: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .coreDiv img {
+    width: 100%;
+  }
+}
 @media (max-width: 400px) {
   .aboutDiv h2 {
     font-size: 23px;

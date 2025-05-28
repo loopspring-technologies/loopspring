@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Loopspring</title>
+    <title>Services | LoopSpring</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="./style/owl.carousel.min.css" />
     <link rel="stylesheet" href="./style/common.css" />
-    <link rel="stylesheet" href="./style/index.css" />
+
     <link rel="stylesheet" href="./style/services.css" />
     <link rel="stylesheet" href="./style/animate.css" />
 
@@ -28,28 +28,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./script/owl.carousel.min.js"></script>
     <script src="./script/animate.js"></script>
+    <script src="./script/scrollup.js" defer></script>
   </head>
   <body>
     <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
-      <div class="headTopDiv d-flex justify-content-end">
-        <div class="d-flex headTopSubDiv">
-          <div>
-            <i class="fa-regular fa-envelope headIcon me-2"></i>
-            <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
-            <a href="tel:9894365935">+91 9894365935</a>
-          </div>
-        </div>
-        <!-- <div class="headSocialIcon">
-          <a href=""><img src="./images/facebook.webp" /> </a>
-          <a href=""><img src="./images/instagram.png" /> </a>
-          <a href=""><img src="./images/twitter.png" /> </a>
-          <a href=""><img src="./images/linkedin.png" /> </a>
-        </div> -->
-      </div>
-
       <div
         class="d-flex justify-content-between align-items-center headerPadDiv"
       >
@@ -77,64 +59,61 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./about.html"
-                    >About</a
+                    >About Us</a
                   >
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link navColor1 activeTab" style="color: #f84ca5"
                     >Services</a
                   >
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./website-design.html">
-                        <p>Website Design</p>
+
+                  <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Development & Design</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./website-design.html">
+                          <li>Web Design</li>
+                        </a>
+                        <a href="./web-development.html">
+                          <li>Web Development</li>
+                        </a>
+                        <a href="./mobile-app-development.html"
+                          ><li>Mobile App Development</li></a
+                        >
+                        <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./web-development.html">
-                        <p>Web Development</p>
+
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Digital Transformation & Training</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./digital-transformation.html">
+                          <li>Digital Transformation</li></a
+                        >
+
+                        <a href="./it-training.html"><li>IT Training</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <!-- <a><li style="color: white">Software Company</li></a> -->
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./mobile-app-development.html"
-                      >
-                        <p>Mobile App Development</p>
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Marketing & Promotion</p>
                       </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./testing-QA.html">
-                        <p>Testing and QA</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./ui-ux.html">
-                        <p>UI/UX Design</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./digital-transformation.html"
-                      >
-                        <p>Digital Transformation</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-outsourcing.html">
-                        <p>IT Outsourcing</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-consulting.html">
-                        <p>IT Consulting</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-support.html">
-                        <p>IT Support</p>
-                      </a>
+                      <ul class="subNav-item pb-3">
+                        <a href="./digital-marketing.html">
+                          <li>Digital Marketing</li>
+                        </a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <!-- <a><li style="color: white">Kanniyakumari</li></a> -->
+                      </ul>
                     </li>
                   </ul>
                 </li>
@@ -144,20 +123,11 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navHover navColor" href="./industries.html"
-                    >Industries</a
-                  >
-                </li>
-                <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./courses.html"
-                    >Courses</a
+                    >Training Lab</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link navHover navColor" href="./gallery.html"
-                    >Gallery</a
-                  >
-                </li>
+
                 <li class="nav-item me-0">
                   <a class="nav-link navHover navColor" href="./contact.html"
                     >Contact</a
@@ -192,79 +162,66 @@
           <div class="modal-body">
             <ul class="navbar-nav mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="./index.html" style="color: #f84ca5"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
+                <a class="nav-link" href="./about.html">About Us</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" style="color: #f84ca5">Services</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./website-design.html">
-                      <p>Website Design</p>
+                <a class="nav-link">Services</a>
+                <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Development & Design</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./website-design.html">
+                        <li>Web Design</li>
+                      </a>
+                      <a href="./web-development.html">
+                        <li>Web Development</li>
+                      </a>
+                      <a href="./mobile-app-development.html"
+                        ><li>Mobile App Development</li></a
+                      >
+                      <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./web-development.html">
-                      <p>Web Development</p>
+
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Digital Transformation & Training</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./digital-transformation.html">
+                        <li>Digital Transformation</li></a
+                      >
+
+                      <a href="./it-training.html"><li>IT Training</li></a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./mobile-app-development.html"
-                    >
-                      <p>Mobile App Development</p>
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Marketing & Promotion</p>
                     </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./testing-QA.html">
-                      <p>Testing and QA</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./ui-ux.html">
-                      <p>UI/UX Design</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./digital-transformation.html"
-                    >
-                      <p>Digital Transformation</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-outsourcing.html">
-                      <p>IT Outsourcing</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-consulting.html">
-                      <p>IT Consulting</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-support.html">
-                      <p>IT Support</p>
-                    </a>
+                    <ul class="subNav-item pb-3">
+                      <a href="./digital-marketing.html">
+                        <li>Digital Marketing</li>
+                      </a>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./solution.html">Solutions</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="./industries.html">Industries</a>
+                <a class="nav-link" href="./courses.html">Training Lab</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./courses.html">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Gallery</a>
-              </li>
+
               <li class="nav-item me-0">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
@@ -276,111 +233,333 @@
     <section class="aboutDiv">
       <div class="sectionDiv">
         <div class="row align-items-center">
-          <div class="col-sm-7 col-md-6 col-lg-8 col-xl-7 fadeInLeft">
-            <img src="./images/services/digital/img1.png" class="w-100" />
+          <div
+            class="col-sm-7 col-md-6 col-lg-5 col-xl-5 order-2 order-sm-2 fadeInLeft"
+          >
+            <h2 class="text-center pb-4">
+              <span style="color: #f84ca5">Digital Transformation</span>
+            </h2>
+            <img
+              src="./images/services/mobileapp/mobileapp.png"
+              class="w-100"
+            />
           </div>
           <div
-            class="col-sm-5 col-md-6 col-lg-4 col-xl-5 ps-0 ps-md-5 fadeInRight"
+            class="col-sm-5 col-md-6 col-lg-7 col-xl-7 order-1 order-sm-1 ps-0 ps-md-5 fadeInRight"
           >
-            <h2 style="font-size: 22px">Digital Transformation</h2>
-            <ul>
-              <li>
-                <i class="fa-solid fa-star me-2"></i
-                ><span>
-                  Conduct a comprehensive assessment of LoopSpring's current
-                  digital capabilities, identifying strengths, weaknesses, and
-                  areas for improvement.
-                </span>
-              </li>
-              <li>
-                <i class="fa-solid fa-star me-2"></i
-                ><span
-                  >Define a clear vision and strategy for digital
-                  transformation, outlining the desired outcomes.</span
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-star me-2"></i
-                ><span
-                  >Organizations need a clear vision and strategy for digital
-                  transformation, aligning digital initiatives with business
-                  objectives.</span
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-star me-2"></i
-                ><span>
-                  Implementing digital technologies across various functions and
-                  processes within the organization to streamline operations.
-                </span>
-              </li>
-            </ul>
+            <h2>Revolutionise your business with strategic innovation</h2>
+            <h4>
+              Unleash your business potential through comprehensive Digital
+              Transformation
+            </h4>
+            <p>
+              The digital era is here, and LoopSpring is your strategic partner
+              in navigating this revolutionary journey. From internal process
+              digitalisation to enhanced customer experience optimisation, we
+              guide you through every stage of digital transformation. With our
+              expertise, transform your organisation into a digital leader –
+              more agile, competitive, and future-ready.
+            </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="mt-5 pt-4">
+
+    <!--  -->
+    <section class="pt-5">
+      <div class="spacingDiv">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="whyChooseLeft">
+              <img
+                src="./images/services/digital/digital-transformation.png"
+                alt="Software development consultation with the LoopSpring team in India"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0 digitalDiv">
+            <h2 class="fw-bold" style="color: #f84ca5">
+              Strategic advantages of successful digital transformation
+            </h2>
+            <p>
+              Digital transformation is more than a trend – it's a critical
+              necessity for maintaining competitive edge and accelerating
+              growth. Discover the tangible benefits you'll achieve with
+              LoopSpring :
+            </p>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="zShape">
+                  <strong>• Competitive enhancement :</strong> <br />
+                  <div class="ps-3">
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>
+                        Become a more responsive and innovative organisation
+                      </p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Rapidly adapt to evolving market dynamics</p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Stay ahead of industry technological shifts</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 ms-lg-auto">
+                <div class="zShape">
+                  <strong>• Internal process optimisation :</strong> <br />
+                  <div class="ps-3">
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Automate critical business operations</p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Implement intelligent data management</p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Reduce operational expenditure</p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Increase overall organisational efficiency</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="zShape">
+                  <strong>• Commercial performance improvement :</strong> <br />
+                  <div class="ps-3">
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Boost profitability through advanced digital tools</p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Scale customer engagement strategies</p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Implement data-driven sales optimization techniques</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 ms-lg-auto">
+                <div class="zShape">
+                  <strong>• Scalable and Customised Solutions :</strong> <br />
+                  <div class="ps-3">
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>
+                        Build a digital infrastructure that grows with your
+                        business
+                      </p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Develop future-proof technological ecosystems</p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Support long-term strategic objectives</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="zShape">
+                  <strong>• Innovation-Driven Culture :</strong> <br />
+                  <div class="ps-3">
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Adopt cutting-edge technologies</p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>Implement forward-thinking digital practices</p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa-solid fa-star pe-2 pt-2"></i>
+                      <p>
+                        Position your organisation at the forefront of industry
+                        innovation
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <ul style="list-style: none">
+              <li>
+                <strong>• Competitive enhancement :</strong> <br />
+                <p class="ps-3">
+                  <i class="fa-solid fa-star pe-2"></i>Become a more responsive
+                  and innovative organisation <br />
+                  <i class="fa-solid fa-star pe-2"></i>Rapidly adapt to evolving
+                  market dynamics <br />
+                  <i class="fa-solid fa-star pe-2"></i>Stay ahead of industry
+                  technological shifts <br />
+                </p>
+              </li>
+              <li>
+                <div class="d-flex flex-column align-items-end">
+                  <div>
+                    <strong>• Internal process optimisation :</strong>
+                    <p class="ps-3">
+                      <i class="fa-solid fa-star pe-2"></i>Automate critical
+                      business operations <br />
+                      <i class="fa-solid fa-star pe-2"></i>Implement intelligent
+                      data management <br />
+                      <i class="fa-solid fa-star pe-2"></i>Reduce operational
+                      expenditure <br />
+                      <i class="fa-solid fa-star pe-2"></i>Increase overall
+                      organisational efficiency <br />
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <strong>• Commercial performance improvement :</strong>
+                <p class="ps-3">
+                  <i class="fa-solid fa-star pe-2"></i>Boost profitability
+                  through advanced digital tools <br />
+                  <i class="fa-solid fa-star pe-2"></i>Scale customer engagement
+                  strategies<br />
+                  <i class="fa-solid fa-star pe-2"></i>Implement data-driven
+                  sales optimization techniques<br />
+                </p>
+              </li>
+              <li>
+                <div class="d-flex flex-column align-items-end">
+                  <div>
+                    <strong>• Scalable and Customised Solutions :</strong><br />
+                    <p>
+                      <i class="fa-solid fa-star pe-2"></i>Build a digital
+                      infrastructure that grows with your business <br />
+                      <i class="fa-solid fa-star pe-2"></i>Develop future-proof
+                      technological ecosystems<br />
+                      <i class="fa-solid fa-star pe-2"></i>Support long-term
+                      strategic objectives<br />
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <strong>• Innovation-Driven Culture :</strong> <br />
+                <p class="ps-3">
+                  <i class="fa-solid fa-star pe-2"></i>Adopt cutting-edge
+                  technologies <br />
+                  <i class="fa-solid fa-star pe-2"></i>Implement
+                  forward-thinking digital practices<br />
+                  <i class="fa-solid fa-star pe-2"></i>Position your
+                  organisation at the forefront of industry innovation<br />
+                </p>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <section class="mt-5 pt-5 pb-3" style="background-color: #fafafa">
       <div class="sectionDiv">
-        <h1 class="fadeup">
-          Why Digital Transformation Are Important For Your Business?
-        </h1>
-        <p class="text-center fadeup">
-          Digital transformation is crucial for businesses to stay competitive,
-          improve efficiency, and meet evolving customer expectations. It
-          enables organizations to streamline processes, leverage data-driven
-          insights, and innovate in response to market changes. Embracing
-          digital technologies fosters agility, enhances customer experiences.
-        </p>
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="fadeup fw-bold text-center">
+              Comprehensive digital transformation solutions
+            </h2>
+          </div>
+          <div class="col-lg-12 text-center">
+            <p>
+              At LoopSpring, we help you reinvent your business through bespoke
+              digital solutions. <br />
+              Our end-to-end services range from strategic planning to complete
+              implementation.
+            </p>
+          </div>
+        </div>
+
         <div class="row mt-5">
-          <div class="col-md-6 mb-4 fadeInLeft">
-            <div class="whyDiv">
-              <img src="./images/services/digital/pic1.png" />
-              <h4>Customer experience</h4>
-              <p>
-                Customers interact with various digital touchpoints such as
-                websites, mobile apps, social media platforms, and online
-                chatbots. These touchpoints should be user-friendly, intuitive,
-                and responsive to provide a seamless experience.
-              </p>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
+            <div class="whyDiv digital-solution">
+              <img src="./images/services/digital/business-process.svg" />
+              <h4>Business Process Digitalisation</h4>
+              <ul>
+                <li>Automate internal operations</li>
+                <li>Implement intelligent resource management</li>
+                <li>Develop adaptive team collaboration tools</li>
+              </ul>
             </div>
           </div>
-          <div class="col-md-6 mb-4 fadeInLeft">
-            <div class="whyDiv">
-              <img src="./images/services/digital/pic2.png" />
-              <h4>Supply chain</h4>
-              <p>
-                Digital transformation in the supply chain optimizes processes
-                with real-time data analytics, automation, and blockchain for
-                transparency. It enhances collaboration with suppliers,
-                streamlines logistics for customer-centricity, and integrates
-                sustainability initiatives for greener practices.
-              </p>
+          <div class="col-md-6 col-lg-4 mb-4 fadeup">
+            <div class="whyDiv digital-solution">
+              <img src="./images/services/digital/data-analystics.svg" />
+              <h4>Data Analytics and Business Intelligence</h4>
+              <ul>
+                <li>Extract actionable insights from complex datasets</li>
+                <li>Enable data-driven decision-making</li>
+                <li>Predict and respond to market trends</li>
+              </ul>
             </div>
           </div>
-          <div class="col-md-6 mb-4 fadeInRight">
-            <div class="whyDiv">
-              <img src="./images/services/itOutsourcing/pic2.png" />
-              <h4>Infrastructure Management Services</h4>
-              <p>
-                Ensure optimal performance and reliability of your IT
-                infrastructure through outsourced management. Expert providers
-                handle tasks such as server maintenance, network monitoring, and
-                system updates. Access scalable solutions, minimize downtime,
-                and enhance security with professional infrastructure management
-                services.
-              </p>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv digital-solution">
+              <img
+                src="./images/services/digital/application-development.svg"
+              />
+              <h4>Custom Application Development</h4>
+              <ul>
+                <li>Create robust mobile applications</li>
+                <li>Design integrated web solutions</li>
+                <li>Develop tools aligned with your digital strategy</li>
+              </ul>
             </div>
           </div>
-          <div class="col-md-6 mb-4 fadeInRight">
-            <div class="whyDiv">
-              <img src="./images/services/digital/pic3.png" />
-              <h4>Enterprise-wide transformation</h4>
-              <p>
-                Enterprise-wide digital transformation involves aligning
-                technology, processes, and culture across all departments and
-                functions. It requires strategic planning, leadership buy-in,
-                and employee engagement to drive change effectively.
-              </p>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv digital-solution">
+              <img src="./images/services/digital/e-commerce.svg" />
+              <h4>E-commerce and Omnichannel Strategies</h4>
+              <ul>
+                <li>
+                  Transform online platforms into integrated sales ecosystems
+                </li>
+                <li>Enhance customer purchase journeys</li>
+                <li>Implement advanced conversion optimization techniques</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv digital-solution">
+              <img
+                src="./images/services/digital/artificial-intelligence.svg"
+              />
+              <h4>Automation and Artificial Intelligence</h4>
+              <ul>
+                <li>Optimize operational efficiency</li>
+                <li>Implement AI-driven productivity solutions</li>
+                <li>Enhance performance through intelligent automation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv digital-solution">
+              <img src="./images/services/digital/digital-roadmap.svg" />
+              <h4>Personalised Digital Strategy</h4>
+              <ul>
+                <li>Develop tailored digital roadmaps</li>
+                <li>Align technological solutions with business objectives</li>
+                <li>Provide expert strategic guidance</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -389,351 +568,285 @@
 
     <section class="mt-5 pt-4">
       <div class="sectionDiv">
-        <h1 class="fadeup">Activities During the Digital Transformation</h1>
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="fw-bold text-center">
+              Digital transformation methodology 9 Proven Steps
+            </h2>
+          </div>
+          <div class="col-lg-12 text-center">
+            <p>
+              LoopSpring follows a comprehensive methodology ensuring successful
+              digital transformation:
+            </p>
+          </div>
+        </div>
+
         <div class="row processDiv mt-5 fadeup">
           <div class="col-sm-6 position-relative processSubDiv processImg">
-            <img src="./images/services/digital/p1.jpg" />
+            <img src="./images/services/webdevelopment/p1.jpg" />
             <label>01</label>
           </div>
           <div class="col-sm-6 processSubDiv2">
-            <h3>Assessment and Planning</h3>
-            <p>
-              Evaluate current digital capabilities and organizational
-              readiness. Identify specific goals, challenges, and opportunities
-              for digital transformation. Develop a comprehensive strategy
-              aligned with business objectives and stakeholder needs.
-            </p>
+            <h3>
+              <span class="stepsNum">1. </span> Digital Strategy Assessment
+            </h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Conduct in-depth needs
+                analysis
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Define strategic digital
+                roadmap
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Identify appropriate
+                technologies
+              </li>
+            </ul>
           </div>
         </div>
         <div class="row processDiv fadeup">
           <div
             class="col-sm-6 processSubDiv position-relative order-last order-sm-fist"
           >
-            <h3>Technology Adoption and Integration</h3>
-            <p>
-              Identify suitable digital tools and platforms based on business
-              requirements. Implement and integrate selected technologies across
-              the organization's systems and processes. Ensure seamless
-              interoperability and data flow to maximize efficiency and
-              effectiveness. execution.
-            </p>
+            <h3>
+              <span class="stepsNum">2. </span> Existing Infrastructure Audit
+            </h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Evaluate current
+                technological ecosystem
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Propose optimized digital
+                solutions
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Identify improvement
+                opportunities
+              </li>
+            </ul>
             <label>02</label>
           </div>
           <div
             class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
           >
-            <img src="./images/services/itOutsourcing/p2.png" />
+            <img src="./images/services/mobileapp/process2.png" />
           </div>
         </div>
         <div class="row processDiv fadeup">
           <div class="col-sm-6 position-relative processSubDiv processImg">
-            <img src="./images/services/digital/p2.png" />
+            <img src="./images/services/digital/cloud.png" />
             <label>03</label>
           </div>
           <div class="col-sm-6 processSubDiv2">
-            <h3>Data Management and Analytics</h3>
-            <p>
-              Establish robust data governance frameworks to ensure quality and
-              security. Utilize advanced analytics techniques to derive insights
-              and inform decision-making. Continuously monitor and optimize data
-              processes to drive business value and innovation.
-            </p>
+            <h3>
+              <span class="stepsNum">3. </span> Technology and Tool Selection
+            </h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Select optimal platforms
+                and systems
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Integrate cloud, AI, and
+                big data solutions
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Ensure scalability and
+                interoperability
+              </li>
+            </ul>
           </div>
         </div>
         <div class="row processDiv fadeup">
           <div
-            class="col-sm-6 processSubDiv position-relative order-last order-sm-fist"
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
           >
-            <h3>Customer Experience Enhancement</h3>
-            <p>
-              Develop personalized digital solutions to meet customer needs and
-              preferences. Implement feedback mechanisms to gather insights and
-              iterate on offerings. Continuously refine digital touchpoints to
-              provide seamless and engaging experiences across all channels.
-            </p>
+            <h3>
+              <span class="stepsNum">4. </span> Strategic Planning and
+              Roadmapping
+            </h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Develop detailed
+                implementation plan
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Prioritize strategic
+                initiatives
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Enable continuous
+                adaptation
+              </li>
+            </ul>
             <label>04</label>
           </div>
           <div
             class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
           >
-            <img src="./images/services/digital/p3.png" />
+            <img src="./images/services/digital/planning.png" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 processSubDiv position-relative processImg">
+            <img src="./images/services/itconsulting/p3.png" />
+            <label>05</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2 position-relative">
+            <h3>
+              <span class="stepsNum">5. </span> Solution Development and
+              Implementation
+            </h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Create custom software
+                solutions
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Integrate systems into
+                business processes
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Implement data management
+                platforms
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
+          >
+            <h3><span class="stepsNum">6. </span> Training and Adoption</h3>
+
+            <ul>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Comprehensive team
+                technology training
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Support digital solution
+                adoption
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Foster digital culture
+                development
+              </li>
+            </ul>
+            <label>06</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/digital/digital-training.png" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 processSubDiv position-relative processImg">
+            <img src="./images/services/digital/customer-experience.png" />
+            <label>07</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2 position-relative">
+            <h3>
+              <span class="stepsNum">7. </span> Customer Experience Optimization
+            </h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Develop omnichannel
+                platforms
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Enhance user interface
+                design
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Personalise customer
+                interactions
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
+          >
+            <h3>
+              <span class="stepsNum">8. </span> Personalise customer
+              interactions
+            </h3>
+
+            <ul>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Track key performance
+                indicators
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Enable data-driven decision
+                making
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Continuous performance
+                optimization
+              </li>
+            </ul>
+            <label>08</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/digital/p2.png" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 processSubDiv position-relative processImg">
+            <img src="./images/services/webdevelopment/p4.jpg" />
+            <label>09</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2 position-relative">
+            <h3>
+              <span class="stepsNum">9. </span> Ongoing Maintenance and Updates
+            </h3>
+
+            <ul>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Proactive technical support
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Continuous system updates
+              </li>
+              <li>
+                <i class="fa-solid fa-star pe-2"></i>Adapt to emerging
+                technologies
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-    <section class="withDiv mt-5 fadeup">
+
+    <section class="pt-5 pb-5 mt-5" style="background-color: #fafafa">
       <div class="sectionDiv">
-        <h2>With LoopSpring You Get</h2>
-        <div class="row mt-5">
-          <div class="col-sm-6">
-            <ul>
-              <li>
-                LoopSpring provides articles, guides, and whitepapers covering
-                various aspects of digital transformation, including its
-                importance, strategies, and best practices.
-              </li>
-              <li>
-                Real-world examples and case studies demonstrate how other
-                companies have successfully implemented digital transformation
-                initiatives.
-              </li>
-              <li>
-                LoopSpring hosts webinars and workshops led by industry experts
-                to delve deeper into specific topics related to digital
-                transformation.
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <ul>
-              <li>
-                To assist businesses in planning and executing their digital
-                transformation journeys.
-              </li>
-              <li>
-                For organizations seeking personalized guidance and support,
-                LoopSpring offers consulting services tailored to their specific
-                needs.
-              </li>
-              <li>
-                LoopSpring fosters a community of like-minded professionals
-                interested in digital transformation.
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 mt-5 text-center">
-            <a href="./contact.html">Contact Us</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="mt-5 pt-4">
-      <div class="sectionDiv">
-        <h1 class="fadeup">Why LoopSpring?</h1>
-        <p class="mt-4 text-center fadeup">
-          LoopSpring specializes in digital transformation, bringing deep
-          expertise and experience to help businesses navigate complex
-          challenges and capitalize on emerging opportunities in the digital
-          realm. Their team consists of seasoned professionals with a track
-          record of successful transformations across various industries.
+        <a href="./contact.html" style="color: black; text-decoration: none">
+          <h2 class="text-center fw-bold">Ready to Transform Your Business?</h2>
+        </a>
+        <p class="text-center">
+          LoopSpring offers strategic guidance and technological tools to
+          revolutionise your digital landscape.
         </p>
-        <div class="row sectionWhy mt-5 pt-4">
-          <div
-            class="col-md-6 position-relative imgSec order-last order-md-first fadeInLeft"
-          >
-            <img src="./images/services/itOutsourcing/s2.png" class="w-100" />
-            <img
-              src="./images/services/itOutsourcing/i2.png"
-              class="imgIcon imgIcon2"
-            />
-            <span class="span2"></span>
-          </div>
-          <div class="col-md-6 order-first order-md-last fadeInRight">
-            <h3>Comprehensive Solutions</h3>
-            <p>
-              LoopSpring offers a comprehensive suite of services and resources,
-              including educational content, consulting, workshops, and tools.
-              This holistic approach ensures that businesses have access to
-              everything they need to plan, execute, and sustain their digital
-              transformation initiatives effectively.
-            </p>
-          </div>
-        </div>
-        <div class="row sectionWhy mt-5 pt-4">
-          <div class="col-md-6 fadeInRight">
-            <h3>Customization</h3>
-            <p>
-              Our dedicated support team provides personalized assistance
-              throughout the outsourcing process. We prioritize client
-              satisfaction and strive to exceed expectations at every stage.
-              From initial consultation to project execution and beyond, we
-              offer prompt and effective support. With LoopSpring, you can trust
-              that your needs are our top priority, ensuring a seamless and
-              successful outsourcing experience.
-            </p>
-          </div>
-          <div class="col-md-6 position-relative imgSec fadeInLeft">
-            <img src="./images/services/digital/s1.png" class="w-100" />
-            <img
-              src="./images/services/digital/i1.png"
-              class="imgIcon imgIcon1"
-            />
-            <span class="span1"></span>
-          </div>
-        </div>
 
-        <div class="row sectionWhy mt-5 pt-4">
-          <div
-            class="col-md-6 position-relative imgSec order-last order-md-first fadeInLeft"
-          >
-            <img src="./images/services/digital/s2.png" class="w-100" />
-            <img
-              src="./images/services/itOutsourcing/i3.png"
-              class="imgIcon imgIcon2"
-            />
-            <span class="span2"></span>
-          </div>
-          <div class="col-md-6 order-first order-md-last fadeInRight">
-            <h3>Continuous Support</h3>
-            <p>
-              Digital transformation is an ongoing journey, not a one-time
-              event. LoopSpring provides continuous support and guidance
-              throughout the entire transformation process, helping businesses
-              adapt to changing circumstances, overcome obstacles, and stay
-              ahead of the competition in today's dynamic marketplace.
-            </p>
-          </div>
+        <div class="contact-btn text-center">
+          <a href="./contact.html">
+            <button>Contact</button>
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- FQA -->
-    <section class="mt-5 pt-5 fadeup" style="background: #fafafa">
-      <div class="sectionDiv">
-        <h1>Frequently Asked Questions</h1>
-        <div class="accordion mt-4" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                How can LoopSpring help my organization initiate and navigate
-                the digital transformation journey?
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                LoopSpring offers expertise, resources, and tailored solutions
-                to guide businesses through the complexities of digital
-                transformation, from initial assessment and strategy development
-                to implementation and ongoing support.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                What are the key components of a successful digital
-                transformation strategy?
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                Key components include executive buy-in, clear vision and
-                objectives, employee engagement, technology integration,
-                data-driven decision-making, and continuous improvement.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                How does LoopSpring ensure that digital transformation efforts
-                are aligned with our business goals and objectives?
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <p>
-                  LoopSpring conducts thorough assessments, collaborates closely
-                  with stakeholders, and develops strategies tailored to each
-                  organization's unique goals and objectives.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFour"
-                aria-expanded="false"
-                aria-controls="collapseFour"
-              >
-                How can we measure the success and progress of our digital
-                transformation journey?
-              </button>
-            </h2>
-            <div
-              id="collapseFour"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                Success can be measured through key performance indicators
-                (KPIs) aligned with business objectives, such as revenue growth,
-                customer satisfaction scores, employee productivity, and
-                time-to-market metrics.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFive"
-                aria-expanded="false"
-                aria-controls="collapseFive"
-              >
-                How can we get started with LoopSpring's digital transformation
-                services, and what is the initial consultation process like?
-              </button>
-            </h2>
-            <div
-              id="collapseFive"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                To get started, simply reach out to LoopSpring to schedule an
-                initial consultation. During the consultation, their team will
-                assess your needs, discuss objectives, and outline a customized
-                approach to kickstart your digital transformation journey.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-
-    <footer class="footer_bg footer_design mt-5">
+    <footer class="footer_bg footer_design">
       <div class="sectionDiv">
         <div class="row">
           <div class="col-sm-12">
@@ -743,106 +856,120 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-sm-3">
+          <div class="col-md-5">
             <div class="footer_link_colom">
-              <h3 class="heading">About</h3>
+              <h3 class="heading fw-bold">About</h3>
               <ul>
-                <li>
-                  Improving provides consulting, software development and
-                  training to our customers through high environments of trust.
+                <li class="about-footer">
+                  In Kanyakumari our team of passionate tech geeks combines
+                  cutting-edge technology with boundless creativity to develop
+                  high-performance digital solutions! From conversion-driven web
+                  design to optimisation strategies that boost your visibility,
+                  we are obsessed with your success.
+                  <p style="margin-bottom: 0px !important; color: #7d7d7d">
+                    <strong
+                      >Your vision + Our expertise = Outstanding
+                      performance</strong
+                    >
+                  </p>
+                </li>
+                <li
+                  class="fw-bold"
+                  style="font-size: 16px; padding: 0px !important; color: white"
+                >
+                  Ready to revolutionise your online presence?<img
+                    width="40px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD20lEQVR4nO2YX2xTZRjGXy/0Tr0gAQ1BgUT+XaACjgAt3uggAaPB7HyrIhAkLJpKGAlmqOecDZ1eLplbSJloHIrCFjelxSll7fed07IEx3q2mozJYNZ269luJOFPIsle853a0pVuKxjOOU36JM9V2+T3vOd9v+89BSippJJKehCSKwJPiALdJArs/Y8I3QV218D50eURVX+vj+mdn+4OByTC8I7pQbCj+tWJNRFV92hKMq6pOqbdG0xe/2Rn+GI6gFgZfBnspN/o+JOakvRmQ+c6O8ShSv88sIsGaHxBRElengle+88XA8kbn70d7ga7KKoknoqo+nAh8Fo6hKJ3QLFVXstyv6K7ixZeMzyxtGjhI0ryr6LreS3bin7EdpU/eTSK1Tu82CCFsI8lZw5Ax1fZqvL+H65g2dNN+Pz8RsMNUmiG9tF/tBU8d+vnfRl47uodvvzwqj7MLzvbDWzP2ThuXv2VAV+2sAnbWqL5+n4kQscWmQb9IaELZELLG9w9VYWcNjzE8aYIdndcNRe+5rWzczioSNgBibAWkdDzEmF/811FdrG4ejr2Zy7Qd0f68R2hEz8+EMDe4NhsJ87IA4OXCVsiCjQxdcVNuZawBMsDH/zpqtEm6X7nIYoGXlN1bP8iOmVg3xU6iwdeM9bhMXz9xW9SA7uoGb/3DBQPvJYVov3Y78i8I+bCf1ARni8JbDQf/HQD+22zhrtfbceavV3GSWPZwKYlC3SVJFCPROjN2SqvnokZbZLudx7CUvhs8dc5iVCx9k2lL1/lub0nLk0ZWP4kbAFf6A3Ll7Jdr7Qb8GsXNxvnf+53Qr54vNF9oQqsUFfr8MnZBpaH8J0YwtDPsbs+U0/HYpKLJvj/PJYEkAiLdniGemYLkc+88rJLifEZ4oeDRQHooCTQ297G3uj9wosCvQaAD5kOj+vhOd+WfeMcoo6cw2D9qclC4FVvPC65WPY9EjYf/iV4HB0wik5A/7YqA6RO6EZa31Zw5bPcYn4AB+zj8LjnUcTEOvR/WZsJEaxvm7wHeJQqWbUVAX41Apx6BnFig2H/sbpMiNyZmBae3+CElpsLvwIeQQdcNwKEVmYC8CfxyzZ3CkwI/tPhGUydToo+UvsGi+SD52sJf58wN4AD1hrw3L7liOrK1JPg7eQE9G7dPy4KdFgibND39R9t/F1YJEzKBy+7AstMhedCB7yVCXC3E7gBnoUcydtDc0WB3boDT5NyBVsBVgidUDcFmreTA7rQCW4sg8em+50o0FbL4bnQCXvQAYfRAdtxI7yAq+FhKHyLtRb+/8qylaGkkkoqCczWvww9lHFaAI+eAAAAAElFTkSuQmCC"
+                    alt="rocket--v1"
+                  />
+                </li>
+                <li
+                  class="fw-bold text-light"
+                  style="
+                    font-size: 16px;
+                    padding: 0px !important;
+                    color: #7d7d7d !important;
+                  "
+                >
+                  Contact our dream team for your free quote!
                 </li>
               </ul>
+              <div class="getStarted-cta mb-4">
+                <button>Get Started</button>
+              </div>
             </div>
           </div>
-          <div class="col-sm-2">
+          <div class="col-md-2">
             <div class="footer_link_colom">
-              <h3 class="heading">Quick Links</h3>
+              <h3 class="heading fw-bold">About Us</h3>
               <ul>
                 <li>
-                  <a href="./index.html">Home</a>
+                  <a href="./about.html">About Us</a>
                 </li>
                 <li>
-                  <a href="./about.html">About us</a>
+                  <a href="./skills.html">Skills</a>
                 </li>
                 <li>
                   <a href="./gallery.html">Gallery</a>
                 </li>
                 <li>
-                  <a href="./contact.html">Contact us</a>
+                  <a href="./index.html#testimonal">Testimonials</a>
                 </li>
               </ul>
+              <a href="./courses.html">
+                <h3 class="heading fw-bold">Training Lab</h3></a
+              >
             </div>
           </div>
-          <div class="col-sm-2">
+
+          <div class="col-md-3">
             <div class="footer_link_colom">
-              <h3 class="heading">Services</h3>
-              <ul>
-                <li>
-                  <a href="./website-design.html">Website Design</a>
-                </li>
-                <li>
-                  <a href="./web-development.html">Web Development</a>
-                </li>
-                <li>
-                  <a href="./mobile-app-development.html"
-                    >Mobile App Development</a
-                  >
-                </li>
-                <li>
-                  <a href="./testing-QA.html">Testing & QA</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="footer_link_colom">
-              <h3 class="heading">Important Link</h3>
+              <h3 class="heading fw-bold">Solutions & Support</h3>
               <ul>
                 <li>
                   <a href="./solution.html">Solutions</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="./industries.html">Industries</a>
+                </li> -->
+                <li>
+                  <a href="">Guides</a>
                 </li>
                 <li>
-                  <a href="./courses.html">Courses</a>
+                  <a href="./support-maintenance.html">Support</a>
                 </li>
                 <li>
-                  <a href="./it-support.html">IT Support</a>
+                  <a href="">FAQ</a>
+                </li>
+              </ul>
+              <a href="./charity.html"
+                ><h3 class="heading fw-bold">Foundation</h3></a
+              >
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">Connect</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <a href="./legal-information.html">Legal information</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./contact.html">Contact</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./career.html">Careers</a>
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="footer_link_colom">
-              <h3 class="heading">Connect with Loopspring</h3>
-              <ul>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <a class="pl-4" href="./contact.html"
-                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
-                    Mulagumoodu (PO) – 629167, Kanyakumari District.
-                  </a>
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-envelope"></i>
-                  <a href="mailto:info@loopspring.com" class="pl-4"
-                    >info@loopspring.com</a
-                  >
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-phone-volume"></i>
-                  <div>
-                    <a href="tel:9894365935" class="footer_call pl-4"
-                      >+91 9894365935</a
-                    ><span class="comma">,</span
-                    ><a href="tel:8300016424">+91 8300016424</a>
-                  </div>
-                </li>
-              </ul>
+            <div class="newsletter" style="margin-left: -20px">
+              <h3 class="text-light heading">Newsletter</h3>
+              <input type="text" placeholder="Your email" />
+              <button class="mt-2">Subscribe</button>
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-sm-12">
             <div class="footer_bottom">
@@ -852,8 +979,8 @@
                     <div class="col-sm-6">
                       <p class="copyright">
                         Copyright ©
-                        <span>2024</span>
-                        Loopspring. All Rights Reserved
+                        <span>2025</span>
+                        LoopSpring. All Rights Reserved
                       </p>
                     </div>
                     <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
@@ -863,21 +990,21 @@
                   <ul class="social_links d-flex">
                     <li>
                       <a
-                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        href="https://www.facebook.com/profile.php?id=61567766033788"
                         target="_blank"
                         ><i class="fab fa-facebook"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        href="https://www.instagram.com/loopspring_technologies?igsh=czVkeW1uZTYzajB2"
                         target="_blank"
                         ><i class="fab fa-instagram"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        href="https://www.linkedin.com/company/loopspring-technologies/"
                         target="_blank"
                         ><i class="fab fa-linkedin"></i
                       ></a>
@@ -890,5 +1017,29 @@
         </div>
       </div>
     </footer>
+
+    <!--==================================================-->
+    <!-- Start  Scroll Up-->
+    <!--==================================================-->
+    <div class="prgoress_indicator active-progress">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 212.78;
+          "
+        ></path>
+      </svg>
+    </div>
+    <!--==================================================-->
+    <!-- End  Scroll Up-->
+    <!--==================================================-->
   </body>
 </html>

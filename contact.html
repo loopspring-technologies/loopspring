@@ -20,35 +20,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <script src="./script/animate.js"></script>
+    <script src="./script/scrollup.js" defer></script>
   </head>
   <body>
     <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
-      <div class="headTopDiv d-flex justify-content-end">
-        <div class="d-flex headTopSubDiv">
-          <div>
-            <i class="fa-regular fa-envelope headIcon me-2"></i>
-            <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
-            <a href="tel:9894365935">+91 9894365935</a>
-          </div>
-        </div>
-        <!-- <div class="headSocialIcon">
-          <a href=""><img src="./images/facebook.webp" /> </a>
-          <a href=""><img src="./images/instagram.png" /> </a>
-          <a href=""><img src="./images/twitter.png" /> </a>
-          <a href=""><img src="./images/linkedin.png" /> </a>
-        </div> -->
-      </div>
-
       <div
         class="d-flex justify-content-between align-items-center headerPadDiv"
       >
@@ -76,62 +59,59 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./about.html"
-                    >About</a
+                    >About Us</a
                   >
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link navColor1">Services</a>
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./website-design.html">
-                        <p>Website Design</p>
+
+                  <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Development & Design</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./website-design.html">
+                          <li>Web Design</li>
+                        </a>
+                        <a href="./web-development.html">
+                          <li>Web Development</li>
+                        </a>
+                        <a href="./mobile-app-development.html"
+                          ><li>Mobile App Development</li></a
+                        >
+                        <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./web-development.html">
-                        <p>Web Development</p>
+
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Digital Transformation & Training</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./digital-transformation.html">
+                          <li>Digital Transformation</li></a
+                        >
+
+                        <a href="./it-training.html"><li>IT Training</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <!-- <a><li style="color: white">Software Company</li></a> -->
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./mobile-app-development.html"
-                      >
-                        <p>Mobile App Development</p>
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Marketing & Promotion</p>
                       </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./testing-QA.html">
-                        <p>Testing and QA</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./ui-ux.html">
-                        <p>UI/UX Design</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./digital-transformation.html"
-                      >
-                        <p>Digital Transformation</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-outsourcing.html">
-                        <p>IT Outsourcing</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-consulting.html">
-                        <p>IT Consulting</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-support.html">
-                        <p>IT Support</p>
-                      </a>
+                      <ul class="subNav-item pb-3">
+                        <a href="./digital-marketing.html">
+                          <li>Digital Marketing</li>
+                        </a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <!-- <a><li style="color: white">Kanniyakumari</li></a> -->
+                      </ul>
                     </li>
                   </ul>
                 </li>
@@ -141,20 +121,15 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navHover navColor" href="./industries.html"
-                    >Industries</a
-                  >
-                </li>
-                <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./courses.html"
-                    >Courses</a
+                    >Training Lab</a
                   >
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./gallery.html"
                     >Gallery</a
                   >
-                </li>
+                </li> -->
                 <li class="nav-item me-0">
                   <a
                     class="nav-link navHover navColor activeTab"
@@ -195,76 +170,62 @@
                 <a class="nav-link" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
+                <a class="nav-link" href="./about.html">About Us</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link">Services</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./website-design.html">
-                      <p>Website Design</p>
+                <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Development & Design</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./website-design.html">
+                        <li>Web Design</li>
+                      </a>
+                      <a href="./web-development.html">
+                        <li>Web Development</li>
+                      </a>
+                      <a href="./mobile-app-development.html"
+                        ><li>Mobile App Development</li></a
+                      >
+                      <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./web-development.html">
-                      <p>Web Development</p>
+
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Digital Transformation & Training</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./digital-transformation.html">
+                        <li>Digital Transformation</li>
+                        <li>IT Training</li>
+                      </a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./mobile-app-development.html"
-                    >
-                      <p>Mobile App Development</p>
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Marketing & Promotion</p>
                     </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./testing-QA.html">
-                      <p>Testing and QA</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./ui-ux.html">
-                      <p>UI/UX Design</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./digital-transformation.html"
-                    >
-                      <p>Digital Transformation</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-outsourcing.html">
-                      <p>IT Outsourcing</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-consulting.html">
-                      <p>IT Consulting</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-support.html">
-                      <p>IT Support</p>
-                    </a>
+                    <ul class="subNav-item pb-3">
+                      <a href="./marketing.html">
+                        <li>Digital Marketing</li>
+                      </a>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./solution.html">Solutions</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="./industries.html">Industries</a>
+                <a class="nav-link" href="./courses.html">Training Lab</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./courses.html">Courses</a>
-              </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="./gallery.html">Gallery</a>
-              </li>
+              </li> -->
               <li class="nav-item me-0">
                 <a class="nav-link" href="./contact.html" style="color: #f84ca5"
                   >Contact</a
@@ -275,7 +236,7 @@
         </div>
       </div>
     </div>
-    <div class="map" id="topPad">
+    <!-- <div class="map" id="topPad">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11168.02150059014!2d77.27958558604742!3d8.253738698063682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f9fee29a734b%3A0x24da9971ef90dc3e!2sLoopSpring%20Technologies%20and%20Consultancy%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1711013839595!5m2!1sen!2sin"
         width="100%"
@@ -285,8 +246,21 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-    </div>
-    <section class="mt-5 imgDivSec">
+    </div> -->
+
+    <!-- <header class="contact-header">
+      <div class="sectionDiv">
+        <h2 class="text-center">Contact</h2>
+        <p class="text-center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum,
+          debitis. Natus quos esse earum porro omnis blanditiis facilis! Velit
+          repellendus molestiae similique rerum, explicabo fugiat asperiores
+          officia iste laudantium facilis?
+        </p>
+      </div>
+    </header> -->
+
+    <section class="imgDivSec" style="padding-top: 100px">
       <div class="heading">
         <div class="heading-title">
           <h1 class="fadeup">Get in Touch</h1>
@@ -304,23 +278,65 @@
           <img src="./images/contact-image/contactus.png" alt="" />
         </div>
         <div class="rightDiv fadeInRight">
-          <form action="" class="formDiv">
+          <form
+            action="send_mail.php"
+            method="POST"
+            class="formDiv"
+            id="contactForm"
+          >
             <div class="nameDiv">
-              <input type="text" placeholder="First name" required />
-              <input type="text" placeholder="Last name" required />
+              <input
+                type="text"
+                name="first_name"
+                placeholder="First name"
+                required
+              />
+              <input
+                type="text"
+                name="last_name"
+                placeholder="Last name"
+                required
+              />
             </div>
-            <input type="email" placeholder="Email" required />
-            <input type="text" placeholder="Contact No" required />
+            <div class="nameDiv">
+              <input type="email" name="email" placeholder="Email" required />
+              <input
+                type="text"
+                name="contact"
+                placeholder="Contact No"
+                required
+              />
+            </div>
+            <div class="nameDiv">
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+              />
+              <select name="inquiry" required>
+                <option value="" disabled selected>Service Inquiry</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Mobile App Development">
+                  Mobile App Development
+                </option>
+                <option value="UI/UX Design">UI/UX Design</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Support">Support</option>
+                <option value="Courses">Courses</option>
+                <option value="Others">Others</option>
+              </select>
+            </div>
             <textarea
+              name="message"
               style="resize: none"
-              id=""
               cols="30"
               rows="4"
-              placeholder="Describe Yorself here"
-              requireds
+              placeholder="Describe Yourself here"
+              required
             ></textarea>
             <div class="submit-btn text-center">
-              <button>Submit</button>
+              <button type="submit">Submit</button>
             </div>
           </form>
         </div>
@@ -335,12 +351,17 @@
           </div>
           <div class="contact-info">
             <h3>Our Address</h3>
-            <h5>
-              13, EJM Complex, Opp. <br />
-              RTO office, Kozhiporvilai,<br />
-              Mulagumoodu (PO) – 629167,<br />
-              Kanyakumari District.
-            </h5>
+            <div class="d-lg-flex">
+              <h5>13, EJM Complex,</h5>
+              <h5>Opp. RTO office,</h5>
+            </div>
+            <div class="d-lg-flex">
+              <h5>Kozhiporvilai,</h5>
+              <h5>Mulagumoodu (PO),</h5>
+            </div>
+
+            <h5>Kanyakumari District.</h5>
+            <h5>Pin – 629167</h5>
           </div>
         </div>
         <div class="contacts fadeup">
@@ -352,8 +373,7 @@
             <h5>
               <a href="tel:9894365935" class="footer_call pl-4"
                 >+91 9894365935</a
-              ><span class="comma">,</span
-              ><a href="tel:8300016424">+91 8300016424</a>
+              ><br /><a href="tel:8300016424">+91 8300016424</a>
             </h5>
           </div>
         </div>
@@ -364,17 +384,24 @@
           <div class="contact-info">
             <h3>Email</h3>
             <h5>
-              <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
+              <a href="mailto:info@loopspring.co.in">info@loopspring.in</a>
             </h5>
           </div>
         </div>
       </div>
 
       <div class="icons mt-4 fadeup">
-        <img src="./images/icons/facebook.webp" alt="" />
-        <img src="./images/icons/instagram.png" alt="" />
+        <a href="https://www.facebook.com/Loopspringtech/" target="_blank">
+          <img src="./images/icons/facebook.webp" alt=""
+        /></a>
+        <a
+          href="https://www.instagram.com/loopspring_technologies?igsh=czVkeW1uZTYzajB2"
+          target="_blank"
+        >
+          <img src="./images/icons/instagram.png" alt=""
+        /></a>
+
         <img src="./images/icons/linkedin.png" alt="" />
-        <img src="./images/icons/twitter.png" alt="" />
       </div>
     </div>
     <footer class="footer_bg footer_design">
@@ -387,106 +414,120 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-sm-3">
+          <div class="col-md-5">
             <div class="footer_link_colom">
-              <h3 class="heading">About</h3>
+              <h3 class="heading fw-bold">About</h3>
               <ul>
-                <li>
-                  Improving provides consulting, software development and
-                  training to our customers through high environments of trust.
+                <li class="about-footer">
+                  In Kanyakumari our team of passionate tech geeks combines
+                  cutting-edge technology with boundless creativity to develop
+                  high-performance digital solutions! From conversion-driven web
+                  design to optimisation strategies that boost your visibility,
+                  we are obsessed with your success.
+                  <p style="margin-bottom: 0px !important; color: #7d7d7d">
+                    <strong
+                      >Your vision + Our expertise = Outstanding
+                      performance</strong
+                    >
+                  </p>
+                </li>
+                <li
+                  class="fw-bold"
+                  style="font-size: 16px; padding: 0px !important; color: white"
+                >
+                  Ready to revolutionise your online presence?<img
+                    width="40px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD20lEQVR4nO2YX2xTZRjGXy/0Tr0gAQ1BgUT+XaACjgAt3uggAaPB7HyrIhAkLJpKGAlmqOecDZ1eLplbSJloHIrCFjelxSll7fed07IEx3q2mozJYNZ269luJOFPIsle853a0pVuKxjOOU36JM9V2+T3vOd9v+89BSippJJKehCSKwJPiALdJArs/Y8I3QV218D50eURVX+vj+mdn+4OByTC8I7pQbCj+tWJNRFV92hKMq6pOqbdG0xe/2Rn+GI6gFgZfBnspN/o+JOakvRmQ+c6O8ShSv88sIsGaHxBRElengle+88XA8kbn70d7ga7KKoknoqo+nAh8Fo6hKJ3QLFVXstyv6K7ixZeMzyxtGjhI0ryr6LreS3bin7EdpU/eTSK1Tu82CCFsI8lZw5Ax1fZqvL+H65g2dNN+Pz8RsMNUmiG9tF/tBU8d+vnfRl47uodvvzwqj7MLzvbDWzP2ThuXv2VAV+2sAnbWqL5+n4kQscWmQb9IaELZELLG9w9VYWcNjzE8aYIdndcNRe+5rWzczioSNgBibAWkdDzEmF/811FdrG4ejr2Zy7Qd0f68R2hEz8+EMDe4NhsJ87IA4OXCVsiCjQxdcVNuZawBMsDH/zpqtEm6X7nIYoGXlN1bP8iOmVg3xU6iwdeM9bhMXz9xW9SA7uoGb/3DBQPvJYVov3Y78i8I+bCf1ARni8JbDQf/HQD+22zhrtfbceavV3GSWPZwKYlC3SVJFCPROjN2SqvnokZbZLudx7CUvhs8dc5iVCx9k2lL1/lub0nLk0ZWP4kbAFf6A3Ll7Jdr7Qb8GsXNxvnf+53Qr54vNF9oQqsUFfr8MnZBpaH8J0YwtDPsbs+U0/HYpKLJvj/PJYEkAiLdniGemYLkc+88rJLifEZ4oeDRQHooCTQ297G3uj9wosCvQaAD5kOj+vhOd+WfeMcoo6cw2D9qclC4FVvPC65WPY9EjYf/iV4HB0wik5A/7YqA6RO6EZa31Zw5bPcYn4AB+zj8LjnUcTEOvR/WZsJEaxvm7wHeJQqWbUVAX41Apx6BnFig2H/sbpMiNyZmBae3+CElpsLvwIeQQdcNwKEVmYC8CfxyzZ3CkwI/tPhGUydToo+UvsGi+SD52sJf58wN4AD1hrw3L7liOrK1JPg7eQE9G7dPy4KdFgibND39R9t/F1YJEzKBy+7AstMhedCB7yVCXC3E7gBnoUcydtDc0WB3boDT5NyBVsBVgidUDcFmreTA7rQCW4sg8em+50o0FbL4bnQCXvQAYfRAdtxI7yAq+FhKHyLtRb+/8qylaGkkkoqCczWvww9lHFaAI+eAAAAAElFTkSuQmCC"
+                    alt="rocket--v1"
+                  />
+                </li>
+                <li
+                  class="fw-bold text-light"
+                  style="
+                    font-size: 16px;
+                    padding: 0px !important;
+                    color: #7d7d7d !important;
+                  "
+                >
+                  Contact our dream team for your free quote!
                 </li>
               </ul>
+              <div class="getStarted-cta mb-4">
+                <button>Get Started</button>
+              </div>
             </div>
           </div>
-          <div class="col-sm-2">
+          <div class="col-md-2">
             <div class="footer_link_colom">
-              <h3 class="heading">Quick Links</h3>
+              <h3 class="heading fw-bold">About Us</h3>
               <ul>
                 <li>
-                  <a href="./index.html">Home</a>
+                  <a href="./about.html">About Us</a>
                 </li>
                 <li>
-                  <a href="./about.html">About us</a>
+                  <a href="./skills.html">Skills</a>
                 </li>
                 <li>
                   <a href="./gallery.html">Gallery</a>
                 </li>
                 <li>
-                  <a href="./contact.html">Contact us</a>
+                  <a href="./index.html#testimonal">Testimonials</a>
                 </li>
               </ul>
+              <a href="./courses.html">
+                <h3 class="heading fw-bold">Training Lab</h3></a
+              >
             </div>
           </div>
-          <div class="col-sm-2">
+
+          <div class="col-md-3">
             <div class="footer_link_colom">
-              <h3 class="heading">Services</h3>
-              <ul>
-                <li>
-                  <a href="./website-design.html">Website Design</a>
-                </li>
-                <li>
-                  <a href="./web-development.html">Web Development</a>
-                </li>
-                <li>
-                  <a href="./mobile-app-development.html"
-                    >Mobile App Development</a
-                  >
-                </li>
-                <li>
-                  <a href="./testing-QA.html">Testing & QA</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="footer_link_colom">
-              <h3 class="heading">Important Link</h3>
+              <h3 class="heading fw-bold">Solutions & Support</h3>
               <ul>
                 <li>
                   <a href="./solution.html">Solutions</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="./industries.html">Industries</a>
+                </li> -->
+                <li>
+                  <a href="">Guides</a>
                 </li>
                 <li>
-                  <a href="./courses.html">Courses</a>
+                  <a href="./support-maintenance.html">Support</a>
                 </li>
                 <li>
-                  <a href="./it-support.html">IT Support</a>
+                  <a href="">FAQ</a>
+                </li>
+              </ul>
+              <a href="./charity.html"
+                ><h3 class="heading fw-bold">Foundation</h3></a
+              >
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">Connect</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <a href="./legal-information.html">Legal information</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./contact.html">Contact</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./career.html">Careers</a>
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="footer_link_colom">
-              <h3 class="heading">Connect with Loopspring</h3>
-              <ul>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <a class="pl-4" href="./contact.html"
-                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
-                    Mulagumoodu (PO) – 629167, Kanyakumari District.
-                  </a>
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-envelope"></i>
-                  <a href="mailto:info@loopspring.com" class="pl-4"
-                    >info@loopspring.com</a
-                  >
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-phone-volume"></i>
-                  <div>
-                    <a href="tel:9894365935" class="footer_call pl-4"
-                      >+91 9894365935</a
-                    ><span class="comma">,</span
-                    ><a href="tel:8300016424">+91 8300016424</a>
-                  </div>
-                </li>
-              </ul>
+            <div class="newsletter" style="margin-left: -20px">
+              <h3 class="text-light heading">Newsletter</h3>
+              <input type="text" placeholder="Your email" />
+              <button class="mt-2">Subscribe</button>
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-sm-12">
             <div class="footer_bottom">
@@ -496,8 +537,8 @@
                     <div class="col-sm-6">
                       <p class="copyright">
                         Copyright ©
-                        <span>2024</span>
-                        Loopspring. All Rights Reserved
+                        <span>2025</span>
+                        LoopSpring. All Rights Reserved
                       </p>
                     </div>
                     <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
@@ -507,21 +548,21 @@
                   <ul class="social_links d-flex">
                     <li>
                       <a
-                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        href="https://www.facebook.com/profile.php?id=61567766033788"
                         target="_blank"
                         ><i class="fab fa-facebook"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        href="https://www.instagram.com/loopspring_technologies?igsh=czVkeW1uZTYzajB2"
                         target="_blank"
                         ><i class="fab fa-instagram"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        href="https://www.linkedin.com/company/loopspring-technologies/"
                         target="_blank"
                         ><i class="fab fa-linkedin"></i
                       ></a>
@@ -534,7 +575,26 @@
         </div>
       </div>
     </footer>
-    <script>
+
+    <div class="prgoress_indicator active-progress">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 212.78;
+          "
+        ></path>
+      </svg>
+    </div>
+
+    <!-- <script>
       function applyStyles() {
         let height = document.getElementById("header").offsetHeight;
         document.getElementById("topPad").style.paddingTop = height + "px";
@@ -543,6 +603,35 @@
       window.onresize = function () {
         applyStyles();
       };
+    </script> -->
+
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const form = e.target;
+          const formData = new FormData(form);
+
+          fetch(form.action, {
+            method: "POST",
+            body: formData,
+          })
+            .then((response) => response.text())
+            .then((result) => {
+              if (result.trim() === "success") {
+                alert("Sent successfully!");
+                form.reset();
+              } else {
+                alert("Failed to send. Please try again.");
+              }
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              alert("An error occurred. Please try again later.");
+            });
+        });
     </script>
   </body>
 </html>

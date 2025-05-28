@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | LoopSpring</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./style/common.css" />
+
+    <link rel="stylesheet" href="./style/services.css" />
+    <link rel="stylesheet" href="./style/animate.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/owl.carousel.min.js"></script>
+    <script src="./script/animate.js"></script>
+    <script src="./script/scrollup.js" defer></script>
+  </head>
+  <body>
+    <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
+      <div
+        class="d-flex justify-content-between align-items-center headerPadDiv"
+      >
+        <div class="LogoDiv">
+          <a href="index.html"><img id="logo" src="./images/logo.png" /></a>
+        </div>
+        <div id="togButton">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <nav id="navHeader" class="navbar navbar-expand-sm navbar-dark">
+          <div>
+            <div class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./about.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link navColor1 activeTab" style="color: #f84ca5"
+                    >Services</a
+                  >
+
+                  <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Development & Design</p>
+                      </a>
+                      <ul class="subNav-item">
+                        <a href="./website-design.html">
+                          <li>Web Design</li>
+                        </a>
+                        <a href="./web-development.html">
+                          <li>Web Development</li>
+                        </a>
+                        <a href="./mobile-app-development.html"
+                          ><li>Mobile App Development</li></a
+                        >
+                        <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Digital Transformation & Training</p>
+                      </a>
+                      <ul class="subNav-item">
+                        <a href="./digital-transformation.html">
+                          <li>Digital Transformation</li></a
+                        >
+
+                        <a href="./it-training.html"><li>IT Training</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <!-- <a><li style="color: white">Software Company</li></a> -->
+                      </ul>
+                    </li>
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Marketing & Promotion</p>
+                      </a>
+                      <ul class="subNav-item pb-3">
+                        <a href="./digital-marketing.html">
+                          <li>Digital Marketing</li>
+                        </a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <!-- <a><li style="color: white">Kanniyakumari</li></a> -->
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./solution.html"
+                    >Solutions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navHover navColor" href="./courses.html"
+                    >Training Lab</a
+                  >
+                </li>
+
+                <li class="nav-item me-0">
+                  <a class="nav-link navHover navColor" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="modal fade left"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-backdrop="true"
+      data-bs-backdrop="true"
+      role="dialog"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" style="color: #f84ca5"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link">Services</a>
+                <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Development & Design</p>
+                    </a>
+                    <ul class="subNav-item">
+                      <a href="./website-design.html">
+                        <li>Web Design</li>
+                      </a>
+                      <a href="./web-development.html">
+                        <li>Web Development</li>
+                      </a>
+                      <a href="./mobile-app-development.html"
+                        ><li>Mobile App Development</li></a
+                      >
+                      <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Digital Transformation & Training</p>
+                    </a>
+                    <ul class="subNav-item">
+                      <a href="./digital-transformation.html">
+                        <li>Digital Transformation</li></a
+                      >
+
+                      <a href="./it-training.html"><li>IT Training</li></a>
+                    </ul>
+                  </li>
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Marketing & Promotion</p>
+                    </a>
+                    <ul class="subNav-item pb-3">
+                      <a href="./digital-marketing.html">
+                        <li>Digital Marketing</li>
+                      </a>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./solution.html">Solutions</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html">Training Lab</a>
+              </li>
+
+              <li class="nav-item me-0">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="aboutDiv">
+      <div class="sectionDiv">
+        <div class="row align-items-center">
+          <div
+            class="col-sm-7 col-md-6 col-lg-5 col-xl-5 order-2 order-sm-2 fadeInLeft"
+          >
+            <h2 class="text-center">
+              <span style="color: #f84ca5">Digital Marketing </span>
+            </h2>
+            <img
+              src="./images/services/mobileapp/mobileapp.png"
+              class="w-100"
+            />
+          </div>
+          <div
+            class="col-sm-5 col-md-6 col-lg-7 col-xl-7 order-1 order-sm-1 ps-0 ps-md-5 fadeInRight"
+          >
+            <h2>Amplify your online visibility with LoopSpring</h2>
+            <h5>
+              Accelerate growth through high-performance digital strategies
+            </h5>
+
+            <p>
+              In a world where online presence is crucial, digital marketing is
+              the key to reaching your audience, generating qualified leads, and
+              maximizing your return on investment. LoopSpring guides you in
+              implementing innovative digital strategies tailored to your
+              business objectives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section class="pt-5">
+      <div class="spacingDiv">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="whyChooseLeft">
+              <img
+                src="./images/services/marketing/digital-marketing.jpg"
+                alt="Software development consultation with the LoopSpring team in India"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0 digitalDiv">
+            <h2 class="fw-bold mb-5" style="color: #f84ca5">
+              Why choose LoopSpring for digital marketing?
+            </h2>
+
+            <ul>
+              <li>
+                <p>
+                  <strong
+                    >Tailored strategies aligned with your market : </strong
+                  >We analyze your industry and competitors to develop a unique
+                  digital strategy that aligns with your commercial goals and
+                  resources.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Optimised acquisition and conversion : </strong>
+                  Our campaigns are designed to attract qualified traffic and
+                  maximize conversion rates, utilizing advanced targeting and
+                  optimization techniques.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Technology and Automation expertise :</strong>
+                  We leverage the latest innovations in AI, marketing
+                  automation, and data analysis to optimize your digital
+                  performance.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Measurable ROI with real-time adjustments :</strong
+                  >Through precise tracking of key indicators, we continuously
+                  adjust your strategy to ensure concrete and scalable results.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Security and Regulatory compliance :</strong> We
+                  ensure rigorous data management and guarantee compliance with
+                  current regulations (GDPR, data protection, etc.).
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <section class="mt-5 pt-5 pb-3" style="background-color: #fafafa">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="fadeup fw-bold text-center">
+              Our digital marketing services
+            </h2>
+          </div>
+          <div class="col-lg-12 text-center">
+            <!-- <p>
+              At Loopspring, we help you reinvent your business through bespoke
+              digital solutions. Our end-to-end services range from strategic
+              planning to complete implementation.
+            </p> -->
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
+            <div class="whyDiv digital-solution">
+              <img src="./images/services/marketing/branding.svg" />
+              <h4>Digital Strategy and Branding</h4>
+              <ul>
+                <li>Market analysis and positioning</li>
+                <li>Digital identity definition</li>
+                <li>Content creation and storytelling</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeup">
+            <div class="whyDiv digital-solution">
+              <img src="./images/services/marketing/seo.svg" />
+
+              <h4>Search Engine Optimization (SEO) and Advertising (SEA)</h4>
+              <ul>
+                <li>On-page and off-page optimization</li>
+                <li>Google Ads and social media campaigns</li>
+                <li>SEO audit and positioning improvement</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv digital-solution">
+              <img src="./images/services/marketing/social-media.svg" />
+              <h4>Social Media Marketing</h4>
+              <ul>
+                <li>Social network management and engagement</li>
+                <li>Targeted advertising on Facebook, Instagram, LinkedIn</li>
+                <li>Engaging content strategy</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv digital-solution">
+              <img src="./images/services/marketing/email-marketing.svg" />
+              <h4>Email Marketing & Automation</h4>
+              <ul>
+                <li>Personalised nurturing campaigns</li>
+                <li>Workflow automation</li>
+                <li>Precise segmentation and targeting</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv digital-solution">
+              <img src="./images/services/marketing/website-creation.svg" />
+              <h4>Website Creation and Optimization</h4>
+              <ul>
+                <li>High-performance and responsive website design</li>
+                <li>Optimized user experience (UX/UI)</li>
+                <li>Analytics and CRM tool integration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 pt-4">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="fw-bold text-center">
+              LoopSpring methodology in 9 Steps
+            </h2>
+          </div>
+          <!-- <div class="col-lg-12 text-center">
+            <p>
+              Loopspring follows a comprehensive methodology ensuring successful
+              digital transformation:
+            </p>
+          </div> -->
+        </div>
+
+        <div class="row processDiv mt-5 fadeup">
+          <div class="col-sm-6 position-relative processSubDiv processImg">
+            <img src="./images/services/webdevelopment/p1.jpg" />
+            <label>01</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2">
+            <h3><span class="stepsNum">1. </span> Analysis and Diagnosis</h3>
+            <p>Evaluate current digital presence and define objectives.</p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 processSubDiv position-relative order-last order-sm-fist"
+          >
+            <h3><span class="stepsNum">2. </span> Strategy Definition</h3>
+            <p>Develop a digital roadmap aligned with your business model.</p>
+            <label>02</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/mobileapp/process2.png" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 position-relative processSubDiv processImg">
+            <img src="./images/services/marketing/technical-optimization.png" />
+            <label>03</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2">
+            <h3><span class="stepsNum">3. </span> Technical Optimization</h3>
+            <p>Improve SEO, web performance, and mobile compatibility.</p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
+          >
+            <h3>
+              <span class="stepsNum">4. </span> Content Creation and
+              Distribution
+            </h3>
+            <p>
+              Develop engaging and impactful content to capture your audience.
+            </p>
+            <label>04</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/marketing/content-creation.png" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 processSubDiv position-relative processImg">
+            <img src="./images/services/marketing/social-ads.png" />
+            <label>05</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2 position-relative">
+            <h3>
+              <span class="stepsNum">5. </span> Advertising Campaign Deployment
+            </h3>
+            <p>Implement SEA, social ads, and retargeting strategies.</p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
+          >
+            <h3><span class="stepsNum">6. </span> Marketing Automation</h3>
+            <p>
+              Integrate email and automation solutions for time and efficiency
+              gains.
+            </p>
+            <label>06</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/digital/planning.png" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 processSubDiv position-relative processImg">
+            <img src="./images/services/itconsulting/p3.png" />
+            <label>07</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2 position-relative">
+            <h3>
+              <span class="stepsNum">7. </span> Performance Analysis and
+              Adjustments
+            </h3>
+            <p>Monitor KPIs and continuously optimize actions.</p>
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
+          >
+            <h3><span class="stepsNum">8. </span> Training and Support</h3>
+            <p>Raise team awareness of digital best practices.</p>
+            <label>08</label>
+          </div>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/marketing/support.png" />
+          </div>
+        </div>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 processSubDiv position-relative processImg">
+            <img src="./images/services/webdevelopment/p4.jpg" />
+            <label>09</label>
+          </div>
+          <div class="col-sm-6 processSubDiv2 position-relative">
+            <h3>
+              <span class="stepsNum">9. </span> Ongoing Support and Evolution
+            </h3>
+            <p>Update strategies based on market trends and developments.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-5 pb-5 mt-5" style="background-color: #fafafa">
+      <div class="sectionDiv">
+        <a href="./contact.html" style="color: black; text-decoration: none">
+          <h2 class="text-center fw-bold">
+            Ready to develop your online visibility?
+          </h2>
+        </a>
+        <p class="text-center">
+          LoopSpring is your strategic partner for successful digital
+          transformation. We help you maximize performance and achieve your
+          objectives.
+        </p>
+
+        <div class="contact-btn text-center">
+          <a href="./contact.html">
+            <button>Contact</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer_bg footer_design">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="./index.html"
+              ><img src="./images/logo.png" class="footer_logo"
+            /></a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-5">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">About</h3>
+              <ul>
+                <li class="about-footer">
+                  In Kanyakumari our team of passionate tech geeks combines
+                  cutting-edge technology with boundless creativity to develop
+                  high-performance digital solutions! From conversion-driven web
+                  design to optimisation strategies that boost your visibility,
+                  we are obsessed with your success.
+                  <p style="margin-bottom: 0px !important; color: #7d7d7d">
+                    <strong
+                      >Your vision + Our expertise = Outstanding
+                      performance</strong
+                    >
+                  </p>
+                </li>
+                <li
+                  class="fw-bold"
+                  style="font-size: 16px; padding: 0px !important; color: white"
+                >
+                  Ready to revolutionise your online presence?<img
+                    width="40px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD20lEQVR4nO2YX2xTZRjGXy/0Tr0gAQ1BgUT+XaACjgAt3uggAaPB7HyrIhAkLJpKGAlmqOecDZ1eLplbSJloHIrCFjelxSll7fed07IEx3q2mozJYNZ269luJOFPIsle853a0pVuKxjOOU36JM9V2+T3vOd9v+89BSippJJKehCSKwJPiALdJArs/Y8I3QV218D50eURVX+vj+mdn+4OByTC8I7pQbCj+tWJNRFV92hKMq6pOqbdG0xe/2Rn+GI6gFgZfBnspN/o+JOakvRmQ+c6O8ShSv88sIsGaHxBRElengle+88XA8kbn70d7ga7KKoknoqo+nAh8Fo6hKJ3QLFVXstyv6K7ixZeMzyxtGjhI0ryr6LreS3bin7EdpU/eTSK1Tu82CCFsI8lZw5Ax1fZqvL+H65g2dNN+Pz8RsMNUmiG9tF/tBU8d+vnfRl47uodvvzwqj7MLzvbDWzP2ThuXv2VAV+2sAnbWqL5+n4kQscWmQb9IaELZELLG9w9VYWcNjzE8aYIdndcNRe+5rWzczioSNgBibAWkdDzEmF/811FdrG4ejr2Zy7Qd0f68R2hEz8+EMDe4NhsJ87IA4OXCVsiCjQxdcVNuZawBMsDH/zpqtEm6X7nIYoGXlN1bP8iOmVg3xU6iwdeM9bhMXz9xW9SA7uoGb/3DBQPvJYVov3Y78i8I+bCf1ARni8JbDQf/HQD+22zhrtfbceavV3GSWPZwKYlC3SVJFCPROjN2SqvnokZbZLudx7CUvhs8dc5iVCx9k2lL1/lub0nLk0ZWP4kbAFf6A3Ll7Jdr7Qb8GsXNxvnf+53Qr54vNF9oQqsUFfr8MnZBpaH8J0YwtDPsbs+U0/HYpKLJvj/PJYEkAiLdniGemYLkc+88rJLifEZ4oeDRQHooCTQ297G3uj9wosCvQaAD5kOj+vhOd+WfeMcoo6cw2D9qclC4FVvPC65WPY9EjYf/iV4HB0wik5A/7YqA6RO6EZa31Zw5bPcYn4AB+zj8LjnUcTEOvR/WZsJEaxvm7wHeJQqWbUVAX41Apx6BnFig2H/sbpMiNyZmBae3+CElpsLvwIeQQdcNwKEVmYC8CfxyzZ3CkwI/tPhGUydToo+UvsGi+SD52sJf58wN4AD1hrw3L7liOrK1JPg7eQE9G7dPy4KdFgibND39R9t/F1YJEzKBy+7AstMhedCB7yVCXC3E7gBnoUcydtDc0WB3boDT5NyBVsBVgidUDcFmreTA7rQCW4sg8em+50o0FbL4bnQCXvQAYfRAdtxI7yAq+FhKHyLtRb+/8qylaGkkkoqCczWvww9lHFaAI+eAAAAAElFTkSuQmCC"
+                    alt="rocket--v1"
+                  />
+                </li>
+                <li
+                  class="fw-bold text-light"
+                  style="
+                    font-size: 16px;
+                    padding: 0px !important;
+                    color: #7d7d7d !important;
+                  "
+                >
+                  Contact our dream team for your free quote!
+                </li>
+              </ul>
+              <div class="getStarted-cta mb-4">
+                <button>Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">About Us</h3>
+              <ul>
+                <li>
+                  <a href="./about.html">About Us</a>
+                </li>
+                <li>
+                  <a href="./skills.html">Skills</a>
+                </li>
+                <li>
+                  <a href="./gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="./index.html#testimonal">Testimonials</a>
+                </li>
+              </ul>
+              <a href="./courses.html">
+                <h3 class="heading fw-bold">Training Lab</h3></a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">Solutions & Support</h3>
+              <ul>
+                <li>
+                  <a href="./solution.html">Solutions</a>
+                </li>
+                <!-- <li>
+                  <a href="./industries.html">Industries</a>
+                </li> -->
+                <li>
+                  <a href="">Guides</a>
+                </li>
+                <li>
+                  <a href="./support-maintenance.html">Support</a>
+                </li>
+                <li>
+                  <a href="">FAQ</a>
+                </li>
+              </ul>
+              <a href="./charity.html"
+                ><h3 class="heading fw-bold">Foundation</h3></a
+              >
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">Connect</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <a href="./legal-information.html">Legal information</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./contact.html">Contact</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./career.html">Careers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="newsletter" style="margin-left: -20px">
+              <h3 class="text-light heading">Newsletter</h3>
+              <input type="text" placeholder="Your email" />
+              <button class="mt-2">Subscribe</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer_bottom">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p class="copyright">
+                        Copyright ©
+                        <span>2025</span>
+                        LoopSpring. All Rights Reserved
+                      </p>
+                    </div>
+                    <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="social_links d-flex">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=61567766033788"
+                        target="_blank"
+                        ><i class="fab fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/loopspring_technologies?igsh=czVkeW1uZTYzajB2"
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/loopspring-technologies/"
+                        target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--==================================================-->
+    <!-- Start  Scroll Up-->
+    <!--==================================================-->
+    <div class="prgoress_indicator active-progress">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 212.78;
+          "
+        ></path>
+      </svg>
+    </div>
+    <!--==================================================-->
+    <!-- End  Scroll Up-->
+    <!--==================================================-->
+  </body>
+</html>

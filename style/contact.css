@@ -1,3 +1,18 @@
+.contact-header {
+  padding: 12% 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)),
+    url("./../images/contact-image/contact-bg.jpg");
+  background-position: top;
+  background-size: cover;
+}
+.contact-header h2,
+.contact-header p {
+  color: white;
+}
+.contact-header h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .imgDivSec .heading {
   display: flex;
   flex-direction: column;
@@ -116,7 +131,7 @@ textarea {
   padding-left: 22px;
 }
 .contact-info h5 {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 0px;
   line-height: 1.7;
 }
@@ -145,6 +160,21 @@ textarea {
 .formDiv {
   display: flex;
   flex-direction: column;
+}
+.nameDiv select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid rgb(181 181 181);
+  border-radius: 5px;
+  font-size: 14px;
+  width: 48%;
+}
+.nameDiv input::placeholder {
+  color: black !important;
+}
+textarea::placeholder {
+  color: black !important;
 }
 @media (max-width: 1000px) {
   .leftDiv img {
@@ -187,6 +217,15 @@ textarea {
   }
   .nameDiv input {
     flex: none;
+  }
+  .contact-header {
+    padding: 30% 0px 25%;
+  }
+  .contact-header p {
+    font-size: 12px;
+  }
+  .nameDiv select {
+    width: 100%;
   }
 }
 @media (max-width: 305px) {

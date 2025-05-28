@@ -1,0 +1,36 @@
+.solution-subHeading h1 {
+  position: relative;
+}
+.solution-subHeading h1::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: #f23ea2;
+  bottom: -10px;
+  /* left: 4px; */
+  /* position: absolute; */
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.ctaBtn button {
+  background-color: #9629db;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-top: 1.5rem;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid #9629db;
+}
+.ctaBtn button:hover {
+  background-color: transparent;
+  color: #9629db;
+}
+.whyRight img {
+  width: 100%;
+}
+.whyLeft p i {
+  color: #f23ea2;
+}

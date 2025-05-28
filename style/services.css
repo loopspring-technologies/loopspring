@@ -1,3 +1,9 @@
+.spacingDiv {
+  padding: 0px 7vw 0px 0px;
+}
+.spaceDiv {
+  padding: 0px 7vw 0px 7vw;
+}
 .aboutDiv li {
   padding-top: 7px;
   padding-bottom: 7px;
@@ -35,7 +41,7 @@
 }
 .whyDiv h4 {
   font-family: var(--heading-font--);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 20px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -97,6 +103,16 @@
   padding-top: 18px;
   padding-bottom: 18px;
 }
+.processSubDiv ul {
+  list-style: none;
+}
+.processSubDiv2 ul {
+  list-style: none;
+}
+.processDiv ul li i {
+  color: #f52590;
+  font-size: 14px;
+}
 .processImg {
   text-align: center;
   display: flex;
@@ -115,7 +131,7 @@
 }
 .processDiv h3 {
   font-family: var(--heading-font--);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 700;
@@ -259,7 +275,128 @@
   width: 50px;
   margin-left: 0px;
 }
+.contact-btn button {
+  text-decoration: none;
+  background-color: #9629db;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-top: 1.5rem;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.contact-btn button:hover {
+  background-color: #e74699;
+}
+/* Mobile app  */
+.whyChooseLeft img {
+  width: 100%;
+}
+.digitalDiv i {
+  color: #f52590;
+  font-size: 12px;
+}
+.digital-solution ul li {
+  text-align: start;
+}
+.digital-solution:hover ul li {
+  color: white;
+}
+.stepsNum {
+  display: none;
+}
 
+/*  */
+.main-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-block h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.sub-block p {
+  text-align: center;
+  font-size: 14px;
+}
+.sub-block {
+  flex: 1;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fafafa;
+  overflow: hidden;
+  padding: 30px 15px 0px;
+}
+.sub-block h3 {
+  position: relative;
+  text-align: center;
+  z-index: 100;
+  color: white;
+}
+.block-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.block-top img {
+  width: 120px;
+}
+.block-bottom {
+  position: relative;
+  z-index: 0;
+}
+.block-bottom::after {
+  content: "";
+  width: 130px;
+  height: 130px;
+  background-color: #f241a3;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+/* Support Maintenance */
+.support-list {
+  list-style: none !important;
+}
+
+.support-list li {
+  list-style: none;
+  margin-bottom: 0px;
+}
+.support-list li p {
+  margin-bottom: 0px !important;
+}
+.contractDiv-left img {
+  width: 100%;
+  border-radius: 6px;
+}
+.issuesLeft i {
+  font-size: 64px;
+  color: white;
+}
+.support-cta {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #e74699;
+  background-color: #ffebf5;
+  border-radius: 8px;
+}
+.zShape {
+  margin-top: 8px;
+}
+.zShape p {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
 @media (max-width: 1100px) {
   .processDiv img {
     width: 80%;
@@ -288,6 +425,18 @@
   }
   .uiuxDiv .row div:nth-child(2) {
     padding-left: 10px !important;
+  }
+  .spacingDiv {
+    padding: 0px 7vw 0px 7vw;
+  }
+  .spaceDiv {
+    padding: 0px;
+  }
+  .main-block {
+    flex-direction: column;
+  }
+  .sub-block {
+    min-height: 350px;
   }
 }
 @media (max-width: 900px) {
@@ -389,5 +538,11 @@
   .sloganInDiv p {
     padding: 0px 1vw;
     font-size: 15px;
+  }
+  .stepsNum {
+    display: inline-block;
+  }
+  .sub-block {
+    min-height: 420px;
   }
 }

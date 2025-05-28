@@ -1,0 +1,32 @@
+.careerCard {
+  padding: 30px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 6px;
+}
+.careerCard h2 {
+  padding-right: 6px;
+}
+.careerCard .applyBtn {
+  margin-top: 30px;
+}
+.applyBtn button {
+  background-color: #9629db;
+  color: white;
+  border: 2px solid #9629db;
+  padding: 6px 18px;
+  border-radius: 6px;
+}
+.careerCard span {
+  color: #9629db;
+}
+
+.career-freelance {
+  background: linear-gradient(to right, #6e4aa6f5, #6e4aa6f5),
+    url("../images/testimony/pattern.jpg");
+}
+.coreValuesImg img {
+  width: 100%;
+}
+.careerCard p {
+  font-size: 14px;
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Loopspring</title>
+    <title>About | LoopSpring</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
@@ -17,6 +17,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <link rel="stylesheet" href="./style/owl.carousel.min.css" />
     <link rel="stylesheet" href="./style/common.css" />
@@ -24,32 +28,15 @@
     <link rel="stylesheet" href="./style/about.css" />
     <link rel="stylesheet" href="./style/animate.css" />
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./script/owl.carousel.min.js"></script>
     <script src="./script/animate.js"></script>
+    <script src="./script/scrollup.js" defer></script>
   </head>
   <body>
     <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
-      <div class="headTopDiv d-flex justify-content-end">
-        <div class="d-flex headTopSubDiv">
-          <div>
-            <i class="fa-regular fa-envelope headIcon me-2"></i>
-            <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
-            <a href="tel:9894365935">+91 9894365935</a>
-          </div>
-        </div>
-        <!-- <div class="headSocialIcon">
-          <a href=""><img src="./images/facebook.webp" /> </a>
-          <a href=""><img src="./images/instagram.png" /> </a>
-          <a href=""><img src="./images/twitter.png" /> </a>
-          <a href=""><img src="./images/linkedin.png" /> </a>
-        </div> -->
-      </div>
-
       <div
         class="d-flex justify-content-between align-items-center headerPadDiv"
       >
@@ -80,62 +67,59 @@
                     class="nav-link navHover navColor activeTab"
                     href="./about.html"
                     style="color: #f84ca5"
-                    >About</a
+                    >About Us</a
                   >
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link navColor1">Services</a>
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./website-design.html">
-                        <p>Website Design</p>
+
+                  <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Development & Design</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./website-design.html">
+                          <li>Web Design</li>
+                        </a>
+                        <a href="./web-development.html">
+                          <li>Web Development</li>
+                        </a>
+                        <a href="./mobile-app-development.html"
+                          ><li>Mobile App Development</li></a
+                        >
+                        <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./web-development.html">
-                        <p>Web Development</p>
+
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Digital Transformation & Training</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./digital-transformation.html">
+                          <li>Digital Transformation</li></a
+                        >
+
+                        <a href="./it-training.html"><li>IT Training</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <!-- <a><li style="color: white">Software Company</li></a> -->
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./mobile-app-development.html"
-                      >
-                        <p>Mobile App Development</p>
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Marketing & Promotion</p>
                       </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./testing-QA.html">
-                        <p>Testing and QA</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./ui-ux.html">
-                        <p>UI/UX Design</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./digital-transformation.html"
-                      >
-                        <p>Digital Transformation</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-outsourcing.html">
-                        <p>IT Outsourcing</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-consulting.html">
-                        <p>IT Consulting</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-support.html">
-                        <p>IT Support</p>
-                      </a>
+                      <ul class="subNav-item pb-3">
+                        <a href="./digital-marketing.html">
+                          <li>Digital Marketing</li>
+                        </a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <!-- <a><li style="color: white">Kanniyakumari</li></a> -->
+                      </ul>
                     </li>
                   </ul>
                 </li>
@@ -145,20 +129,15 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navHover navColor" href="./industries.html"
-                    >Industries</a
-                  >
-                </li>
-                <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./courses.html"
-                    >Courses</a
+                    >Training Lab</a
                   >
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./gallery.html"
                     >Gallery</a
                   >
-                </li>
+                </li> -->
                 <li class="nav-item me-0">
                   <a class="nav-link navHover navColor" href="./contact.html"
                     >Contact</a
@@ -197,77 +176,64 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./about.html" style="color: #f84ca5"
-                  >About</a
+                  >About Us</a
                 >
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link">Services</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./website-design.html">
-                      <p>Website Design</p>
+                <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Development & Design</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./website-design.html">
+                        <li>Web Design</li>
+                      </a>
+                      <a href="./web-development.html">
+                        <li>Web Development</li>
+                      </a>
+                      <a href="./mobile-app-development.html"
+                        ><li>Mobile App Development</li></a
+                      >
+                      <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./web-development.html">
-                      <p>Web Development</p>
+
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Digital Transformation & Training</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./digital-transformation.html">
+                        <li>Digital Transformation</li></a
+                      >
+
+                      <a href="./it-training.html"><li>IT Training</li></a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./mobile-app-development.html"
-                    >
-                      <p>Mobile App Development</p>
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Marketing & Promotion</p>
                     </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./testing-QA.html">
-                      <p>Testing and QA</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./ui-ux.html">
-                      <p>UI/UX Design</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./digital-transformation.html"
-                    >
-                      <p>Digital Transformation</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-outsourcing.html">
-                      <p>IT Outsourcing</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-consulting.html">
-                      <p>IT Consulting</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-support.html">
-                      <p>IT Support</p>
-                    </a>
+                    <ul class="subNav-item pb-3">
+                      <a href="./digital-marketing.html">
+                        <li>Digital Marketing</li>
+                      </a>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./solution.html">Solutions</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="./industries.html">Industries</a>
+                <a class="nav-link" href="./courses.html">Training Lab</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./courses.html">Courses</a>
-              </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="./gallery.html">Gallery</a>
-              </li>
+              </li> -->
               <li class="nav-item me-0">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
@@ -280,28 +246,31 @@
       <div class="sectionDiv">
         <div class="row align-items-center">
           <div class="col-md-7 pe-0 pe-md-5 fadeInRight">
-            <h5>ABOUT US</h5>
-            <h2>
-              Welcome To <span style="color: #6e4ba7">Loop</span
-              ><span style="color: #f84da5">Spring</span><br />
-              Technologies and Consultancy <br />Pvt Ltd
+            <!-- <h5>ABOUT US</h5> -->
+            <h2 style="color: #f84ca5">
+              Transform your business with LoopSpring
             </h2>
             <p>
-              LoopSpring Technology Ltd is a leading solution provider for web
-              applications. Established in 2022, The Company has been promoted
-              by some highly experienced Professionals dedicated to provide
-              total solutions undergone roof. It possesses not only the latest
-              technology gadgets but also the most knowledgeable and experience
-              hands to offer most user friendly customized solutions.
+              Cutting-edge software development & digital transformation in
+              India & Europe
             </p>
+            <h2>
+              <span style="color: #9629db">Who are we :</span> A startup
+              revolutionizing digital solutions with our partners
+            </h2>
             <p>
-              Loop Spring has carved a niche for itself in the IT, Education&
-              other industries and has increased its business by acquiring some
-              major domestic and international projects. No doubt the company
-              has been able to make a name for itself in a relatively short span
-              of time only because of its ability and commitments to ensure
-              customer satisfaction by rewarding quality work on right time and
-              in a right manner
+              <strong>LoopSpring Technologies</strong> is a trailblazing company
+              specialising in <strong>custom software development</strong> and
+              <strong>digital transformation services</strong> based in
+              Kanniyakumari. Since 2020, we've been empowering Indian and
+              European businesses to revolutionise their processes and
+              supercharge their digital footprint through innovative
+              cutting-edge technologies. Our success secret? We put people
+              first: <strong>trust,</strong
+              ><span style="color: #ffebf5">,</span>
+              <strong>active listening</strong> and
+              <strong>long-term strategic support</strong> form the foundation
+              of every client partnership we build.
             </p>
           </div>
           <div class="col-md-5 fadeInLeft">
@@ -310,61 +279,640 @@
         </div>
       </div>
     </section>
-    <section style="background: #fafafa">
-      <div class="sectionDiv pe-lg-0 mt-5">
+    <section style="background-color: #fafafa">
+      <div class="sectionDiv pe-lg-0">
         <div class="row m-lg-0">
           <div class="col-lg-6 col-xl-7 pe-0 pe-md-5 pt-5 pb-5 fadeInLeft">
-            <h2 class="fw-bold pt-3">Our Mission & Vision</h2>
-            <div class="mt-5 pt-3 d-flex align-items-center">
-              <div class="missionDiv me-3 me-sm-5">
-                <img src="./images/about/mission.png" />
-              </div>
-              <div style="flex: 1" class="missionContent">
-                <h5>Mission</h5>
-                <p>
-                  Providing excellent Training and Development for profitable
-                  growth through services, innovation, and quality which meets
-                  the needs of learners and companies, delivered by highly
-                  competent specialist staff.
-                </p>
-              </div>
+            <h2 class="fw-bold pt-3">
+              <span style="color: #f84ca5">Our Journey:</span> From ambitious
+              startup to global technology powerhouse
+            </h2>
+            <p>
+              Born in the wake of the COVID-19 pandemic through the vision of
+              Alex, a brilliant data analytics expert, and Felix,<span
+                style="color: white"
+                >,</span
+              >
+              a strategic business management specialist, LoopSpring emerged
+              with a bold mission: breaking down technological barriers by
+              delivering
+              <strong
+                >high-quality digital solutions at accessible prices.</strong
+              >
+            </p>
+            <p>
+              In India's fiercely competitive market where 78% of SMEs are
+              racing to digitalise, we spotted the gap: businesses needed more
+              than just technical expertise they craved genuine human
+              connection. While 67% of competitors chase quick wins and
+              short-term gains, we've charted a different course: crafting
+              enduring technology partnerships where every project evolves into
+              a strategic alliance.
+            </p>
+            <div class="logo-image mt-3 mb-3 text-center">
+              <img
+                src="./images/logo.png"
+                alt="LoopSpring, software development company in India"
+              />
             </div>
-            <div class="mt-5 d-flex align-items-center">
-              <div class="missionDiv me-3 me-sm-5">
-                <img src="./images/about/vision.png" />
-              </div>
-              <div style="flex: 1" class="missionContent">
-                <h5>Vision</h5>
-                <p>
-                  We strive to help our clients to do great work through the
-                  limitless solutions what we offer. We impart the knowledge,
-                  skill, desire and opportunity to succeed in a way that leads
-                  to organizational success.
-                </p>
-              </div>
-            </div>
-            <div class="mt-5 d-flex align-items-center">
-              <div class="missionDiv me-3 me-sm-5">
-                <img src="./images/about/value.png" />
-              </div>
-              <div style="flex: 1" class="missionContent">
-                <h5>Value</h5>
-                <p>
-                  Results and achievement-oriented: set and maintain
-                  high-performance standards for yourself and others that
-                  support the company’s strategic plan for better performance
-                  and delivering results.
-                </p>
-              </div>
-            </div>
+            <h2 class="fw-bold pt-3">
+              <span style="color: #f84ca5">Our vision :</span> Stretches far
+              beyond profit margins
+            </h2>
+            <p class="pt-2">
+              LoopSpring passionately drives
+              <strong>knowledge sharing throughout Kanyakumari</strong>,
+              dismantling obstacles for rising talents and underserved
+              communities. Since 2023, we've been equipping tomorrow's
+              innovators with cutting-edge digital skills.
+            </p>
+            <p>
+              Today, LoopSpring powers digital transformation for clients across
+              India and throughout Europe (particularly in France, Germany, and
+              the United Kingdom), implementing gold-standard industry practices
+              in compliance and data protection (GDPR). Our leadership team
+              strengthened with the addition of Arun, a visionary commercial and
+              marketing strategist who amplifies our mission and accelerates our
+              global expansion. This powerful fusion of deep local expertise and
+              global perspective has launched an exciting new chapter in the
+              LoopSpring story.
+            </p>
           </div>
-          <div class="col-lg-6 col-xl-5 pe-0 d-none d-lg-block fadeup">
-            <img src="./images/about/missionImg.png" class="w-100 h-100" />
+          <div class="col-lg-6 col-xl-5 pe-0 d-none d-lg-block fadeInLeft">
+            <img src="./images/about/about-us.png" class="w-100 h-100" />
           </div>
         </div>
       </div>
     </section>
-    <section class="mt-5 whychooseDiv">
+
+    <!-- Values -->
+    <section>
+      <div class="sectionDiv mt-5 mb-5">
+        <!-- <h1>Our Values</h1> -->
+        <div class="expertise-heading">
+          <div class="row">
+            <div class="col-12 col-lg-12">
+              <h2 class="fw-bold pt-3">
+                <span style="color: #f84ca5">Our core values :</span>
+                Driving digital excellence through human connection
+              </h2>
+            </div>
+            <div class="col-12 col-lg-12 d-flex align-items-center">
+              <p>
+                We're absolutely convinced that an
+                <strong>ethical, human-centred approach</strong> unlocks
+                unprecedented success in software development and digital
+                transformation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="sectionDiv mt-5 mb-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="valuesLeft">
+              <img src="./images/home/core-values.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="valuesRight mt-4">
+              <div
+                class="valuesDiv d-flex flex-column align-items-lg-start align-items-start flex-lg-row"
+              >
+                <div class="valuesIcon">
+                  <img src="./images/home/aValue.svg" alt="" />
+                </div>
+                <div class="mt-3 mt-lg-0">
+                  <h5><strong>Customer centric</strong></h5>
+                  <p>
+                    An impressive 91% of our clients extend their journey with
+                    us beyond initial projects, thanks to our unwavering
+                    transparency, meticulous project management, and
+                    far-reaching strategic vision.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="valuesRight">
+              <div
+                class="valuesDiv d-flex flex-column align-items-lg-start align-items-start flex-lg-row"
+              >
+                <div class="valuesIcon">
+                  <img src="./images/home/dValue.svg" alt="" />
+                </div>
+                <div class="mt-3 mt-lg-0">
+                  <h5><strong>Grow Together</strong></h5>
+                  <p>
+                    Our dynamic and multicultural workplace fosters growth
+                    through diversity, ensuring equal opportunities and pay for
+                    all. We value work-life balance, respecting both
+                    professional commitments and personal time
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="valuesRight">
+              <div
+                class="valuesDiv d-flex flex-column align-items-lg-start align-items-start flex-lg-row"
+              >
+                <div class="valuesIcon">
+                  <img src="./images/home/cValue.svg" alt="" />
+                </div>
+                <div class="mt-3 mt-lg-0">
+                  <h5><strong>Knowledge sharing</strong></h5>
+                  <p>
+                    Our dynamic educational initiatives in local communities
+                    catalyze digital talent development, creating pathways for
+                    tomorrow's tech leaders.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="valuesRight">
+              <div
+                class="valuesDiv d-flex flex-column align-items-lg-start align-items-start flex-lg-row"
+              >
+                <div class="valuesIcon">
+                  <img src="./images/home/bValue.svg" alt="" />
+                </div>
+                <div class="mt-3 mt-lg-0">
+                  <h5><strong>Excellence & innovation</strong></h5>
+                  <p>
+                    Our passionate team invests 10% of their time in pioneering
+                    R&D to stay ahead of transformative technologies including
+                    generative AI, low-code development platforms, and next-gen
+                    cloud computing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Expertise -->
+
+    <section class="pt-5 pb-5" style="background-color: #ffebf5">
+      <div class="sectionDiv">
+        <div class="expertise-heading">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h2 class="fw-bold pt-3">
+                <span style="color: #f84ca5">Our technical expertise:</span>
+                Transforming challenges into digital breakthroughs
+              </h2>
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center">
+              <p>
+                LoopSpring harnesses the collective genius of our certified
+                professionals with diverse specialties, delivering award-winning
+                solutions from our strategic hubs in India and France
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="expertise-card mt-5">
+          <div class="row g-3">
+            <div class="col-lg-6 d-flex align-items-stretch">
+              <div class="expertiseDiv">
+                <h4>
+                  <strong
+                    >Custom web and mobile development that drives
+                    results</strong
+                  >
+                </h4>
+                <p>
+                  We engineer high-performance, responsive applications
+                  perfectly aligned with your business objectives
+                </p>
+                <ul>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span
+                      >Conversion-optimised corporate websites that turn
+                      visitors into customers</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span
+                      >Seamless native and cross-platform mobile applications
+                      (iOS/Android) that users love</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i>
+                    <span>
+                      Scalable e-commerce platforms with bulletproof payment
+                      integration
+                    </span>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i>
+                    <span>
+                      Tailor-made SaaS solutions that transform your business
+                      processes
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-stretch">
+              <div class="expertiseDiv">
+                <h4>
+                  <strong>User-centred UI/UX Design that captivates</strong>
+                </h4>
+                <p>
+                  Our creative designers craft interfaces that revolutionise
+                  customer experiences
+                </p>
+                <ul>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span
+                      >Deep-dive UX audits and interactive prototyping that
+                      uncover hidden opportunities</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span
+                      >Intuitive interface designs that maximise engagement and
+                      conversion</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i>
+                    <span>
+                      Data-driven testing and iteration that continuously
+                      enhances performance
+                    </span>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i>
+                    <span>
+                      Accessible digital experiences that comply with WCAG
+                      standards and reach every user
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-stretch">
+              <div class="expertiseDiv">
+                <h4>
+                  <strong
+                    >Seamless API integration and custom solutions for
+                    forward-thinking businesses</strong
+                  >
+                </h4>
+                <p>
+                  We develop agile, powerful solutions that accelerate your
+                  digital transformation
+                </p>
+                <ul>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span
+                      >Frictionless integration with your existing systems (ERP,
+                      CRM)</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span
+                      >Lightning-fast, secure RESTful APIs that unlock new
+                      possibilities</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i>
+                    <span>
+                      Intelligent business process automation and workflow
+                      optimisation
+                    </span>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i>
+                    <span>
+                      Strategic cloud migration and microservices architecture
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-stretch">
+              <div class="expertiseDiv">
+                <h4>
+                  <strong
+                    >Results-Driven Digital Marketing and SEO for explosive
+                    growth</strong
+                  >
+                </h4>
+                <p>
+                  Our data-backed strategies dramatically boost your online
+                  visibility and market reach
+                </p>
+                <ul>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span
+                      >Precision-targeted SEO campaigns customised for Indian
+                      and international markets</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i
+                    ><span
+                      >High-ROI SEM campaigns and digital advertising that
+                      capture qualified leads</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i>
+                    <span>
+                      Compelling content marketing and social media strategies
+                      that build brand authority
+                    </span>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-star me-2"></i>
+                    <span>
+                      Advanced analytics and continuous performance optimisation
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="pt-3" style="font-size: 18px">
+          <span class="fw-bold" style="color: #f84ca5"
+            >Our brilliant team of innovators:</span
+          >
+          Jenish Sherin, Aswin, Bino, and Ancy Nishalini craft robust, scalable
+          applications, while Shumin and Ajith drive strategic business and
+          technical development with precision and dedication.
+        </p>
+      </div>
+    </section>
+
+    <!-- Why Choose -->
+    <section class="pt-5" id="whyChoose">
+      <div class="sectionDiv">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="whyChooseLeft">
+              <img
+                src="./images/about/why-choose.png"
+                alt="Software development consultation with the LoopSpring team in India"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <h2 class="fw-bold">
+              <span style="color: #f84ca5">
+                Why leading businesses choose LoopSpring :</span
+              >
+              As their technology partner
+            </h2>
+            <p>
+              At LoopSpring, we don't just deliver projects we forge
+              transformative partnerships built on trust and measurable impact.
+            </p>
+            <ul>
+              <li>
+                <p>
+                  <strong>Personalised support at every stage :</strong> We
+                  become an extension of your team before, during, and after
+                  your project with dedicated follow up and real time updates,
+                  with lightning-fast response times under 4 hours.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>A team of passionate digital pioneers :</strong>
+                  Each project is powered by dedicated specialists who
+                  continuously sharpen their expertise (80+ hours/year) in
+                  breakthrough technologies like React Native, Flutter, and
+                  cutting edge AI frameworks.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Future-proof solutions for global markets :</strong>
+                  Our applications evolve alongside your business, seamlessly
+                  adapting to both Indian and European market demands while
+                  delivering unmatched flexibility.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonal -->
+
+    <!--  -->
+    <!--  -->
+    <section class="testimonalDiv pt-5 mt-5 pb-5">
+      <div class="sectionDiv">
+        <h1>What our client says</h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide d-flex align">
+              <div class="single-testimonials-about">
+                <p class="disc">
+                  Excellent work delivered as expected, too friendly and polite.
+                  Must recommended continue your good work.
+                </p>
+                <div class="author-area">
+                  <div class="information">
+                    <h5 class="title">Subash Kumar</h5>
+                    <p>CEO of Curmex Solutions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="single-testimonials-about">
+                <p class="disc">
+                  LoopSpring completely transformed our sales process with their
+                  custom application, boosting our efficiency by an incredible
+                  40%. Their team's deep understanding of the Indian market's
+                  unique challenges makes them invaluable partners
+                </p>
+                <div class="author-area">
+                  <div class="information">
+                    <h5 class="title">Rajiv Mehta, Operations Director</h5>
+                    <p>Well-known Indian company</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="single-testimonials-about">
+                <p class="disc">
+                  Partnering with LoopSpring gives you world class technical
+                  expertise combined with deep local market insights. The
+                  e-commerce platform they built for us generated a stunning 65%
+                  increase in conversion rates—results that speak for
+                  themselves.
+                </p>
+                <div class="author-area">
+                  <div class="information">
+                    <h5 class="title">Sophie Dubois, CEO</h5>
+                    <p>European company</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="single-testimonials-about">
+                <p class="disc">
+                  The mobile app development team at LoopSpring did an
+                  outstanding job. They created a seamless and user friendly app
+                  that has significantly improved our customer engagement.
+                </p>
+                <div class="author-area">
+                  <div class="information">
+                    <h5 class="title">Rahul Verma</h5>
+                    <p>Mobile App Entrepreneur</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="single-testimonials-about">
+                <p class="disc">
+                  From UI/UX design to final website deployment, the LoopSpring
+                  team was incredibly supportive and innovative. Their attention
+                  to detail and quality is unmatched.
+                </p>
+                <div class="author-area">
+                  <div class="information">
+                    <h5 class="title">Sneha Reddy</h5>
+                    <p>Small Business Owner</p>
+                  </div>
+                  <div class="author-img"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <section class="pt-5">
+      <div class="sectionDiv">
+        <div class="row pb-4">
+          <div class="col-12 col-lg-6">
+            <h2 class="fw-bold pt-3">
+              <span style="color: #f84ca5">Our CSR vision:</span>
+              Harnessing technology for positive change
+            </h2>
+          </div>
+          <div class="col-12 col-lg-6 d-flex align-items-center">
+            <p>
+              As a purpose driven technology company rooted in India, we're
+              passionately committed to creating meaningful social and
+              environmental impact
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="csr-left">
+              <ul style="list-style: none; padding-left: 0px">
+                <li class="d-flex">
+                  <i
+                    class="fa-regular fa-circle-check pt-2 pe-3"
+                    style="font-size: 22px; color: #9629db"
+                  ></i>
+                  <p>
+                    <strong
+                      >Transformative technology training programmes</strong
+                    >
+                    empowering 250+ students and young entrepreneurs across
+                    Madras, Pondicherry, Bangalore annually.
+                  </p>
+                </li>
+                <li class="d-flex">
+                  <i
+                    class="fa-regular fa-circle-check pt-2 pe-3"
+                    style="font-size: 22px; color: #9629db"
+                  ></i>
+                  <p>
+                    <strong>Pioneering sustainability initiatives</strong>
+                    including renewable energy infrastructure and aggressive
+                    paper reduction policies throughout our operations.
+                  </p>
+                </li>
+                <li class="d-flex">
+                  <i
+                    class="fa-regular fa-circle-check pt-2 pe-3"
+                    style="font-size: 22px; color: #9629db"
+                  ></i>
+                  <p>
+                    <strong>Leading "Digital India" grassroots projects</strong>
+                    that democratise technology access in underserved rural
+                    communities, with 15+ dynamic workshops delivered since
+                    2023.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="csr-vision-img">
+              <img src="./images/home/csr-vision.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <section class="pt-5 pb-5 mt-5" style="background-color: #fafafa">
+      <div class="sectionDiv">
+        <a href="./contact.html" style="color: black; text-decoration: none">
+          <h2 class="text-center fw-bold">
+            Ready to transform your digital future?
+          </h2>
+          <h2 class="text-center fw-bold">Contact LoopSpring today!</h2>
+        </a>
+        <p class="text-center">
+          Are you looking for a reliable and dynamic partner to accelerate your
+          digital transformation? <br />
+          Our dedicated team of experts is ready to take on your challenges with
+          creativity and technical excellence.
+        </p>
+        <p></p>
+        <!-- <p class="text-center">
+          <strong>Contact us today</strong> to discuss your project or call us
+          directly at <strong>+91 98943 65935.</strong>
+        </p> -->
+        <div class="contact-btn text-center">
+          <a href="./contact.html">
+            <button>Contact</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <!-- <section class="pt-5 whychooseDiv" >
       <div class="sectionDiv">
         <h1 class="fadeup">Why Choose us</h1>
         <p class="fadeup">
@@ -450,8 +998,8 @@
           </li>
         </ul>
       </div>
-    </section>
-    <footer class="footer_bg footer_design mt-5">
+    </section> -->
+    <footer class="footer_bg footer_design">
       <div class="sectionDiv">
         <div class="row">
           <div class="col-sm-12">
@@ -461,106 +1009,120 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-sm-3">
+          <div class="col-md-5">
             <div class="footer_link_colom">
-              <h3 class="heading">About</h3>
+              <h3 class="heading fw-bold">About</h3>
               <ul>
-                <li>
-                  Improving provides consulting, software development and
-                  training to our customers through high environments of trust.
+                <li class="about-footer">
+                  In Kanyakumari our team of passionate tech geeks combines
+                  cutting-edge technology with boundless creativity to develop
+                  high-performance digital solutions! From conversion-driven web
+                  design to optimisation strategies that boost your visibility,
+                  we are obsessed with your success.
+                  <p style="margin-bottom: 0px !important; color: #7d7d7d">
+                    <strong
+                      >Your vision + Our expertise = Outstanding
+                      performance</strong
+                    >
+                  </p>
+                </li>
+                <li
+                  class="fw-bold"
+                  style="font-size: 16px; padding: 0px !important; color: white"
+                >
+                  Ready to revolutionise your online presence?<img
+                    width="40px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD20lEQVR4nO2YX2xTZRjGXy/0Tr0gAQ1BgUT+XaACjgAt3uggAaPB7HyrIhAkLJpKGAlmqOecDZ1eLplbSJloHIrCFjelxSll7fed07IEx3q2mozJYNZ269luJOFPIsle853a0pVuKxjOOU36JM9V2+T3vOd9v+89BSippJJKehCSKwJPiALdJArs/Y8I3QV218D50eURVX+vj+mdn+4OByTC8I7pQbCj+tWJNRFV92hKMq6pOqbdG0xe/2Rn+GI6gFgZfBnspN/o+JOakvRmQ+c6O8ShSv88sIsGaHxBRElengle+88XA8kbn70d7ga7KKoknoqo+nAh8Fo6hKJ3QLFVXstyv6K7ixZeMzyxtGjhI0ryr6LreS3bin7EdpU/eTSK1Tu82CCFsI8lZw5Ax1fZqvL+H65g2dNN+Pz8RsMNUmiG9tF/tBU8d+vnfRl47uodvvzwqj7MLzvbDWzP2ThuXv2VAV+2sAnbWqL5+n4kQscWmQb9IaELZELLG9w9VYWcNjzE8aYIdndcNRe+5rWzczioSNgBibAWkdDzEmF/811FdrG4ejr2Zy7Qd0f68R2hEz8+EMDe4NhsJ87IA4OXCVsiCjQxdcVNuZawBMsDH/zpqtEm6X7nIYoGXlN1bP8iOmVg3xU6iwdeM9bhMXz9xW9SA7uoGb/3DBQPvJYVov3Y78i8I+bCf1ARni8JbDQf/HQD+22zhrtfbceavV3GSWPZwKYlC3SVJFCPROjN2SqvnokZbZLudx7CUvhs8dc5iVCx9k2lL1/lub0nLk0ZWP4kbAFf6A3Ll7Jdr7Qb8GsXNxvnf+53Qr54vNF9oQqsUFfr8MnZBpaH8J0YwtDPsbs+U0/HYpKLJvj/PJYEkAiLdniGemYLkc+88rJLifEZ4oeDRQHooCTQ297G3uj9wosCvQaAD5kOj+vhOd+WfeMcoo6cw2D9qclC4FVvPC65WPY9EjYf/iV4HB0wik5A/7YqA6RO6EZa31Zw5bPcYn4AB+zj8LjnUcTEOvR/WZsJEaxvm7wHeJQqWbUVAX41Apx6BnFig2H/sbpMiNyZmBae3+CElpsLvwIeQQdcNwKEVmYC8CfxyzZ3CkwI/tPhGUydToo+UvsGi+SD52sJf58wN4AD1hrw3L7liOrK1JPg7eQE9G7dPy4KdFgibND39R9t/F1YJEzKBy+7AstMhedCB7yVCXC3E7gBnoUcydtDc0WB3boDT5NyBVsBVgidUDcFmreTA7rQCW4sg8em+50o0FbL4bnQCXvQAYfRAdtxI7yAq+FhKHyLtRb+/8qylaGkkkoqCczWvww9lHFaAI+eAAAAAElFTkSuQmCC"
+                    alt="rocket--v1"
+                  />
+                </li>
+                <li
+                  class="fw-bold text-light"
+                  style="
+                    font-size: 16px;
+                    padding: 0px !important;
+                    color: #7d7d7d !important;
+                  "
+                >
+                  Contact our dream team for your free quote!
                 </li>
               </ul>
+              <div class="getStarted-cta mb-4">
+                <button>Get Started</button>
+              </div>
             </div>
           </div>
-          <div class="col-sm-2">
+          <div class="col-md-2">
             <div class="footer_link_colom">
-              <h3 class="heading">Quick Links</h3>
+              <h3 class="heading fw-bold">About Us</h3>
               <ul>
                 <li>
-                  <a href="./index.html">Home</a>
+                  <a href="./about.html">About Us</a>
                 </li>
                 <li>
-                  <a href="./about.html">About us</a>
+                  <a href="./skills.html">Skills</a>
                 </li>
                 <li>
                   <a href="./gallery.html">Gallery</a>
                 </li>
                 <li>
-                  <a href="./contact.html">Contact us</a>
+                  <a href="./index.html#testimonal">Testimonials</a>
                 </li>
               </ul>
+              <a href="./courses.html">
+                <h3 class="heading fw-bold">Training Lab</h3></a
+              >
             </div>
           </div>
-          <div class="col-sm-2">
+
+          <div class="col-md-3">
             <div class="footer_link_colom">
-              <h3 class="heading">Services</h3>
-              <ul>
-                <li>
-                  <a href="./website-design.html">Website Design</a>
-                </li>
-                <li>
-                  <a href="./web-development.html">Web Development</a>
-                </li>
-                <li>
-                  <a href="./mobile-app-development.html"
-                    >Mobile App Development</a
-                  >
-                </li>
-                <li>
-                  <a href="./testing-QA.html">Testing & QA</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="footer_link_colom">
-              <h3 class="heading">Important Link</h3>
+              <h3 class="heading fw-bold">Solutions & Support</h3>
               <ul>
                 <li>
                   <a href="./solution.html">Solutions</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="./industries.html">Industries</a>
+                </li> -->
+                <li>
+                  <a href="">Guides</a>
                 </li>
                 <li>
-                  <a href="./courses.html">Courses</a>
+                  <a href="./support-maintenance.html">Support</a>
                 </li>
                 <li>
-                  <a href="./it-support.html">IT Support</a>
+                  <a href="">FAQ</a>
+                </li>
+              </ul>
+              <a href="./charity.html"
+                ><h3 class="heading fw-bold">Foundation</h3></a
+              >
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">Connect</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <a href="./legal-information.html">Legal information</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./contact.html">Contact</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./career.html">Careers</a>
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="footer_link_colom">
-              <h3 class="heading">Connect with Loopspring</h3>
-              <ul>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <a class="pl-4" href="./contact.html"
-                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
-                    Mulagumoodu (PO) – 629167, Kanyakumari District.
-                  </a>
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-envelope"></i>
-                  <a href="mailto:info@loopspring.com" class="pl-4"
-                    >info@loopspring.com</a
-                  >
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-phone-volume"></i>
-                  <div>
-                    <a href="tel:9894365935" class="footer_call pl-4"
-                      >+91 9894365935</a
-                    ><span class="comma">,</span
-                    ><a href="tel:8300016424">+91 8300016424</a>
-                  </div>
-                </li>
-              </ul>
+            <div class="newsletter" style="margin-left: -20px">
+              <h3 class="text-light heading">Newsletter</h3>
+              <input type="text" placeholder="Your email" />
+              <button class="mt-2">Subscribe</button>
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-sm-12">
             <div class="footer_bottom">
@@ -570,8 +1132,8 @@
                     <div class="col-sm-6">
                       <p class="copyright">
                         Copyright ©
-                        <span>2024</span>
-                        Loopspring. All Rights Reserved
+                        <span>2025</span>
+                        LoopSpring. All Rights Reserved
                       </p>
                     </div>
                     <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
@@ -581,21 +1143,21 @@
                   <ul class="social_links d-flex">
                     <li>
                       <a
-                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        href="https://www.facebook.com/profile.php?id=61567766033788"
                         target="_blank"
                         ><i class="fab fa-facebook"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        href="https://www.instagram.com/loopspring_technologies?igsh=czVkeW1uZTYzajB2"
                         target="_blank"
                         ><i class="fab fa-instagram"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        href="https://www.linkedin.com/company/loopspring-technologies/"
                         target="_blank"
                         ><i class="fab fa-linkedin"></i
                       ></a>
@@ -608,5 +1170,60 @@
         </div>
       </div>
     </footer>
+
+    <!--==================================================-->
+    <!-- Start Toptech Scroll Up-->
+    <!--==================================================-->
+    <div class="prgoress_indicator active-progress">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 212.78;
+          "
+        ></path>
+      </svg>
+    </div>
+    <!--==================================================-->
+    <!-- End Toptech Scroll Up-->
+    <!--==================================================-->
+
+    <script>
+      // Swiper
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          // When the viewport width is 768px or less (tablet and mobile)
+          991: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2, // 2 slides for tablets
+            spaceBetween: 20,
+          },
+          480: {
+            slidesPerView: 1, // 1 slide for mobile
+            spaceBetween: 10,
+          },
+          0: {
+            slidesPerView: 1, // 1 slide for mobile
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

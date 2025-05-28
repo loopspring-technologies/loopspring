@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Loopspring</title>
+    <title>LoopSpring</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Concert+One&family=Patua+One&family=Maven+Pro:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
@@ -28,28 +28,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./script/owl.carousel.min.js"></script>
     <script src="./script/animate.js"></script>
+    <script src="./script/scrollup.js" defer></script>
   </head>
   <body>
     <div id="header" class="" style="position: fixed; width: 100%; z-index: 3">
-      <div class="headTopDiv d-flex justify-content-end">
-        <div class="d-flex headTopSubDiv">
-          <div>
-            <i class="fa-regular fa-envelope headIcon me-2"></i>
-            <a href="mailto:loopspring2@gmail.com">loopspring2@gmail.com</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-mobile-screen headIcon me-2"></i>
-            <a href="tel:9894365935">+91 9894365935</a>
-          </div>
-        </div>
-        <!-- <div class="headSocialIcon">
-          <a href=""><img src="./images/facebook.webp" /> </a>
-          <a href=""><img src="./images/instagram.png" /> </a>
-          <a href=""><img src="./images/twitter.png" /> </a>
-          <a href=""><img src="./images/linkedin.png" /> </a>
-        </div> -->
-      </div>
-
       <div
         class="d-flex justify-content-between align-items-center headerPadDiv"
       >
@@ -77,64 +59,61 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./about.html"
-                    >About</a
+                    >About Us</a
                   >
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link navColor1 activeTab" style="color: #f84ca5"
                     >Services</a
                   >
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./website-design.html">
-                        <p>Website Design</p>
+
+                  <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Development & Design</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./website-design.html">
+                          <li>Web Design</li>
+                        </a>
+                        <a href="./web-development.html">
+                          <li>Web Development</li>
+                        </a>
+                        <a href="./mobile-app-development.html"
+                          ><li>Mobile App Development</li></a
+                        >
+                        <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./web-development.html">
-                        <p>Web Development</p>
+
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Digital Transformation & Training</p>
                       </a>
+                      <ul class="subNav-item">
+                        <a href="./digital-transformation.html">
+                          <li>Digital Transformation</li></a
+                        >
+
+                        <a href="./it-training.html"><li>IT Training</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <!-- <a><li style="color: white">Software Company</li></a> -->
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./mobile-app-development.html"
-                      >
-                        <p>Mobile App Development</p>
+                    <li class="nav-item subNav">
+                      <a class="dropdown-item">
+                        <p>Marketing & Promotion</p>
                       </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./testing-QA.html">
-                        <p>Testing and QA</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./ui-ux.html">
-                        <p>UI/UX Design</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="dropdown-item"
-                        href="./digital-transformation.html"
-                      >
-                        <p>Digital Transformation</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-outsourcing.html">
-                        <p>IT Outsourcing</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-consulting.html">
-                        <p>IT Consulting</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item" href="./it-support.html">
-                        <p>IT Support</p>
-                      </a>
+                      <ul class="subNav-item pb-3">
+                        <a href="./digital-marketing.html">
+                          <li>Digital Marketing</li>
+                        </a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <a><li style="color: white">Kanniyakumari</li></a>
+                        <a><li style="color: white">Tamil Nadu</li></a>
+                        <!-- <a><li style="color: white">Kanniyakumari</li></a> -->
+                      </ul>
                     </li>
                   </ul>
                 </li>
@@ -144,20 +123,11 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navHover navColor" href="./industries.html"
-                    >Industries</a
-                  >
-                </li>
-                <li class="nav-item">
                   <a class="nav-link navHover navColor" href="./courses.html"
-                    >Courses</a
+                    >Training Lab</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link navHover navColor" href="./gallery.html"
-                    >Gallery</a
-                  >
-                </li>
+
                 <li class="nav-item me-0">
                   <a class="nav-link navHover navColor" href="./contact.html"
                     >Contact</a
@@ -192,79 +162,66 @@
           <div class="modal-body">
             <ul class="navbar-nav mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="./index.html" style="color: #f84ca5"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
+                <a class="nav-link" href="./about.html">About Us</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" style="color: #f84ca5">Services</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./website-design.html">
-                      <p>Website Design</p>
+                <a class="nav-link">Services</a>
+                <ul class="dropdown-menu" style="padding: 15px 0px 0px">
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Development & Design</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./website-design.html">
+                        <li>Web Design</li>
+                      </a>
+                      <a href="./web-development.html">
+                        <li>Web Development</li>
+                      </a>
+                      <a href="./mobile-app-development.html"
+                        ><li>Mobile App Development</li></a
+                      >
+                      <a href="./ui-ux.html"><li>UI/UX Design</li></a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./web-development.html">
-                      <p>Web Development</p>
+
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Digital Transformation & Training</p>
                     </a>
+                    <ul class="subNav-item">
+                      <a href="./digital-transformation.html">
+                        <li>Digital Transformation</li></a
+                      >
+
+                      <a href="./it-training.html"><li>IT Training</li></a>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./mobile-app-development.html"
-                    >
-                      <p>Mobile App Development</p>
+                  <li class="nav-item subNav">
+                    <a class="dropdown-item">
+                      <p>Marketing & Promotion</p>
                     </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./testing-QA.html">
-                      <p>Testing and QA</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./ui-ux.html">
-                      <p>UI/UX Design</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="dropdown-item"
-                      href="./digital-transformation.html"
-                    >
-                      <p>Digital Transformation</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-outsourcing.html">
-                      <p>IT Outsourcing</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-consulting.html">
-                      <p>IT Consulting</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./it-support.html">
-                      <p>IT Support</p>
-                    </a>
+                    <ul class="subNav-item pb-3">
+                      <a href="./digital-marketing.html">
+                        <li>Digital Marketing</li>
+                      </a>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./solution.html">Solutions</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="./industries.html">Industries</a>
+                <a class="nav-link" href="./courses.html">Training Lab</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./courses.html">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Gallery</a>
-              </li>
+
               <li class="nav-item me-0">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
@@ -276,173 +233,243 @@
     <section class="aboutDiv">
       <div class="sectionDiv">
         <div class="row align-items-center">
-          <div class="col-sm-6 col-md-6 col-lg-7 fadeInLeft">
-            <img src="./images/services/uiux/uiux.png" class="w-100" />
+          <div
+            class="col-sm-7 col-md-6 col-lg-5 col-xl-5 order-2 order-sm-2 fadeInLeft"
+          >
+            <h2 class="text-center">
+              <span style="color: #f84ca5">UI & UX Design</span>
+            </h2>
+            <img
+              src="./images/services/mobileapp/mobileapp.png"
+              class="w-100"
+            />
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-5 ps-0 ps-md-5 fadeInRight">
-            <h2>UI/UX Design</h2>
-            <h5>
-              We Build User-Friendly Designs That Make Your Company’s Flame
-              Shine Brighter
-            </h5>
+          <div
+            class="col-sm-5 col-md-6 col-lg-7 col-xl-7 order-1 order-sm-1 ps-0 ps-md-5 fadeInRight"
+          >
+            <h2>Create irresistible user experiences</h2>
             <p>
-              With the help of our professionals, you will captivate your
-              audience with intuitive and memorable UI and UX designs. Unlike
-              many other companies in the space, our developers and designers
-              work together to save your money and time.
+              Deliver an unforgettable user experience with our
+              <strong>UI & UX design</strong> expertise. At
+              <strong>LoopSpring</strong> we design interfaces that are not just
+              aesthetically pleasing, but fundamentally intuitive and
+              functional. Our mission? To craft
+              <strong>user experiences</strong> that engage, convert, and
+              retain.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="mt-5 pt-5 uiuxDiv" style="background: #fafafa">
-      <div class="sectionDiv">
+
+    <!--  -->
+    <section class="pt-5">
+      <div class="spacingDiv">
         <div class="row">
-          <div class="col-md-7 mb-md-0 mb-5 pe-lg-5 pe-0 fadeInLeft">
-            <h2 class="text-start">WHAT EXACTLY ARE UI/UX DESIGN SERVICES?</h2>
-            <p class="pe-lg-5 pe-0">
-              UI and UX design is the process of maximizing user satisfaction by
-              improving the usability and accessibility of a web or mobile
-              application. The goal is to enhance the experience for the users
-              with visual design elements while optimizing usability and
-              accessibility for their users. A well-designed product not only
-              looks great and stylish but has a clear UI, intuitive navigation,
-              and easily accessible features which provide a smooth and
-              efficient user experience.
-            </p>
-            <div class="text-start mt-5">
-              <a href="./contact.html">Contact Us</a>
+          <div class="col-lg-6">
+            <div class="whyChooseLeft">
+              <img
+                src="./images/services/uiux/ui-ux-design.png"
+                alt="Software development consultation with the LoopSpring team in India"
+              />
             </div>
           </div>
-          <div class="col-md-5 ps-lg-5 ps-0 fadeInRight">
-            <img src="./images/services/uiux/uiuxbg.png" class="w-100" />
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <h2 class="fw-bold" style="color: #f84ca5">
+              Strategic advantages of high-quality UI & UX Design
+            </h2>
+            <p>
+              User interface (UI) and user experience (UX) design are critical
+              for your digital product's success. Here's why investing in
+              <strong>exceptional UI/UX design</strong> with
+              <strong>LoopSpring</strong> is a performance lever for your
+              business
+            </p>
+            <ul>
+              <li>
+                <p>
+                  <strong>Enhanced User Engagement:</strong> A superior UI/UX
+                  design captures user attention from the moment they arrive on
+                  your website or application. Our intuitive designs, combined
+                  with seamless navigation, ensure an experience that encourages
+                  longer interactions and repeat visits.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Conversion Rate Optimization :</strong>
+                  We understand that every interface element must drive action.
+                  By optimizing user journeys, call-to-action (CTA) placements,
+                  and transition fluidity, we increase conversion rates and
+                  maximize your return on investment.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Interaction Simplification :</strong>
+                  UX design focuses on simplifying user interactions. Every
+                  action, from clicking to navigation, is designed to be swift,
+                  straightforward, and natural, creating the most pleasant
+                  experience possible.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Improved Customer Satisfaction :</strong>
+                  A remarkable user experience makes all the difference. We
+                  create interfaces that enable users to accomplish tasks
+                  without frustration, thereby strengthening loyalty and
+                  satisfaction.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Guaranteed Accessibility :</strong>
+                  Accessibility is integral to our approach. We ensure your
+                  product is usable by everyone, regardless of digital skill
+                  level, while adhering to WCAG standards.
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-    <section class="mt-5 pt-4">
+
+    <!--  -->
+
+    <section class="mt-5 pt-5 pb-3" style="background-color: #fafafa">
       <div class="sectionDiv">
-        <h1 class="fadeup">Our UI & UX Development Services</h1>
-        <p class="mt-5 text-center fadeup">
-          We ideate, strategize and imply the digital designing concepts for web
-          and mobile application. With a strong market experience, our approach
-          uniquely blends the right technologies, functionally active and
-          impressive designs with content to establish prominent brand names for
-          business.
-        </p>
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="fadeup fw-bold text-center">
+              Our UI & UX Design solutions
+            </h2>
+          </div>
+          <div class="col-lg-12 text-center">
+            <p>
+              At <strong>LoopSpring</strong> we employ a user-centered approach
+              to guarantee that your digital product offers not just aesthetic
+              design, but an intuitive and high-performing experience. Here are
+              our key <strong>UI & UX Design</strong> services:
+            </p>
+          </div>
+        </div>
+
         <div class="row mt-5">
           <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
             <div class="whyDiv">
-              <img src="./images/services/webdevelopment/w1.png" />
-              <h4>Prototyping</h4>
+              <img src="./images/services/uiux/solution1.svg" />
+              <h4>UX Audit</h4>
               <p>
-                Conceptualization of page structure is initiated with
-                Prototyping wherein we optimize the page layout, illustrating
-                structural arrangement and alignments meticulously designed for
-                the user to have an intuitive and responsive digital experience.
+                We begin with a detailed audit of your current product to
+                identify weaknesses and improvement areas. We leverage user
+                feedback and best practices to optimize the experience.
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
+          <div class="col-md-6 col-lg-4 mb-4 fadeup">
             <div class="whyDiv">
-              <img src="./images/services/websitedesign/w2.png" />
-              <h4>Information Architecture design</h4>
+              <img src="./images/services/uiux/solution2.svg" />
+              <h4>Prototyping and Wireframing</h4>
               <p>
-                Organise, structure and label the content according to the theme
-                of the business on web or on mobile apps. After deep analysis of
-                customer's needs, resolve issues of system structure, content
-                management and navigation and recommend best fit as per the
-                business goals.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 fadeInLeft">
-            <div class="whyDiv">
-              <img src="./images/services/webdevelopment/w3.png" />
-              <h4>User Experience (UX) Development</h4>
-              <p>
-                A holistic approach wherein all the possibilities and features
-                is taken into account to trace end-user interaction and add
-                further enhancements. To accomplish business objectives, we
-                perform in-depth analysis on core features and apply rendering
-                of visuals as per the need.
+                We create interactive prototypes and functional mockups to
+                define information structures and user pathways before
+                development begins.
               </p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
             <div class="whyDiv">
-              <img src="./images/services/webdevelopment/w3.png" />
-              <h4>User Interface (UI) Development</h4>
+              <img src="./images/services/uiux/solution3.svg" />
+              <h4>Interface Design (UI)</h4>
               <p>
-                Maximize profit and improve business profitability by engaging
-                more customers through enticing web designs of applications.
-                After thoroughly considering information architecture we turn
-                your ideas into seamless functional designs.
+                We design modern, ergonomic, and visually appealing interfaces.
+                Every visual element (colours, typography, design) is carefully
+                selected to reflect your identity and optimize user experience.
               </p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
             <div class="whyDiv">
-              <img src="./images/services/webdevelopment/w3.png" />
-              <h4>Wireframing</h4>
+              <img src="./images/services/uiux/solution4.svg" />
+              <h4>User Persona Creation</h4>
               <p>
-                Information architecture is an outline of the design to be
-                developed, the immediate next step is to visualize and create a
-                blueprint called wireframe in designing. We offer wireframing
-                services using the latest digital assets to strategically
-                present each information distinct and appealing.
+                We define user <strong>personas</strong> to better understand
+                your users, their needs, and behaviours. This enables us to
+                personalise experiences and meet their expectations.
               </p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
             <div class="whyDiv">
-              <img src="./images/services/webdevelopment/w3.png" />
-              <h4>Usability Testing</h4>
+              <img src="./images/services/uiux/solution5.svg" />
+              <h4>User Testing and Iterations</h4>
               <p>
-                Testing a product to determine its acceptance in the marketplace
-                based on specific scenarios and usability tests. We offer a
-                comprehensive set of usability testing like screen resolution
-                tests, compatibility testing, crowd testing and similar tests
-                within faster lifecycle and at accessible prices.
+                We conduct regular user tests to gather real feedback on the
+                interface and experience, allowing continuous design refinement.
               </p>
             </div>
           </div>
+          <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv">
+              <img src="./images/services/uiux/solution6.svg" />
+              <h4>Responsive Design</h4>
+              <p>
+                We design <strong>responsive</strong> interfaces ensuring a
+                smooth, optimised experience across all devices - smartphones,
+                tablets, and computers.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="col-md-6 col-lg-4 mb-4 fadeInRight">
+            <div class="whyDiv">
+              <img src="./images/services/uiux/solution7.svg" />
+              <h4>Animation and Micro-interactions</h4>
+              <p>
+                To enrich the experience, we add subtle animations and
+                micro-interactions that make the interface more dynamic and
+                enjoyable.
+              </p>
+            </div>
+          </div> -->
         </div>
       </div>
     </section>
-    <section class="sloganInDiv mt-5 fadeup">
-      <div class="sectionDiv">
-        <p class="text-white text-center">
-          ELEVATE YOUR DIGITAL JOURNEY WITH OUR COMPREHENSIVE DESIGN SERVICES
-        </p>
-        <div class="text-center mt-5">
-          <a href="./contact.html">Contact Us</a>
-        </div>
-      </div>
-    </section>
+
     <section class="mt-5 pt-4">
       <div class="sectionDiv">
-        <h1 class="fadeup">Our UI/UX Process</h1>
-        <p class="fadeup">
-          Our unique expertise in UI and UX development can assist businesses to
-          tap the extreme potential of designing with our skilled and
-          experienced design professionals. We follow a process to dive deep
-          into each project details, take a comprehensive understanding and
-          provide exclusive designing solutions.
-        </p>
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="fw-bold text-center">
+              Create an exceptional user experience in <br />
+              6 key steps with LoopSpring
+            </h2>
+          </div>
+          <div class="col-lg-12 text-center">
+            <p>
+              Our UI & UX design process follows a rigorous, results-oriented
+              method to guarantee a smooth, intuitive, and high-performing user
+              experience. <br />
+              Here's our detailed approach:
+            </p>
+          </div>
+        </div>
+
         <div class="row processDiv mt-5 fadeup">
           <div class="col-sm-6 position-relative processSubDiv processImg">
-            <img src="./images/services/uiux/p1.jpg" />
+            <img src="./images/services/webdevelopment/p1.jpg" />
             <label>01</label>
           </div>
           <div class="col-sm-6 processSubDiv2">
-            <h3>Research</h3>
+            <h3>
+              <span class="stepsNum">1. </span> UX Audit and Needs Analysis
+            </h3>
             <p>
-              We perform all types of research for designs from qualitative &
-              descriptive research, comparative research, experimental research
-              for making the designs look worthy. Based on the essential
-              information we accurately design ensuring minimum risks and higher
-              satisfaction.
+              We analyse your product, users, and objectives to identify
+              friction points and improvement opportunities. We then establish a
+              strategic roadmap based on your specific requirements.
             </p>
           </div>
         </div>
@@ -450,33 +477,35 @@
           <div
             class="col-sm-6 processSubDiv position-relative order-last order-sm-fist"
           >
-            <h3>Wireframe</h3>
+            <h3>
+              <span class="stepsNum">2. </span> Research and Persona Development
+            </h3>
             <p>
-              We help you develop a sustainable wireframe that would communicate
-              detailed information crisply. Mapping the core functionalities and
-              navigational flow to instantaneously save most of their design
-              time with a solid design-based approach.
+              We define user personas to understand the behaviours, preferences,
+              and expectations of your target audience. This enables experience
+              personalisation that perfectly meets user needs.
             </p>
             <label>02</label>
           </div>
           <div
             class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
           >
-            <img src="./images/services/uiux/p2.jpg" />
+            <img src="./images/services/mobileapp/process2.png" />
           </div>
         </div>
         <div class="row processDiv fadeup">
           <div class="col-sm-6 position-relative processSubDiv processImg">
-            <img src="./images/services/uiux/p3.jpg" />
+            <img src="./images/services/mobileapp/process3.png" />
             <label>03</label>
           </div>
           <div class="col-sm-6 processSubDiv2">
-            <h3>Design</h3>
+            <h3>
+              <span class="stepsNum">3. </span> Wireframing and Prototyping
+            </h3>
             <p>
-              After wireframing, graphics are created using UI tools and
-              technologies that accurately display detailed information of
-              layouts. Aiding to that we create engaging and unique graphics
-              maintaining quality and business objectives at scale.
+              We design interactive wireframes that structure information and
+              interactions, ensuring fluid and intuitive navigation before
+              moving to visual design.
             </p>
           </div>
         </div>
@@ -484,282 +513,94 @@
           <div
             class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
           >
-            <h3>Usability Testing</h3>
+            <h3><span class="stepsNum">4. </span> Visual Design (UI)</h3>
             <p>
-              As per the ergonomic need of the system interface our designers
-              perform usability testing to ensure the interface is customer
-              friendly, design-led and drives more customer engagement. The
-              designs are later reengineered as per client's feedback in the
-              testing phase.
+              We create engaging interfaces with meticulous attention to visual
+              elements (typography, colours, buttons, images) that reflect your
+              brand identity while optimising user interaction.
             </p>
             <label>04</label>
           </div>
           <div
             class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
           >
-            <img src="./images/services/uiux/p4.jpg" />
+            <img src="./images/services/mobileapp/process4.png" />
           </div>
         </div>
-      </div>
-    </section>
-    <section class="withDiv mt-5 fadeup">
-      <div class="sectionDiv">
-        <h2>With LoopSpring You Get</h2>
-        <div class="row mt-5">
-          <div class="col-sm-6">
-            <ul>
-              <li>
-                Functionally and easily usable web applications that match your
-                requirements and expectations
-              </li>
-              <li>
-                Open application architecture permitting high availability and
-                scalability
-              </li>
-              <li>
-                High software application maintainability resulting in a lower
-                total cost of ownership (TCO)
-              </li>
-            </ul>
+        <div class="row processDiv fadeup">
+          <div class="col-sm-6 processSubDiv position-relative processImg">
+            <img src="./images/services/testing/p5.jpg" />
+            <label>05</label>
           </div>
-          <div class="col-sm-6">
-            <ul>
-              <li>
-                Seamless communication enhancing the development lifecycle
-                control and transparency
-              </li>
-              <li>
-                Proven QA methods through the software development lifecycle
-              </li>
-              <li>
-                Deployment, stabilization and ongoing maintenance of the final
-                application
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 mt-5 text-center">
-            <a href="./contact.html">Contact Us</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="mt-5 pt-4">
-      <div class="sectionDiv">
-        <h1 class="fadeup">Why LoopSpring?</h1>
-
-        <div class="row sectionWhy mt-5 pt-3">
-          <div class="col-md-6 fadeInLeft">
-            <h3>Robust Information Architecture</h3>
+          <div class="col-sm-6 processSubDiv2 position-relative">
+            <h3>
+              <span class="stepsNum">5. </span> User Testing and Iterations
+            </h3>
             <p>
-              Our design-led strategic approach can optimize the look and feel
-              of your business app through innovative and structured information
-              architecture. Our design architects are skilled to develop a solid
-              foundation to your application structure.
+              We conduct user tests to gather concrete feedback and adjust the
+              design based on real user experiences. Each iteration aims to
+              improve the experience, making it smoother and more intuitive.
             </p>
           </div>
-          <div class="col-md-6 position-relative imgSec fadeInRight">
-            <img src="./images/services/uiux/w1.jpg" class="w-100" />
-            <img
-              src="./images/services/uiux/w1Icon.png"
-              class="imgIcon imgIcon1"
-            />
-            <span class="span1"></span>
-          </div>
         </div>
-        <div class="row sectionWhy mt-5 pt-4">
+        <div class="row processDiv fadeup">
           <div
-            class="col-md-6 position-relative imgSec order-last order-md-first fadeInRight"
+            class="col-sm-6 position-relative processSubDiv order-last order-sm-first"
           >
-            <img src="./images/services/uiux/w2.jpg" class="w-100" />
-            <img
-              src="./images/services/uiux/w2Icon.png"
-              class="imgIcon imgIcon2"
-            />
-            <span class="span2"></span>
-          </div>
-          <div class="col-md-6 order-first order-md-last fadeInLeft">
-            <h3>Appealing Visuals</h3>
+            <h3>
+              <span class="stepsNum">6. </span> Final Design Delivery and
+              Integration
+            </h3>
             <p>
-              Our designers are adept with advanced technologies and methods to
-              create innovative and functional applications. Aiding to future
-              enhancements and needs, we offer appealing visual solutions that
-              can convert potential visitors to customers.
+              Once the design is validated, we collaborate with your technical
+              team to integrate it optimally into your final product, ensuring
+              visual and functional coherence.
             </p>
+            <label>06</label>
           </div>
-        </div>
-        <div class="row sectionWhy mt-5 pt-4">
-          <div class="col-md-6 fadeInLeft">
-            <h3>Customer-centric Approach</h3>
-            <p>
-              We fertilize a healthy product by applying industry led practices
-              to develop a progressive, responsive and digitally advanced
-              application. By understanding individual client's needs we develop
-              designs accessible across all platforms.
-            </p>
-          </div>
-          <div class="col-md-6 position-relative imgSec fadeInRight">
-            <img src="./images/services/uiux/w3.jpg" class="w-100" />
-            <img
-              src="./images/services/uiux/w3Icon.png"
-              class="imgIcon imgIcon1"
-            />
-            <span class="span1"></span>
+          <div
+            class="col-sm-6 processSubDiv2 processImg order-first order-sm-last"
+          >
+            <img src="./images/services/websitedesign/p2.png" />
           </div>
         </div>
       </div>
     </section>
-    <section class="mt-5 pt-5 fadeup" style="background: #fafafa">
+
+    <section class="pt-5 pb-5 mt-5" style="background-color: #fafafa">
       <div class="sectionDiv">
-        <h1>Frequently Asked Questions</h1>
-        <div class="accordion mt-4" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                What is UI/UX Design Service?
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                UI/UX service means creating the front-end design aspect of a
-                site or application that a user interacts with. It includes
-                defining the design architecture which includes elements:
-                typography, buttons, navigation, color palette, font, content
-                layout, graphics, menu, and other visual aspects. UI/UX design
-                service not only deals with creating visual elements but also
-                improving the user experience from the first to the last
-                touchpoint on the site or the app.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                How UI is Different from UX?
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                UI is all about how the user interacts with a site through
-                elements like the screen, layout, content display, buttons,
-                toggles, and more. UX is about how the user feels when using the
-                site; it deals with the satisfaction aspect of the interaction
-                with the site.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Why UI UX is Important for Digital Future?
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <p>
-                  Whether it is a website, a mobile app, a single page
-                  application, or any other digital product, how the user is
-                  able to interact with that and what is their experience of
-                  using that is going to become a key factor for its success.
-                  Therefore, UI and UX are becoming more and more vital elements
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFour"
-                aria-expanded="false"
-                aria-controls="collapseFour"
-              >
-                How Much Does UI/UX Design Service Cost?
-              </button>
-            </h2>
-            <div
-              id="collapseFour"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                This depends on what type of UI/UX design service the client
-                requires, the project scope, the tools used, and many more
-                factors. It also depends on whether you want this as a separate
-                service or as part of your web design and development package,
-                or mobile app development service. To know more you can consult
-                our representative now.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFive"
-                aria-expanded="false"
-                aria-controls="collapseFive"
-              >
-                What is The Importance of a Good UI/UX Design?
-              </button>
-            </h2>
-            <div
-              id="collapseFive"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                No user wants to get entangled in a complex design layout
-                wherein they are confused about what certain element represents
-                and how they are going to find the info they are looking for. A
-                good and effective UI/UX solves the problem by providing an
-                appealing layout design and enhanced user experience. It
-                altogether helps to improve user engagement which translates to
-                more leads and higher conversion and revenue generation for the
-                business.
-              </div>
-            </div>
-          </div>
+        <a href="./contact.html" style="color: black; text-decoration: none">
+          <h2 class="text-center fw-bold">
+            Boost your user experience with LoopSpring
+          </h2>
+          <!-- <h2 class="text-center fw-bold">
+            Contact <span style="color: #9629db">Loop</span
+            ><span style="color: #f84ca5">Spring</span> today!
+          </h2> -->
+        </a>
+        <p class="text-center">
+          At <strong>LoopSpring</strong> we believe that
+          <strong>user experience</strong> is at the heart of any digital
+          product's success. Our <strong>UI & UX design</strong> solutions are
+          crafted to maximise user engagement, satisfaction, and loyalty while
+          optimising conversions and your product's overall performance.
+        </p>
+        <h4 class="text-center">
+          <strong>Ready to transform your user experience?</strong>
+        </h4>
+        <p class="text-center">
+          Contact us today to create an exceptional UI/UX design that will
+          propel your product to the pinnacle of user experience.
+        </p>
+        <div class="contact-btn text-center">
+          <a href="./contact.html">
+            <button>Contact</button>
+          </a>
         </div>
       </div>
     </section>
-    <footer class="footer_bg footer_design mt-5">
+
+    <footer class="footer_bg footer_design">
       <div class="sectionDiv">
         <div class="row">
           <div class="col-sm-12">
@@ -769,106 +610,120 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-sm-3">
+          <div class="col-md-5">
             <div class="footer_link_colom">
-              <h3 class="heading">About</h3>
+              <h3 class="heading fw-bold">About</h3>
               <ul>
-                <li>
-                  Improving provides consulting, software development and
-                  training to our customers through high environments of trust.
+                <li class="about-footer">
+                  In Kanyakumari our team of passionate tech geeks combines
+                  cutting-edge technology with boundless creativity to develop
+                  high-performance digital solutions! From conversion-driven web
+                  design to optimisation strategies that boost your visibility,
+                  we are obsessed with your success.
+                  <p style="margin-bottom: 0px !important; color: #7d7d7d">
+                    <strong
+                      >Your vision + Our expertise = Outstanding
+                      performance</strong
+                    >
+                  </p>
+                </li>
+                <li
+                  class="fw-bold"
+                  style="font-size: 16px; padding: 0px !important; color: white"
+                >
+                  Ready to revolutionise your online presence?<img
+                    width="40px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD20lEQVR4nO2YX2xTZRjGXy/0Tr0gAQ1BgUT+XaACjgAt3uggAaPB7HyrIhAkLJpKGAlmqOecDZ1eLplbSJloHIrCFjelxSll7fed07IEx3q2mozJYNZ269luJOFPIsle853a0pVuKxjOOU36JM9V2+T3vOd9v+89BSippJJKehCSKwJPiALdJArs/Y8I3QV218D50eURVX+vj+mdn+4OByTC8I7pQbCj+tWJNRFV92hKMq6pOqbdG0xe/2Rn+GI6gFgZfBnspN/o+JOakvRmQ+c6O8ShSv88sIsGaHxBRElengle+88XA8kbn70d7ga7KKoknoqo+nAh8Fo6hKJ3QLFVXstyv6K7ixZeMzyxtGjhI0ryr6LreS3bin7EdpU/eTSK1Tu82CCFsI8lZw5Ax1fZqvL+H65g2dNN+Pz8RsMNUmiG9tF/tBU8d+vnfRl47uodvvzwqj7MLzvbDWzP2ThuXv2VAV+2sAnbWqL5+n4kQscWmQb9IaELZELLG9w9VYWcNjzE8aYIdndcNRe+5rWzczioSNgBibAWkdDzEmF/811FdrG4ejr2Zy7Qd0f68R2hEz8+EMDe4NhsJ87IA4OXCVsiCjQxdcVNuZawBMsDH/zpqtEm6X7nIYoGXlN1bP8iOmVg3xU6iwdeM9bhMXz9xW9SA7uoGb/3DBQPvJYVov3Y78i8I+bCf1ARni8JbDQf/HQD+22zhrtfbceavV3GSWPZwKYlC3SVJFCPROjN2SqvnokZbZLudx7CUvhs8dc5iVCx9k2lL1/lub0nLk0ZWP4kbAFf6A3Ll7Jdr7Qb8GsXNxvnf+53Qr54vNF9oQqsUFfr8MnZBpaH8J0YwtDPsbs+U0/HYpKLJvj/PJYEkAiLdniGemYLkc+88rJLifEZ4oeDRQHooCTQ297G3uj9wosCvQaAD5kOj+vhOd+WfeMcoo6cw2D9qclC4FVvPC65WPY9EjYf/iV4HB0wik5A/7YqA6RO6EZa31Zw5bPcYn4AB+zj8LjnUcTEOvR/WZsJEaxvm7wHeJQqWbUVAX41Apx6BnFig2H/sbpMiNyZmBae3+CElpsLvwIeQQdcNwKEVmYC8CfxyzZ3CkwI/tPhGUydToo+UvsGi+SD52sJf58wN4AD1hrw3L7liOrK1JPg7eQE9G7dPy4KdFgibND39R9t/F1YJEzKBy+7AstMhedCB7yVCXC3E7gBnoUcydtDc0WB3boDT5NyBVsBVgidUDcFmreTA7rQCW4sg8em+50o0FbL4bnQCXvQAYfRAdtxI7yAq+FhKHyLtRb+/8qylaGkkkoqCczWvww9lHFaAI+eAAAAAElFTkSuQmCC"
+                    alt="rocket--v1"
+                  />
+                </li>
+                <li
+                  class="fw-bold text-light"
+                  style="
+                    font-size: 16px;
+                    padding: 0px !important;
+                    color: #7d7d7d !important;
+                  "
+                >
+                  Contact our dream team for your free quote!
                 </li>
               </ul>
+              <div class="getStarted-cta mb-4">
+                <button>Get Started</button>
+              </div>
             </div>
           </div>
-          <div class="col-sm-2">
+          <div class="col-md-2">
             <div class="footer_link_colom">
-              <h3 class="heading">Quick Links</h3>
+              <h3 class="heading fw-bold">About Us</h3>
               <ul>
                 <li>
-                  <a href="./index.html">Home</a>
+                  <a href="./about.html">About Us</a>
                 </li>
                 <li>
-                  <a href="./about.html">About us</a>
+                  <a href="./skills.html">Skills</a>
                 </li>
                 <li>
                   <a href="./gallery.html">Gallery</a>
                 </li>
                 <li>
-                  <a href="./contact.html">Contact us</a>
+                  <a href="./index.html#testimonal">Testimonials</a>
                 </li>
               </ul>
+              <a href="./courses.html">
+                <h3 class="heading fw-bold">Training Lab</h3></a
+              >
             </div>
           </div>
-          <div class="col-sm-2">
+
+          <div class="col-md-3">
             <div class="footer_link_colom">
-              <h3 class="heading">Services</h3>
-              <ul>
-                <li>
-                  <a href="./website-design.html">Website Design</a>
-                </li>
-                <li>
-                  <a href="./web-development.html">Web Development</a>
-                </li>
-                <li>
-                  <a href="./mobile-app-development.html"
-                    >Mobile App Development</a
-                  >
-                </li>
-                <li>
-                  <a href="./testing-QA.html">Testing & QA</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="footer_link_colom">
-              <h3 class="heading">Important Link</h3>
+              <h3 class="heading fw-bold">Solutions & Support</h3>
               <ul>
                 <li>
                   <a href="./solution.html">Solutions</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="./industries.html">Industries</a>
+                </li> -->
+                <li>
+                  <a href="">Guides</a>
                 </li>
                 <li>
-                  <a href="./courses.html">Courses</a>
+                  <a href="./support-maintenance.html">Support</a>
                 </li>
                 <li>
-                  <a href="./it-support.html">IT Support</a>
+                  <a href="">FAQ</a>
+                </li>
+              </ul>
+              <a href="./charity.html"
+                ><h3 class="heading fw-bold">Foundation</h3></a
+              >
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_link_colom">
+              <h3 class="heading fw-bold">Connect</h3>
+              <ul>
+                <li class="pb-2 footerLink">
+                  <a href="./legal-information.html">Legal information</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./contact.html">Contact</a>
+                </li>
+                <li class="pb-2 footerLink">
+                  <a href="./career.html">Careers</a>
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="footer_link_colom">
-              <h3 class="heading">Connect with Loopspring</h3>
-              <ul>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <a class="pl-4" href="./contact.html"
-                    >13, EJM Complex, Opp. RTO office, Kozhiporvilai,
-                    Mulagumoodu (PO) – 629167, Kanyakumari District.
-                  </a>
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-envelope"></i>
-                  <a href="mailto:info@loopspring.com" class="pl-4"
-                    >info@loopspring.com</a
-                  >
-                </li>
-                <li class="pb-2 footerLink">
-                  <i class="fa-solid fa-phone-volume"></i>
-                  <div>
-                    <a href="tel:9894365935" class="footer_call pl-4"
-                      >+91 9894365935</a
-                    ><span class="comma">,</span
-                    ><a href="tel:8300016424">+91 8300016424</a>
-                  </div>
-                </li>
-              </ul>
+            <div class="newsletter" style="margin-left: -20px">
+              <h3 class="text-light heading">Newsletter</h3>
+              <input type="text" placeholder="Your email" />
+              <button class="mt-2">Subscribe</button>
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-sm-12">
             <div class="footer_bottom">
@@ -878,8 +733,8 @@
                     <div class="col-sm-6">
                       <p class="copyright">
                         Copyright ©
-                        <span>2024</span>
-                        Loopspring. All Rights Reserved
+                        <span>2025</span>
+                        LoopSpring. All Rights Reserved
                       </p>
                     </div>
                     <div class="col-sm-6 pl-0 footer_terms_privacy"></div>
@@ -889,21 +744,21 @@
                   <ul class="social_links d-flex">
                     <li>
                       <a
-                        href="https://www.facebook.com/profile.php?id=61556823370621&mibextid=ZbWKwL"
+                        href="https://www.facebook.com/profile.php?id=61567766033788"
                         target="_blank"
                         ><i class="fab fa-facebook"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/looptech2024?igsh=MWlmcng1NGo0eDJoZg=="
+                        href="https://www.instagram.com/loopspring_technologies?igsh=czVkeW1uZTYzajB2"
                         target="_blank"
                         ><i class="fab fa-instagram"></i
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/loopspring-771920300"
+                        href="https://www.linkedin.com/company/loopspring-technologies/"
                         target="_blank"
                         ><i class="fab fa-linkedin"></i
                       ></a>
@@ -916,5 +771,29 @@
         </div>
       </div>
     </footer>
+
+    <!--==================================================-->
+    <!-- Start  Scroll Up-->
+    <!--==================================================-->
+    <div class="prgoress_indicator active-progress">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 212.78;
+          "
+        ></path>
+      </svg>
+    </div>
+    <!--==================================================-->
+    <!-- End  Scroll Up-->
+    <!--==================================================-->
   </body>
 </html>
